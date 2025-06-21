@@ -1,0 +1,277 @@
+[
+   {
+      "question": "En las redes IEEE 802.11…",
+      "options": [
+         "… el problema de los nodos ocultos se soluciona haciendo que todos los dispositivos publiquen su SSID.",
+         "… se utiliza CSMA/CD, igual que en las redes Ethernet.",
+         "… las direcciones MAC son del mismo tipo que en las redes Ethernet.",
+         "Todas las respuestas son correctas."
+      ],
+      "correct": 2
+   },
+   {
+      "question": "HTTP es un protocolo…",
+      "options": [
+         "… orientado a la conexión y con memoria del estado.",
+         "… no orientado a la conexión y sin memoria del estado.",
+         "… no orientado a la conexión y con memoria del estado.",
+         "… orientado a la conexión y sin memoria del estado."
+      ],
+      "correct": 3
+   },
+   {
+      "question": "En el protocolo vector de distancias, utiliza el algoritmo de:",
+      "options": ["Dijkstra.", "Bellman-Ford.", "Link-State.", "Ninguna de las otras respuestas es correcta."],
+      "correct": 1
+   },
+   {
+      "question": "Una de las características que hace que UDP tenga éxito es…",
+      "options": [
+         "… porque la cabecera UDP contiene 8 bytes, mientras que la de TCP tiene 20 bytes.",
+         "… porque informa del estado de la conexión.",
+         "… porque no implementa ningún control en el nivel de aplicación.",
+         "… porque implementa un mejor control en el nivel de sesión sobre los datos que se envían y cuándo."
+      ],
+      "correct": 0
+   },
+   {
+      "question": "La redundancia temporal del algoritmo MPEG…",
+      "options": [
+         "… actúa sobre un píxel o número de píxeles que se repiten constantemente en una secuencia de imágenes.",
+         "… reduce el tiempo del vídeo MPEG.",
+         "… consiste en repetir las imágenes para que si una no se recibe bien, al estar duplicada, se visualice sin problemas.",
+         "Ninguna de las otras respuestas es correcta."
+      ],
+      "correct": 0
+   },
+   {
+      "question": "¿Cuál de las siguientes es una técnica para la compresión de vídeos?",
+      "options": ["MPEG.", "JPEG.", "GIF.", "XOR."],
+      "correct": 0
+   },
+   {
+      "question": "El algoritmo de enrutamiento global Link-State es...",
+      "options": [
+         "... un algoritmo de enrutamiento global, iterativo y asíncrono.",
+         "... un algoritmo de enrutamiento global, iterativo, asíncrono y distribuido.",
+         "... un algoritmo de enrutamiento descentralizado, iterativo, asíncrono y distribuido.",
+         "Ninguna de las otras respuestas es correcta."
+      ],
+      "correct": 3
+   },
+   {
+      "question": "En los protocolos IEEE 802.11:",
+      "options": [
+         "El método RTS/CTS no está relacionado con intentar solucionar el problema de los nodos ocultos.",
+         "El problema del nodo oculto se da cuando un dispositivo no ve las transmisiones de otro nodo con un tercero al que los dos están conectados.",
+         "Las direcciones MAC son de 32 bits y, por lo tanto, incompatibles con las redes Ethernet.",
+         "Se utiliza una combinación de CSMA y Aloha como método de control de acceso al medio."
+      ],
+      "correct": 1
+   },
+   {
+      "question": "La capa de enlace ofrece los siguientes servicios (elige la opción que mayor número de servicios correctos recoja):",
+      "options": [
+         "Entramado, acceso al enlace y control de flujo.",
+         "Entramado, acceso al enlace, control de flujo y únicamente la detección de errores.",
+         "Entramado y control de flujo.",
+         "Entrega fiable, control de flujo, detección y corrección de errores."
+      ],
+      "correct": 3
+   },
+   {
+      "question": "¿Cuáles son las siglas que identifican el número de identificador de toda red wifi?",
+      "options": ["SSID.", "WIFID.", "WSID.", "WirelessID."],
+      "correct": 0
+   },
+   {
+      "question": "Un servidor autoritativo es aquel que…",
+      "options": [
+         "… forma parte de los servidores raíz.",
+         "… devuelve las direcciones IP de los servidores TLD de nivel inferior.",
+         "… devuelve las direcciones IP de los servidores TLD del nivel superior.",
+         "… devuelve la dirección correspondiente al nombre de host solicitado."
+      ],
+      "correct": 3
+   },
+   {
+      "question": "Señala la opción falsa acerca de los códigos CRC:",
+      "options": [
+         "Son utilizados en la técnica de comprobación de redundancia cíclica.",
+         "También se les conoce con el nombre de códigos polinómicos.",
+         "Forman parte de una de las técnicas de detección de errores que menos se utiliza por la complejidad de su implementación.",
+         "Permiten la comprobación de errores de forma muy simple."
+      ],
+      "correct": 2
+   },
+   {
+      "question": "Si indicamos que un método de control de acceso al medio está basado en un acceso aleatorio, significa que:",
+      "options": [
+         "Los nodos van a transmitir cuando quieran. Además, algunos de estos protocolos escuchan el medio antes de transmitir para evitar colisiones.",
+         "De forma aleatoria, se le asigna a un nodo un rango de tiempo para transmitir y, transcurrido dicho tiempo, debe esperar a su nuevo turno.",
+         "A los distintos dispositivos del medio que se conectan, se les asignan las bandas de frecuencia del canal de forma aleatoria.",
+         "No existen tales métodos de acceso al medio."
+      ],
+      "correct": 0
+   },
+   {
+      "question": "La principal diferencia entre dark web y deep web es que:",
+      "options": [
+         "La segunda engloba todo lo que no está indexado en Google, Bing, etc., mientras que la primera contiene todo el contenido anónimo y cifrado al que tenemos que acceder mediante la red Tor.",
+         "La primera engloba todo lo que no está indexado en Google, Bing, etc.; mientras que la segunda contiene todo el contenido anónimo y cifrado al que tenemos que acceder mediante la red Tor.",
+         "La primera engloba todo lo que no está indexado en Google, Bing, etc.; mientras que la segunda corresponde a la parte visible donde está todo indexado en Google, Bing, etc.",
+         "La segunda engloba todo lo que no está indexado en Google, Bing, etc., mientras que la primera corresponde a la parte visible donde está todo indexado en Google, Bing, etc."
+      ],
+      "correct": 0
+   },
+   {
+      "question": "Cuando deseamos visualizar un vídeo, es posible que algunos paquetes lleguen antes que otros (fluctuación), en este caso:",
+      "options": [
+         "Se muestran los paquetes en el orden de llegada.",
+         "Existe un buffer en el que se almacenan todos los paquetes con el fin de poder mostrarlos en el orden adecuado.",
+         "Se reinicia la comunicación para recibir los paquetes en el orden correcto.",
+         "Se cancela la conexión y se indica al usuario que no puede visualizarse el vídeo."
+      ],
+      "correct": 1
+   },
+   {
+      "question": "Las redes de circuitos virtuales normalmente se usan en servicios…",
+      "options": [
+         "… orientados a la conexión.",
+         "… no orientados a la conexión.",
+         "… orientados a conexión o no orientados a la conexión indistintamente.",
+         "… de datagramas."
+      ],
+      "correct": 0
+   },
+   {
+      "question": "¿Cómo se eliminan las fluctuaciones?",
+      "options": [
+         "Precediendo cada fragmento con un número de secuencia.",
+         "Posponiendo cada fragmento con un número de secuencia.",
+         "Posponiendo cada fragmento con una marca de tiempo.",
+         "Precediendo la reproducción de los fragmentos en el receptor."
+      ],
+      "correct": 0
+   },
+   {
+      "question": "HTTP son las siglas de:",
+      "options": ["Hypertext Transfer Protocol.", "Hypertext Transfer Planning.", "Hypercode Transfer Protocol.", "Hypertext Tricky Protocol."],
+      "correct": 0
+   },
+   {
+      "question": "¿Qué calcula el algoritmo de Dijkstra?",
+      "options": [
+         "La ruta de coste máximo desde un nodo de origen hasta todos los demás nodos de la red.",
+         "La ruta de coste mínimo desde un nodo de origen hasta todos los demás nodos de la red.",
+         "La ruta de coste máximo desde todos los demás nodos de la red hasta el nodo destino.",
+         "La ruta de coste mínimo desde todos los demás nodos de la red hasta el nodo destino."
+      ],
+      "correct": 1
+   },
+   {
+      "question": "De las siguientes afirmaciones, señala la que sea cierta.",
+      "options": [
+         "En una topología ad hoc, los nodos se comunican entre sí a través de un punto de acceso.",
+         "Un conmutador inalámbrico sirve para conectar puntos de acceso entre sí a través de canales de radio.",
+         "La integración de la wifi con la red cableada se lleva a cabo mediante los puntos de acceso.",
+         "Todas las respuestas son correctas."
+      ],
+      "correct": 2
+   },
+   {
+      "question": "TCP son las siglas de:",
+      "options": [
+         "Transmission Coordination Protocol.",
+         "Transmission Control Protocol.",
+         "Transmission C-Objective Protocol.",
+         "Transmission Cloned Protocol."
+      ],
+      "correct": 1
+   },
+   {
+      "question": "A diferencia de la red telefónica de conmutación de circuitos, las redes de conmutación de etiquetas multiprotocolo son:",
+      "options": [
+         "Una red de nodos jerárquicos aleatorios.",
+         "Una red de bidireccionalidad lateral.",
+         "Una red de circuitos virtuales de conmutación de paquetes de pleno derecho.",
+         "Una red de circuitos virtuales de conmutación de paquetes incompletos."
+      ],
+      "correct": 2
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones permite crear un filtro en el Wireshark?",
+      "options": [
+         "httpif.acknowledge eq next_sequence_number",
+         "tcp.ack eq next_sequence_number",
+         "tcp.acknowledge eq next_sequence_number",
+         "tcp.ack supatt next_sequence_number"
+      ],
+      "correct": 1
+   },
+   {
+      "question": "¿Cuál era el principal problema que tuvieron Kahn y Cerf?",
+      "options": [
+         "Querían crear un protocolo no propietario que permitiera manejar arbitrariamente un número de paquetes grande: fue así como surgió Internet.",
+         "Querían realizar la comunicación satelital a través de paquetes.",
+         "Querían crear un navegador para navegar a través de Internet: fueron los creadores de Netscape Navigator.",
+         "Querían crear un sistema seguro de navegación en Internet."
+      ],
+      "correct": 0
+   },
+   {
+      "question": "El filtro tcp.ack eq next_sequence_number...",
+      "options": [
+         "… no nos devuelve nada, porque debemos inicializar el valor de next_sequence_number.",
+         "… nos devuelve error, porque el filtro es erróneo.",
+         "… nos devuelve los mensajes que contienen el número next_sequence_number.",
+         "Ninguna de las otras respuestas es correcta."
+      ],
+      "correct": 2
+   },
+   {
+      "question": "En TCP no está permitido desbordar el buffer de recepción porque…",
+      "options": [
+         "… BytesRecibidos - BytesLeidos = BufferRecepcion",
+         "… BytesRecibidos - BytesLeidos <= BufferRecepcion",
+         "… BytesRecibidos - BytesLeidos > BufferRecepcion",
+         "Ninguna de las otras respuestas es correcta."
+      ],
+      "correct": 3
+   },
+   {
+      "question": "Si tenemos una imagen de 3 MB, y la comprimimos con una relación de 10:1, el espacio que ocuparía la imagen es:",
+      "options": ["3 MB.", "3 kB.", "30 kB.", "300 kB."],
+      "correct": 3
+   },
+   {
+      "question": "Con la transmisión full duplex:",
+      "options": [
+         "Aumenta la tasa de transferencia de la red externa al NAT.",
+         "Los nodos de ambos extremos de un enlace deben conectarse con todos los nodos posibles de la red para asegurar la integridad de los datos transmitidos.",
+         "Un mismo nodo no puede transmitir y recibir paquetes al mismo tiempo.",
+         "Los nodos de ambos extremos de un enlace pueden transmitir paquetes al mismo tiempo."
+      ],
+      "correct": 3
+   },
+   {
+      "question": "Aquellas aplicaciones que necesitan que se cumplan ciertos requisitos respecto a la tasa de transferencia, se llaman…",
+      "options": [
+         "… aplicaciones restrictivas al ancho de banda.",
+         "… aplicaciones sensibles al ancho de banda.",
+         "… aplicaciones restrictivas a la tasa de transferencia.",
+         "… aplicaciones sensibles a la tasa de transferencia."
+      ],
+      "correct": 1
+   },
+   {
+      "question": "En un protocolo CDMA:",
+      "options": [
+         "Cada bit enviado se codifica sobre la base de la tabla de Karnaugh.",
+         "Cada bit enviado se codifica haciendo uso del bit de paridad.",
+         "Cada bit enviado se codifica multiplicándolo por una señal (el código) que varía a una velocidad mucho mayor que la secuencia original de bits de datos.",
+         "Cada bit enviado se codifica dividiéndolo por una señal (el código) que varía a una velocidad mucho mayor que la secuencia original de bits de datos."
+      ],
+      "correct": 2
+   }
+]

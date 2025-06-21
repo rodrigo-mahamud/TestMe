@@ -1,0 +1,287 @@
+[
+   {
+      "question": "Las redes IMS (IP multimedia subsystem) deben ofrecer:",
+      "options": [
+         "Una mayor cantidad y diversidad de servicios.",
+         "Procesos de sincronización transparentes para usuarios, sin importar la transparencia en dispositivos.",
+         "Autenticación tipo single sing-on.",
+         "Todas las anteriores son falsas."
+      ],
+      "correct": 0,
+      "explanation": "**IMS (IP Multimedia Subsystem)** tiene como objetivo principal ofrecer **una mayor cantidad y diversidad de servicios** multimedia sobre redes IP. IMS permite: 1) **Convergencia de servicios**: Voz, vídeo, datos y mensajería en una sola plataforma. 2) **Servicios enriquecidos**: Videoconferencia, presencia, mensajería instantánea, compartición de contenido. 3) **Interoperabilidad**: Entre diferentes redes (fijas y móviles). 4) **Flexibilidad**: Desarrollo rápido de nuevos servicios. IMS no se centra en sincronización transparente ni en single sign-on específicamente, sino en ser una arquitectura que permita desplegar múltiples servicios multimedia de forma eficiente."
+   },
+   {
+      "question": "IPv6, además de ampliar el uso de direcciones IP, nos ofrece las siguientes características:",
+      "options": [
+         "Cabecera compleja, etiquetado de flujo, calidad de servicio y mejora de las comunicaciones.",
+         "Cabecera simplificada, prioridad y etiquetado de flujo, seguridad y calidad de servicio.",
+         "Cabecera simple, prioridad de flujo sin etiquetado, seguridad y envío multimedia.",
+         "Cabecera con más opciones, prioridad y etiquetado de flujo, seguridad y calidad de servicio."
+      ],
+      "correct": 1,
+      "explanation": "IPv6 introduce mejoras significativas respecto a IPv4: 1) **Cabecera simplificada**: Menos campos que IPv4 (8 vs 13 campos), procesamiento más eficiente. 2) **Campo de prioridad**: Traffic Class para clasificar paquetes por importancia. 3) **Etiquetado de flujo**: Flow Label (20 bits) permite identificar flujos específicos para tratamiento especial. 4) **Seguridad integrada**: IPSec es obligatorio en IPv6, no opcional como en IPv4. 5) **Calidad de servicio**: Mejor soporte QoS mediante Traffic Class y Flow Label. Estas características hacen IPv6 más eficiente y seguro que IPv4."
+   },
+   {
+      "question": "Una de las características en contra del uso de NAT es:",
+      "options": [
+         "Cumple con el modelo extremo a extremo de conectividad definido para Internet.",
+         "No cambia el concepto de Internet que consiste en una red sin conexión.",
+         "Cumple la regla fundamental de los protocolos distribuidos.",
+         "Exige que como protocolos de transporte siempre se utilicen TCP o UDP."
+      ],
+      "correct": 3,
+      "explanation": "NAT tiene varias limitaciones, siendo una crítica importante que **exige el uso de TCP o UDP** como protocolos de transporte. Problemas de NAT: 1) **Limitación de protocolos**: Solo funciona bien con TCP/UDP, problemas con ICMP, IPSec, protocolos propietarios. 2) **Rompe el modelo end-to-end**: Los hosts internos no son directamente accesibles desde Internet. 3) **Problemas con aplicaciones P2P**: Dificultades para establecer conexiones directas. 4) **Complejidad en aplicaciones**: FTP, SIP, videojuegos requieren configuraciones especiales (ALG). 5) **Estado de conexión**: Mantener tablas de traducción consume recursos. NAT fue una solución temporal que introdujo complejidades no previstas en el diseño original de Internet."
+   },
+   {
+      "question": "Los mecanismos existentes en redes multimedia para la recuperación frente a pérdidas de paquetes son:",
+      "options": [
+         "Intercalado y corrección de errores hacia atrás.",
+         "Intercalado y corrección de errores hacia adelante.",
+         "Fluctuación y corrección de errores adaptativos.",
+         "Fluctuación y corrección de errores hacia adelante."
+      ],
+      "correct": 1,
+      "explanation": "En redes multimedia se utilizan técnicas específicas para manejar pérdidas de paquetes: 1) **Intercalado (Interleaving)**: Distribuye la información de forma que la pérdida de un paquete afecte mínimamente la calidad. En audio/vídeo, se dispersan muestras temporalmente adyacentes en diferentes paquetes. 2) **FEC (Forward Error Correction)**: Añade redundancia calculada que permite recuperar datos perdidos sin retransmisión. Ejemplos: códigos Reed-Solomon, códigos convolucionales. Esta combinación es ideal para multimedia porque: las retransmisiones (corrección hacia atrás) no son viables en tiempo real, y la corrección hacia adelante permite recuperación inmediata sin aumentar latencia."
+   },
+   {
+      "question": "Las direcciones IPv6 con este formato FE80::/10 son:",
+      "options": [
+         "Direcciones reservadas para IETF.",
+         "Direcciones unicast globales.",
+         "Direcciones multicast.",
+         "Direcciones unicast de enlace local."
+      ],
+      "correct": 3,
+      "explanation": "Las direcciones **FE80::/10** son **direcciones unicast de enlace local** (Link-Local). Características: 1) **Ámbito local**: Solo válidas en el segmento de red local, no rutables. 2) **Autoconfiguración**: Se generan automáticamente combinando FE80:: con la dirección MAC (EUI-64). 3) **Usos principales**: Autoconfiguración, descubrimiento de vecinos, comunicación con router local. 4) **Formato**: FE80:0000:0000:0000:xxxx:xxxx:xxxx:xxxx (donde x es derivado de MAC). 5) **Equivalente IPv4**: Similar a direcciones 169.254.x.x (APIPA). Son esenciales para el funcionamiento básico de IPv6, incluso antes de obtener direcciones globales."
+   },
+   {
+      "question": "La dirección unicast en IPv4 consiste en:",
+      "options": [
+         "Una dirección que consiste en el envío de paquetes a todos los dispositivos conectados a una red concreta.",
+         "Una dirección con el formato 0.0.0.0.",
+         "Que un cliente se comunique con un servidor dentro de una misma máquina sin necesidad de utilizar mensajes dentro de la capa física.",
+         "No existen ese tipo de direcciones en IPv4."
+      ],
+      "correct": 2,
+      "explanation": "La dirección **unicast en IPv4** se refiere a comunicación **uno-a-uno**, siendo la opción correcta la comunicación cliente-servidor en la misma máquina sin usar la capa física. Características: 1) **Comunicación punto a punto**: Un emisor, un receptor específico. 2) **Loopback (127.0.0.1)**: Permite comunicación interna en la misma máquina, los paquetes no salen a la red física. 3) **Diferencias**: Unicast ≠ Broadcast (todos los dispositivos), ≠ Multicast (grupo específico). 4) **Rango normal**: Todas las direcciones IPv4 excepto las reservadas (multicast 224.x.x.x, broadcast 255.255.255.255). 5) **Uso típico**: Navegación web, email, SSH, la mayoría del tráfico Internet."
+   },
+   {
+      "question": "En la red FDDI disponemos de dos tipos de nodos. Los nodos de clase B se definen como:",
+      "options": [
+         "Dispositivos que se conectan a la red FDDI a través de los nodos de clase A y únicamente al anillo primario.",
+         "Dispositivos que se conectan a la red FDDI a través de los nodos de clase A y únicamente al anillo secundario.",
+         "Dispositivos que se conectan a la red FDDI a través de los nodos de clase A y se conectan al anillo principal y secundario.",
+         "Ninguna de las anteriores."
+      ],
+      "correct": 0,
+      "explanation": "En **FDDI (Fiber Distributed Data Interface)**, los **nodos Clase B (SAS - Single Attachment Station)** se conectan **únicamente al anillo primario** a través de nodos Clase A. Características: 1) **Conexión simple**: Solo una conexión física al anillo primario. 2) **Dependencia**: Se conectan a través de concentradores o nodos Clase A (DAS). 3) **Menor coste**: Más económicos al requerir menos interfaces. 4) **Menor redundancia**: No tienen acceso directo al anillo secundario. 5) **Nodos Clase A (DAS)**: Se conectan a ambos anillos (primario y secundario), ofrecen mayor tolerancia a fallos. FDDI usa doble anillo contra-rotatorio para redundancia, pero los nodos Clase B sacrifican esta redundancia por simplicidad y coste."
+   },
+   {
+      "question": "La dirección IPv6 simplificada correspondiente a 1522:0000:0000:0000:0002:0500:3c01:2502 es:",
+      "options": ["1522::2:5:3c01:2502", "1522:0:0:0:2:05::3c01:2502", "1522::2:0500:3c01:2502", "Ninguna de las anteriores."],
+      "correct": 2,
+      "explanation": "Para simplificar direcciones IPv6 se aplican estas reglas: 1) **Omitir ceros iniciales**: 0002 → 2, pero 0500 permanece como 0500 (no se puede escribir como 5 porque cambiaría el valor del campo). 2) **Doble dos puntos (::)**: Reemplaza secuencias de campos ceros consecutivos, solo se puede usar una vez. 3) **Aplicando las reglas**: 1522:0000:0000:0000:0002:0500:3c01:2502 → 1522::2:0500:3c01:2502. El '::' reemplaza '0000:0000:0000', el campo '0002' se simplifica a '2', pero '0500' NO se puede simplificar a '5' porque representarían valores diferentes. La opción A es incorrecta porque cambia 0500 a 5."
+   },
+   {
+      "question": "Los organismos IETF y 3GPP, de forma conjunta, desarrollaron los estándares y versiones de IMS. ¿En cuál de estas releases se añadió soporte para el acceso de redes cableadas?",
+      "options": ["Release 4.", "Release 5.", "Release 6.", "Release 7."],
+      "correct": 3,
+      "explanation": "El soporte para **acceso de redes cableadas** en IMS se añadió en **Release 7** (2007). Evolución de IMS: 1) **Release 5** (2002): IMS inicial, solo redes móviles 3G. 2) **Release 6** (2004): Mejoras en servicios multimedia, interoperabilidad. 3) **Release 7** (2007): **Acceso fijo-móvil convergente**, soporte para redes cableadas (DSL, cable, Ethernet), arquitectura común para accesos fijos y móviles. 4) **Release 8+**: LTE, VoLTE, servicios avanzados. Release 7 fue crucial porque permitió que IMS fuera una plataforma verdaderamente convergente, no limitada solo a redes móviles, estableciendo las bases para servicios unificados independientes del tipo de acceso."
+   },
+   {
+      "question": "El servicio de entrega best effort:",
+      "options": [
+         "Puede producir la pérdida de paquetes enviados.",
+         "Puede experimentar un gran retardo entre origen y destino.",
+         "Puede tener una alta fluctuación temporal de los paquetes enviados.",
+         "Todas las anteriores son correctas."
+      ],
+      "correct": 3,
+      "explanation": "**Best Effort** es el modelo básico de servicio de Internet sin garantías de QoS. Características: 1) **Pérdida de paquetes**: Cuando los routers se congestionan, descartan paquetes sin avisar. 2) **Retardo variable**: Depende de la carga de red, ruta, procesamiento en routers. 3) **Jitter (fluctuación)**: Los paquetes pueden llegar con intervalos irregulares. 4) **Sin garantías**: No hay promesas de ancho de banda, latencia o confiabilidad. 5) **Ventajas**: Simplicidad, bajo coste, flexibilidad. 6) **Limitaciones**: No adecuado para aplicaciones críticas (VoIP, videoconferencia, gaming). Es el fundamento de Internet actual, donde todas las aplicaciones compiten por recursos de forma equitativa."
+   },
+   {
+      "question": "Los estándares más utilizados en redes de telefonía móvil 3G son:",
+      "options": ["WSN y CDMA2000.", "WCD-MA y CDMA2000.", "MA-WD y CDMA/CE.", "Ninguna de las anteriores."],
+      "correct": 1,
+      "explanation": "Los estándares principales de **3G** son **WCDMA** y **CDMA2000**: 1) **WCDMA (Wideband CDMA)**: Estándar europeo/asiático, evolución de GSM, usado en UMTS, ancho de banda 5 MHz. 2) **CDMA2000**: Estándar norteamericano, evolución de IS-95 (cdmaOne), incluye 1xRTT y EVDO. 3) **Diferencias técnicas**: WCDMA usa FDD/TDD, CDMA2000 principalmente FDD; diferentes anchos de banda y arquitecturas. 4) **Cobertura global**: WCDMA dominante mundialmente, CDMA2000 principalmente en América y Asia. 5) **Evolución**: WCDMA→HSPA→LTE, CDMA2000→LTE. Ambos ofrecían datos de alta velocidad (hasta 2 Mbps teóricos) y mejor calidad de voz que 2G."
+   },
+   {
+      "question": "Una/algunas de las principales características de NGN es/son:",
+      "options": [
+         "Soporte de servicio limitado y aplicaciones en tiempo real.",
+         "Uso de interfaces propietarias para facilitar el uso con redes anteriores.",
+         "Esquemas de identificación limitados, tanto para usuarios como para dispositivos que acceden a la red.",
+         "Convergencia de servicios móviles y fijos."
+      ],
+      "correct": 3,
+      "explanation": "**NGN (Next Generation Networks)** tiene como característica principal la **convergencia de servicios móviles y fijos**. Características de NGN: 1) **Convergencia**: Una sola red para voz, datos, vídeo, móvil y fijo. 2) **Basada en paquetes**: Todo sobre IP, no circuitos. 3) **QoS garantizada**: Diferenciación de servicios según necesidades. 4) **Interfaces estándar**: APIs abiertas, no propietarias. 5) **Flexibilidad de servicios**: Desarrollo rápido de nuevos servicios. 6) **Separación**: Control independiente del transporte. 7) **Movilidad**: Servicios disponibles independiente de la ubicación/acceso. NGN representa la evolución hacia redes todo-IP con capacidades multimedia avanzadas y convergencia total."
+   },
+   {
+      "question": "Una/algunas de las principales ventajas del uso de fast ethernet es/son:",
+      "options": ["Bajo coste.", "Migración sencilla.", "Respaldo de fabricantes.", "Todas las anteriores."],
+      "correct": 3,
+      "explanation": "**Fast Ethernet (100BASE-T)** ofrece múltiples ventajas: 1) **Bajo coste**: Aprovecha infraestructura UTP existente, NICs económicas, switches accesibles. 2) **Migración sencilla**: Compatible con Ethernet 10 Mbps, misma trama, mismos protocolos, actualización gradual posible. 3) **Respaldo de fabricantes**: Estándar IEEE 802.3u ampliamente adoptado, múltiples proveedores, ecosistema maduro. 4) **Ventajas adicionales**: 10x mejora de velocidad (10→100 Mbps), mantiene CSMA/CD, conserva familiaridad operacional. 5) **Flexibilidad**: Full-duplex elimina colisiones, soporte para fibra y cobre. Fast Ethernet fue un éxito porque combinó mejora significativa de rendimiento con facilidad de adopción y costes controlados."
+   },
+   {
+      "question": "Las redes NGN:",
+      "options": [
+         "Necesitan garantizar la QoS y la confiabilidad de todos los servicios.",
+         "Proporcionan servicios best effort.",
+         "Poseen una arquitectura de red improvisada, es decir, los servicios se van construyendo sobre la marcha.",
+         "Ninguna de las anteriores."
+      ],
+      "correct": 0,
+      "explanation": "**NGN (Next Generation Networks)** **deben garantizar QoS y confiabilidad** para todos los servicios. Características clave: 1) **QoS diferenciada**: Cada servicio recibe el tratamiento apropiado (voz necesita baja latencia, video necesita ancho de banda constante). 2) **Confiabilidad**: SLAs específicos, redundancia, recuperación ante fallos. 3) **Arquitectura planificada**: No improvisada, sino basada en estándares ITU-T, ETSI, separación clara entre transporte, control y servicios. 4) **No best effort únicamente**: Aunque puede incluir tráfico best effort, debe priorizar servicios críticos. 5) **Servicios garantizados**: VoIP, IPTV, videoconferencia requieren QoS estricta. NGN representa la evolución hacia redes inteligentes que pueden dar garantías de servicio específicas según las aplicaciones."
+   },
+   {
+      "question": "En las redes inalámbricas, el agente encargado de asignar un SSID para identificar la red es:",
+      "options": ["Administrador.", "Usuario.", "Punto inalámbrico.", "La red posee un SSID por defecto."],
+      "correct": 0,
+      "explanation": "El **administrador** es quien asigna el SSID (Service Set Identifier). Proceso: 1) **Configuración**: El administrador configura el SSID en el punto de acceso/router. 2) **Identificación**: SSID identifica la red inalámbrica específica (hasta 32 caracteres). 3) **Broadcast**: El AP anuncia el SSID en beacons para que clientes lo detecten. 4) **Seguridad**: Puede ocultarse (no broadcast) por seguridad. 5) **Gestión**: El administrador decide nombre, visibilidad, cambios. Aunque los dispositivos pueden tener SSID por defecto (como 'Linksys' o modelo del router), es responsabilidad del administrador cambiarlo por seguridad y identificación apropiada. Los usuarios solo seleccionan redes existentes, no las crean."
+   },
+   {
+      "question": "La tecnología de red Frame-Relay permite conexiones de alta velocidad de:",
+      "options": ["64 kbps a 2 Mbps.", "512 kbps a 10 Mbps.", "10 Mbps a 25 Mbps.", "15 Mbps a 35 Mbps."],
+      "correct": 0,
+      "explanation": "**Frame Relay** soporta velocidades de **64 kbps a 2 Mbps** (algunos proveedores hasta 45 Mbps). Características: 1) **Tecnología WAN**: Para conexiones entre sitios remotos, no LAN. 2) **Conmutación de paquetes**: Más eficiente que líneas dedicadas. 3) **Velocidades comunes**: 64K, 128K, 256K, 512K, T1 (1.544 Mbps), E1 (2 Mbps). 4) **CIR (Committed Information Rate)**: Ancho de banda garantizado. 5) **Burst**: Puede exceder CIR temporalmente. 6) **Era pre-IP**: Popular en los 90s antes de Internet banda ancha y VPNs. 7) **Declive**: Reemplazado por MPLS, VPNs IP, conexiones de fibra. Frame Relay fue importante para redes corporativas cuando las alternativas eran líneas dedicadas costosas."
+   },
+   {
+      "question": "IPv6 dispone de una serie de encabezados. El encabezado «fragmento» se utiliza para:",
+      "options": [
+         "Transportar datos cifrados para la realización de comunicaciones seguras.",
+         "Indicar que un datagrama contiene únicamente un fragmento del mensaje principal que se ha enviado.",
+         "Definir opciones de formato variables para los datagramas enviados.",
+         "Indicar que el datagrama del mensaje principal ha sido dividido en varios fragmentos."
+      ],
+      "correct": 1,
+      "explanation": "El **encabezado Fragment** en IPv6 indica que **un datagrama contiene únicamente un fragmento del mensaje principal**. Detalles: 1) **Fragmentación en IPv6**: Solo el emisor puede fragmentar, los routers intermedios NO fragmentan (diferencia clave con IPv4). 2) **MTU Path Discovery**: Se usa para encontrar la MTU mínima del camino. 3) **Campos del encabezado**: Next Header, Fragment Offset, M flag (More fragments), Identification. 4) **Proceso**: Si el paquete es mayor que MTU, el emisor lo divide en fragmentos, cada uno lleva este encabezado. 5) **Reensamblaje**: Solo en el destino final. 6) **Ventaja**: Reduce procesamiento en routers intermedios. Este diseño mejora la eficiencia de la red al eliminar fragmentación en tránsito."
+   },
+   {
+      "question": "Las direcciones de red IP que comienzan con 1110 son de:",
+      "options": ["Clase D.", "Clase B.", "Clase E.", "Clase C."],
+      "correct": 0,
+      "explanation": "Las direcciones que comienzan con **1110** son **Clase D (Multicast)**. Clases IPv4: 1) **Clase A**: 0xxxxxxx (0.0.0.0 - 127.255.255.255). 2) **Clase B**: 10xxxxxx (128.0.0.0 - 191.255.255.255). 3) **Clase C**: 110xxxxx (192.0.0.0 - 223.255.255.255). 4) **Clase D**: 1110xxxx (224.0.0.0 - 239.255.255.255) - **MULTICAST**. 5) **Clase E**: 1111xxxx (240.0.0.0 - 255.255.255.255) - Experimental. **Multicast** permite enviar datos a un grupo específico de receptores simultáneamente, usado en streaming, videoconferencia, actualizaciones de software, protocolos de routing. Ejemplos: 224.0.0.1 (All Hosts), 224.0.0.2 (All Routers)."
+   },
+   {
+      "question": "En la actualidad, el protocolo más utilizado para el envío de flujos multimedia entre servidores y clientes es:",
+      "options": ["Únicamente TCP.", "Únicamente UDP.", "TCP y, en ocasiones, UDP.", "UDP y, en ocasiones, TCP."],
+      "correct": 2,
+      "explanation": "Para **flujos multimedia** se usa principalmente **TCP y, en ocasiones, UDP**. Análisis por aplicación: 1) **TCP predominante**: HTTP Live Streaming (HLS), DASH, YouTube, Netflix, servicios de streaming principales usan HTTP/TCP para aprovecha infraestructura web existente. 2) **Ventajas TCP**: Control de flujo, reordenamiento, fiabilidad, compatibilidad con firewalls/proxies. 3) **UDP ocasional**: Videoconferencia en tiempo real (WebRTC), gaming, transmisiones en vivo de baja latencia. 4) **Tendencia actual**: Adaptive bitrate streaming sobre TCP/HTTP es el estándar. 5) **QUIC**: Nuevo protocolo sobre UDP pero con características TCP. TCP domina porque la mayoría del multimedia actual es on-demand, no tiempo real estricto."
+   },
+   {
+      "question": "La versión 4.0 de Bluetooth:",
+      "options": [
+         "Permite tasas de transferencia de 17 Mbps como máximo.",
+         "Añade la versión Bluetooth Low Energy.",
+         "Funciona en la banda de 8 GHz.",
+         "Es compatible con tramas 6LowPAN."
+      ],
+      "correct": 1,
+      "explanation": "**Bluetooth 4.0** (2010) introdujo **Bluetooth Low Energy (BLE)**. Características: 1) **BLE/Smart**: Versión ultra-baja potencia para IoT, sensores, wearables. 2) **Dual mode**: Dispositivos pueden soportar Classic + BLE. 3) **Consumo**: BLE consume hasta 100x menos energía que Bluetooth clásico. 4) **Velocidad**: BLE ~1 Mbps (no 17 Mbps), Classic Bluetooth 4.0 hasta 25 Mbps. 5) **Banda**: Sigue en 2.4 GHz (no 8 GHz), 40 canales vs 79 del clásico. 6) **Aplicaciones BLE**: Fitness trackers, smartwatches, beacons, sensores IoT. 7) **Perfiles**: Introducción de GATT (Generic Attribute Profile). BLE revolucionó IoT al permitir dispositivos que funcionan años con una batería."
+   },
+   {
+      "question": "Las direcciones de clase C de IPv4 son utilizadas por:",
+      "options": [
+         "Organizaciones con pocos hosts conectados.",
+         "Organizaciones que necesitan gran cantidad de hosts conectados.",
+         "Organizaciones que necesitan un número indeterminado de hosts conectados.",
+         "Ninguna de las anteriores."
+      ],
+      "correct": 0,
+      "explanation": "Las direcciones **Clase C** son para **organizaciones con pocos hosts**. Características: 1) **Rango**: 192.0.0.0 - 223.255.255.255 (110xxxxx). 2) **Estructura**: 24 bits red + 8 bits host = 254 hosts útiles (256 - 2). 3) **Uso típico**: Pequeñas empresas, oficinas, redes domésticas. 4) **Comparación**: Clase A (16M hosts), Clase B (65K hosts), Clase C (254 hosts). 5) **Subneteo**: Común dividir Clase C en subredes más pequeñas. 6) **Actualidad**: Concepto obsoleto con CIDR, pero útil para entender diseño original. Las organizaciones grandes usaban Clase A o B, mientras que Clase C era perfecta para pequeñas redes que no justificaban el desperdicio de una Clase B."
+   },
+   {
+      "question": "Una de las características del protocolo SIP, protocolo de aplicaciones en tiempo real, es:",
+      "options": [
+         "Se utiliza para transmitir formatos comunes de audio como MP3.",
+         "Está especificado en el documento RFC 3550.",
+         "Ofrece mecanismos para la gestión de llamadas.",
+         "Puede replicar su contenido a otros servidores de la red."
+      ],
+      "correct": 2,
+      "explanation": "**SIP (Session Initiation Protocol)** se caracteriza por ofrecer **mecanismos para la gestión de llamadas**. Características: 1) **Señalización**: Establece, modifica y termina sesiones multimedia. 2) **Funciones**: INVITE (iniciar), ACK (confirmar), BYE (terminar), CANCEL (cancelar). 3) **RFC**: SIP está en RFC 3261 (no 3550, que es RTP). 4) **No transporta media**: Solo señalización, el audio/vídeo va por RTP/RTCP. 5) **Arquitectura**: User Agents, Proxy Servers, Registrar Servers. 6) **Aplicaciones**: VoIP, videoconferencia, mensajería instantánea. 7) **Textual**: Basado en HTTP, fácil depuración. SIP es el protocolo estándar para VoIP, complementado por RTP para transporte de media y SDP para descripción de sesiones."
+   },
+   {
+      "question": "En una trama 802.11, en los campos de control de secuencia:",
+      "options": [
+         "Se indica el tiempo que el canal está ocupado hasta que reciba una transmisión correcta.",
+         "Se almacena el CRC que permite detectar errores de un bit en la transmisión.",
+         "Se almacenan los campos de dirección y control de la trama.",
+         "Se almacena información de control estructurada."
+      ],
+      "correct": 3,
+      "explanation": "En tramas **802.11**, los **campos de control de secuencia** almacenan **información de control estructurada**. Detalles: 1) **Sequence Control**: 16 bits = Fragment Number (4 bits) + Sequence Number (12 bits). 2) **Sequence Number**: Identifica cada MSDU (frame de datos), permite reordenamiento y detección de duplicados. 3) **Fragment Number**: Identifica fragmentos de un MSDU grande. 4) **Propósito**: Control de entrega, eliminación de duplicados, reensamblaje. 5) **No contiene**: Duration/ID va en otro campo, CRC está en FCS (Frame Check Sequence), direcciones están en campos separados. 6) **Gestión**: Incrementa por cada nueva transmisión, resetea a 0 tras 4095. Esta información es crucial para el correcto funcionamiento del protocolo 802.11 en entornos con posibles retransmisiones y fragmentación."
+   },
+   {
+      "question": "La arquitectura Gigabit Ethernet está formada por las capas:",
+      "options": ["MAC, red y aplicación.", "Enlace, LLC y Ethernet.", "Acceso, Internet y aplicación.", "Física, MAC y LLC."],
+      "correct": 3,
+      "explanation": "**Gigabit Ethernet** está formado por las capas **Física, MAC y LLC**. Arquitectura: 1) **Capa Física**: Define el medio de transmisión (fibra óptica, UTP Cat5e/6), codificación de señales, conectores. Variantes: 1000BASE-T (cobre), 1000BASE-SX/LX (fibra). 2) **Capa MAC (Media Access Control)**: Gestiona acceso al medio, formato de tramas, direccionamiento, detección de colisiones (aunque en full-duplex no hay colisiones). 3) **Capa LLC (Logical Link Control)**: Interfaz con capas superiores, control de flujo, gestión de errores. Mantiene compatibilidad con Ethernet estándar mientras escala a 1000 Mbps. Esta arquitectura preserva la compatibilidad con protocolos superiores mientras mejora el rendimiento."
+   },
+   {
+      "question": "En las redes NGN, las funciones de gestión se encargan de:",
+      "options": [
+         "Gestionar la pasarela, registro, autenticación y autorización.",
+         "Gestionar fallos, contabilidad, seguridad, configuración y calidad de funcionamiento.",
+         "Gestionar recursos, señalización de servicio, control de usuarios y control de servicios.",
+         "Gestionar el control de acceso, inicialización, configuración, servicios y autenticación."
+      ],
+      "correct": 1,
+      "explanation": "En **NGN**, las funciones de gestión siguen el modelo **FCAPS**: **Fallos, Contabilidad, Seguridad, Configuración y Calidad de funcionamiento**. Detalles: 1) **Fault Management**: Detección, diagnóstico y resolución de fallos en la red. 2) **Accounting Management**: Medición del uso de recursos, facturación, estadísticas. 3) **Security Management**: Autenticación, autorización, cifrado, auditoría de seguridad. 4) **Configuration Management**: Provisión de servicios, gestión de inventario, cambios de configuración. 5) **Performance Management**: Monitorización de QoS, SLAs, optimización de rendimiento. Este modelo estándar ITU-T asegura gestión integral de redes complejas NGN, permitiendo operación eficiente y mantenimiento proactivo de servicios convergentes."
+   },
+   {
+      "question": "El protocolo Real Time Streaming Protocol (RTSP) permite:",
+      "options": [
+         "Controlar la transmisión de un flujo de datos multimedia a través de un reproductor.",
+         "Especificar esquemas de compresión para vídeo y para audio.",
+         "Limitar la forma de transporte de flujo multimedia.",
+         "Especificar cómo han de encapsularse los flujos multimedia para su transmisión."
+      ],
+      "correct": 0,
+      "explanation": "**RTSP (Real Time Streaming Protocol)** permite **controlar la transmisión de flujos multimedia** como un reproductor. Funciones: 1) **Control VCR-like**: PLAY, PAUSE, STOP, SEEK (como controles de reproductor). 2) **Gestión de sesión**: SETUP (configurar), DESCRIBE (obtener descripción), TEARDOWN (finalizar). 3) **No transporta datos**: RTSP es solo control, los datos van por RTP/UDP. 4) **Arquitectura**: Cliente-servidor, puertos TCP 554 por defecto. 5) **Integración**: Trabaja con SDP (descripción), RTP (transporte), RTCP (control). 6) **Aplicaciones**: Streaming en vivo, video on-demand, cámaras IP. RTSP es como un 'mando a distancia' para controlar servidores de streaming, mientras que otros protocolos manejan la compresión (códecs) y transporte (RTP)."
+   },
+   {
+      "question": "El campo TOS de la cabecera IPv4 nos indica:",
+      "options": [
+         "Versión del protocolo IP del datagrama.",
+         "Dónde comienzan realmente los datos del datagrama IP.",
+         "Diferencia entre distintos tipos de datagramas IP.",
+         "Protocolo específico de la capa de transporte al que va dirigido un datagrama IP."
+      ],
+      "correct": 2,
+      "explanation": "El campo **TOS (Type of Service)** indica **diferencias entre distintos tipos de datagramas IP**. Características: 1) **8 bits**: Precedence (3 bits) + TOS bits (4 bits) + MBZ (1 bit). 2) **Precedence**: Prioridad del paquete (0=rutina, 7=control de red). 3) **TOS bits**: Minimize Delay, Maximize Throughput, Maximize Reliability, Minimize Cost. 4) **QoS primitiva**: Permite diferenciación básica de tráfico. 5) **Evolución**: Reemplazado por DSCP (Differentiated Services) en IPv4 moderno. 6) **Uso**: Los routers pueden priorizar paquetes según estos bits. 7) **Ejemplos**: Telnet/SSH usan minimize delay, FTP usa maximize throughput. TOS fue el primer intento de QoS en Internet, aunque limitado comparado con sistemas modernos."
+   },
+   {
+      "question": "En el estándar para redes inalámbricas 802.11b:",
+      "options": [
+         "Se definió la velocidad de transmisión teórica de 2 Mbps.",
+         "Se añadió el Multiple-Input Multiple-Output (MIMO).",
+         "Se definió el funcionamiento en la banda de 2,4 GHz.",
+         "Se definió el uso de seis canales no solapados para conexiones punto a punto."
+      ],
+      "correct": 2,
+      "explanation": "**802.11b** (1999) definió el **funcionamiento en la banda de 2,4 GHz**. Características: 1) **Frecuencia**: 2,4 GHz ISM (Industrial, Scientific, Medical), libre de licencias. 2) **Velocidad**: 11 Mbps máximo (no 2 Mbps), con fallback a 5.5, 2, 1 Mbps. 3) **Modulación**: DSSS (Direct Sequence Spread Spectrum), más robusto que FHSS. 4) **Canales**: 14 canales teóricos, solo 3 no solapados (1, 6, 11 en muchos países). 5) **MIMO**: No, MIMO llegó con 802.11n (2009). 6) **Alcance**: Mayor que 802.11a por menor frecuencia. 7) **Adopción**: Primer WiFi masivo, compatibilidad con 802.11 original. 802.11b fue crucial para popularizar WiFi por su balance entre velocidad, alcance y coste."
+   },
+   {
+      "question": "Las direcciones IPv6 loopback se utilizan para:",
+      "options": [
+         "Indicar la dirección de origen cuando se solicita una configuración de red.",
+         "Hacer referencia a la interfaz de red del router al que está conectado el dispositivo.",
+         "Utilizarse como dirección multicast de reenvío de datagramas IP.",
+         "Ninguna de las anteriores."
+      ],
+      "correct": 3,
+      "explanation": "La respuesta correcta es **'Ninguna de las anteriores'**. La dirección **loopback IPv6 (::1)** se usa para **comunicación interna dentro del mismo dispositivo**. Función real: 1) **Loopback local**: Equivalente a 127.0.0.1 en IPv4, permite que aplicaciones se comuniquen localmente. 2) **Testing**: Verificar que la pila TCP/IP funciona correctamente. 3) **Servicios locales**: Aplicaciones cliente-servidor en la misma máquina. 4) **No sale de la máquina**: Los paquetes no se envían a la red física. Las opciones dadas no describen correctamente el loopback: configuración de red usa direcciones especiales como ::, referencias a routers son gateways, multicast son direcciones FF00::/8. Loopback es estrictamente para comunicación local."
+   },
+   {
+      "question": "La capa física de las redes ATM se divide en:",
+      "options": [
+         "Subcapa de medio físico y capa de adaptación.",
+         "Subcapa de convergencia de la transmisión y subcapa de medio físico.",
+         "Subcapa de convergencia de transmisión y subcapa de segmentación.",
+         "Subcapa de adaptación y subcapa de convergencia."
+      ],
+      "correct": 1,
+      "explanation": "La capa física **ATM** se divide en **Subcapa de Convergencia de Transmisión (TC) y Subcapa de Medio Físico (PMD)**. Estructura: 1) **TC (Transmission Convergence)**: Gestiona HEC (Header Error Control), delineación de celdas, adaptación de velocidad, inserción/extracción de celdas idle. 2) **PMD (Physical Medium Dependent)**: Específica del medio físico (SONET/SDH, PDH, ATM25), codificación, temporización, características eléctricas/ópticas. 3) **Función**: TC proporciona interfaz independiente del medio hacia ATM, PMD maneja particularidades del medio físico. 4) **Beneficios**: Flexibilidad para diferentes medios (fibra, cobre), reutilización de tecnologías existentes (SONET). Esta división permite que ATM funcione sobre múltiples tecnologías de transporte manteniendo una interfaz consistente."
+   }
+]

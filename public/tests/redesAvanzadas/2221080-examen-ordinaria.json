@@ -1,0 +1,187 @@
+[
+   {
+      "question": "¿Qué protocolo es el usado para realizar una autenticación radius entre el switch y el servidor radius?",
+      "options": ["802.1x", "802.11", "802.1q", "802.1s"],
+      "correct": 0
+   },
+   {
+      "question": "¿Cuál es la velocidad máxima que soporta el estándar de Gigabit Ethernet?",
+      "options": ["10 Mbps.", "100 Mbps.", "1000 Mbps.", "2000 Mbps."],
+      "correct": 2
+   },
+   {
+      "question": "AWS hoy en día es líder en el mercado como una solución:",
+      "options": ["On Premise.", "IaaS/PaaS.", "IaaS/SaaS.", "SaaS/PaaS."],
+      "correct": 1
+   },
+   {
+      "question": "Para realizar una gestión remota de los dispositivos, se puede realizar de varias formas, selecciona la incorrecta:",
+      "options": ["SMTP.", "SNMP.", "HTTP/HTTPS.", "Todas las opciones anteriores son correctas."],
+      "correct": 0
+   },
+   {
+      "question": "¿Qué tipo de cifrado utilizan los dispositivos para crear las claves asimétricas en Cisco?",
+      "options": ["RAS.", "AES.", "MD5.", "RSA."],
+      "correct": 3
+   },
+   {
+      "question": "5G es la quinta generación de tecnologías móviles; alguna/s de sus mejoras es/son:",
+      "options": [
+         "Menor consumo eléctrico.",
+         "Mejora de la velocidad.",
+         "Aprovechamiento de la computación en la nube de manera más rápida.",
+         "Todas las opciones anteriores son correctas."
+      ],
+      "correct": 3
+   },
+   {
+      "question": "¿Con qué comando de NMAP se puede analizar la red 192.168.1.0 255.255.255.0 basándose en ICMP?",
+      "options": ["nmap -sP 192.168.1.0/24", "nmap -sV -O 192.168.1.0/24", "nmap 192.168.1.*", "nmap -sA 192.168.1.0/24"],
+      "correct": 0
+   },
+   {
+      "question": "La cabecera IPv4 posee un segmento fijo que tiene un tamaño de:",
+      "options": ["160 bits.", "140 bits.", "120 bits.", "100 bits."],
+      "correct": 0
+   },
+   {
+      "question": "Algunas de las funciones de gestión en NGN son:",
+      "options": [
+         "Gestión de reenvíos. Gestión de contabilidad. Gestión de cifrados. Gestión de backups. Gestión de la calidad de funcionamiento.",
+         "Gestión de fallos. Gestión de contabilidad. Gestión de seguridad. Gestión de configuración. Gestión de la calidad de funcionamiento.",
+         "Gestión de reenvíos. Gestión de contabilidad. Gestión de cifrados. Gestión de backups. Gestión de QoS.",
+         "Gestión de antirredundancia. Gestión de conteo de paquetes. Gestión de seguridad. Gestión de configuración. Gestión de la calidad de funcionamiento."
+      ],
+      "correct": 1
+   },
+   {
+      "question": "Indica la opción correcta para configurar SVI con la IP 192.168.0.1/24 en la interfaz ip de la vlan 20:",
+      "options": [
+         "interface vlan 20\nipv4 address 192.168.0.1/24",
+         "interface vlan.20\nencapsulation dot1q 20\nipv4 address 192.168.0.1/24",
+         "interface vlan 20\nip address 192.168.0.1 255.255.255.0",
+         "interface vlan.20\nencapsulation dot1q 20\nip address 192.168.0.1 255.255.255.0"
+      ],
+      "correct": 2
+   },
+   {
+      "question": "¿Cuál de los siguientes estados existe en STP?",
+      "options": ["Borrado.", "BPDU.", "Broadcast.", "Escucha."],
+      "correct": 3
+   },
+   {
+      "question": "¿Cuál de las siguientes características nos permite proteger la red de bucles con spanning tree?",
+      "options": ["SNMP.", "Trunking.", "802.1x.", "BPDU-Guard."],
+      "correct": 3
+   },
+   {
+      "question": "¿Qué término mide la variación de los retardos en los paquetes dentro de un mismo flujo de datos?",
+      "options": ["QoS.", "Jitter.", "Packet lost.", "Packet delay."],
+      "correct": 1
+   },
+   {
+      "question": "Las Ips del rango 224.0.0.0 a 239.255.255.255 están catalogadas como:",
+      "options": ["Unicast.", "Multicast.", "Broadcast.", "Tunnel."],
+      "correct": 1
+   },
+   {
+      "question": "Si hablamos de distancia administrativa con valor 110 estamos haciendo referencia al protocolo dinámico:",
+      "options": ["OSPF.", "eBGP.", "RIP.", "EIGRP."],
+      "correct": 0
+   },
+   {
+      "question": "Como administradores de redes, tenéis que limitar un enlace para que nunca se sature del 75 % de su caudal. ¿Qué mecanismo deberíais utilizar?",
+      "options": ["Traffic shapping.", "Traffic policing.", "TOS.", "DSCP."],
+      "correct": 1
+   },
+   {
+      "question": "Señala la afirmación correcta sobre la tabla de enrutamiento:",
+      "options": [
+         "Es similar a la tabla ARP.",
+         "Establece una relación entre IP y MAC",
+         "Sirve para redireccionar las tramas en función de su MAC.",
+         "Ninguna de las opciones anteriores es correcta."
+      ],
+      "correct": 3
+   },
+   {
+      "question": "En 802.11 para la banda de 2,4 GHz, ¿cuántos canales se pueden configurar para la región española sin solapar en el espectro radioeléctrico?",
+      "options": ["1.", "2.", "3.", "4."],
+      "correct": 2
+   },
+   {
+      "question": "La dirección de broadcast de la IP que contiene el rango 192.168.0.200/27 es:",
+      "options": ["192.168.0.255", "192.168.0.1", "192.168.0.0", "192.168.0.223"],
+      "correct": 3
+   },
+   {
+      "question": "Según lo estudiado, una red WiMAX 802.16 sería del tipo:",
+      "options": [
+         "Único salto basado en infraestructura.",
+         "Múltiples saltos basados en infraestructura.",
+         "Único salto sin infraestructura.",
+         "Múltiples saltos basados sin infraestructura."
+      ],
+      "correct": 0
+   },
+   {
+      "question": "El software que permite emular redes del fabricante Cisco únicamente es:",
+      "options": ["Packet Capture.", "Wireshark.", "Cisco GNSS.", "Packet Tracer."],
+      "correct": 3
+   },
+   {
+      "question": "¿Cuál de los siguientes protocolos permite tener una IP virtual para tener una alta disponibilidad entre dos routers de diferentes fabricantes?",
+      "options": ["HSRP.", "HA.", "VLAN.", "VRRP."],
+      "correct": 3
+   },
+   {
+      "question": "De los siguientes tipos de aplicación, selecciona el que tiene mayor prioridad cuando se aplica calidad de servicio:",
+      "options": ["Voz.", "Best effort.", "Streaming de vídeo.", "Control de red."],
+      "correct": 0
+   },
+   {
+      "question": "De los siguientes conectores de fibra, ¿cuáles son los más usados a día de hoy por los equipos?",
+      "options": ["RJ-45.", "SC.", "ST.", "LC."],
+      "correct": 3
+   },
+   {
+      "question": "Si tenemos una MTU de 1500 bytes, ¿cuántos bytes quedarían quitando la parte de cabecera IP y del túnel IPSec en modo de transporte?",
+      "options": ["1520.", "1480.", "1420.", "1468."],
+      "correct": 3
+   },
+   {
+      "question": "En Gigabit Ethenet, ¿cuál es el estándar de onda larga de láser en comunicaciones por fibra?",
+      "options": ["1000TX.", "1000SX.", "1000LX.", "10000LR."],
+      "correct": 2
+   },
+   {
+      "question": "IPv6 es mejor que IPv4 porque:",
+      "options": [
+         "En IPv6 la fragmentación se realiza dinámicamente entre los extremos finales.",
+         "Su definición IPv6 permite disponer de un mayor número de Ips que IPv4.",
+         "Los nateos de IPv6 son más eficientes presentando la IP pública del router.",
+         "Disponen del mismo número de bits IPv6 que IPv4 para hacer subnetting."
+      ],
+      "correct": 1
+   },
+   {
+      "question": "FDDI no está pensado para redes del tipo:",
+      "options": ["Redes troncales.", "Redes de estado de enlace.", "Redes locales especializadas.", "Redes profesionales de alta velocidad."],
+      "correct": 1
+   },
+   {
+      "question": "Señala la afirmación correcta sobre VRF:",
+      "options": [
+         "No permite duplicar IPs en diferentes VRF, pero sí Vlanes.",
+         "Permite duplicar IPs en diferentes VRF, pero no Vlanes.",
+         "Permite tener las mismas IPs y Vlanes en diferentes VRF sin conflictos.",
+         "No permite tener las mismas IPs y Vlanes en diferentes VRF sin conflicto."
+      ],
+      "correct": 2
+   },
+   {
+      "question": "¿Qué elemento no forma parte de una red inalámbrica?",
+      "options": ["Estación base.", "Enlaces inalámbricos.", "Host inalámbricos.", "Ondas electromagnéticas."],
+      "correct": 3
+   }
+]

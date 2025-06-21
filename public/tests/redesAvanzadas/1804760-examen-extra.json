@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Acerca de las direcciones anycast en IPv6:",
+    "options": [
+      "Se utilizan en un único dispositivo.",
+      "Son las direcciones que sustituyen a las direcciones broadcast, pero que poseen algunos cambios respecto a las direcciones IPv4.",
+      "Dirección para varios dispositivos en las que, cuando se envía un paquete a una dirección de este tipo, dicho paquete se entregará al host más cercano que sea propietario de dicha dirección.",
+      "Direcciones reservadas para la IETF."
+    ],
+    "correct": 2,
+    "explanation": "Las direcciones **anycast en IPv6** son una innovación importante que permite asignar la misma dirección a múltiples dispositivos. Cuando se envía un paquete a una dirección anycast, este se entrega al host **más cercano** (en términos de métrica de enrutamiento) que posea esa dirección. Se usan para: 1) **Balanceo de carga**: Distribuir tráfico entre servidores. 2) **Redundancia**: Failover automático cuando un servidor falla. 3) **Optimización de rendimiento**: Los usuarios se conectan al servidor más cercano. Ejemplos: servidores DNS raíz, CDNs, servicios distribuidos."
+  },
+  {
+    "question": "Si en nuestra empresa necesitamos utilizar una red LAN inalámbrica que incorpore puntos de acceso junto con una infraestructura Ethernet cableada encargada de interconectar un router con los puntos de acceso, esta red posee una arquitectura:",
+    "options": [
+      "Ad hoc.",
+      "BBS.",
+      "Infraestructura.",
+      "AP."
+    ],
+    "correct": 2,
+    "explanation": "La arquitectura descrita es de **infraestructura** (Infrastructure Mode). En este modo: 1) **Puntos de acceso**: Actúan como puentes entre la red inalámbrica y la cableada. 2) **Red backbone cableada**: Ethernet que interconecta APs con routers/switches. 3) **Centralización**: Todo el tráfico inalámbrico pasa por los APs. 4) **Gestión centralizada**: Configuración, seguridad y monitoreo desde puntos centrales. Se diferencia de Ad hoc (peer-to-peer sin APs) y es el estándar en redes empresariales porque ofrece mejor control, seguridad y escalabilidad."
+  },
+  {
+    "question": "MPEG-2 es un estándar de audio y vídeo para obtener una calidad similar o un poco superior a la televisión convencional. Este estándar permite resoluciones de:",
+    "options": [
+      "640 × 320 píxeles y 720 × 480 píxeles.",
+      "720 × 480 píxeles y 1280 × 720 píxeles.",
+      "1024 × 768 píxeles y 1280 × 720 píxeles.",
+      "1280 × 900 píxeles y 1600 × 1200 píxeles."
+    ],
+    "correct": 1,
+    "explanation": "**MPEG-2** soporta resoluciones que incluyen: **720 × 480 píxeles (NTSC)**: Estándar americano de TV digital estándar. **1280 × 720 píxeles (720p)**: HDTV de baja resolución. También soporta: 720 × 576 (PAL), 1920 × 1080 (1080i/p). MPEG-2 fue diseñado para TV digital y DVD, proporcionando calidad superior a MPEG-1 con mejor compresión y soporte para video entrelazado, múltiples relaciones de aspecto y audio multicanal. Es el estándar base para DVB, ATSC y la mayoría de sistemas de TV digital mundial."
+  },
+  {
+    "question": "Si en nuestra empresa queremos utilizar una intranet ultrarrápida con un ancho de banda de hasta 1000 Mbps, la tecnología que nos plantearíamos utilizar es:",
+    "options": [
+      "Gigabit Ethernet.",
+      "Frame Relay.",
+      "Fast Ethernet.",
+      "ATM."
+    ],
+    "correct": 0,
+    "explanation": "Para una intranet de **1000 Mbps (1 Gbps)**, la tecnología apropiada es **Gigabit Ethernet**. Características: 1) **Velocidad**: Exactamente 1000 Mbps full-duplex. 2) **Compatibilidad**: Retrocompatible con Fast Ethernet (100 Mbps) y Ethernet (10 Mbps). 3) **Medios**: Fibra óptica o cable Cat 5e/6. 4) **Costo-efectivo**: Amplia adopción y economías de escala. 5) **Simplicidad**: Fácil implementación y gestión. Frame Relay típicamente va hasta 2 Mbps, Fast Ethernet solo 100 Mbps, y ATM aunque puede ser más rápido, es más complejo y costoso."
+  },
+  {
+    "question": "El formato de token de FDDI está formado por los siguientes campos:",
+    "options": [
+      "Cabecera, preámbulo, control de trama y fin de trama.",
+      "Preámbulo, inicio del delimitador, control de trama y fin del delimitador.",
+      "Preámbulo, inicio del delimitador, datos y fin del delimitador.",
+      "Control de trama, cabecera, inicio del delimitador y fin del delimitador."
+    ],
+    "correct": 1,
+    "explanation": "El **token de FDDI** tiene una estructura específica: 1) **Preámbulo**: Secuencia de sincronización para preparar el receptor. 2) **Inicio del delimitador (SD)**: Marca el comienzo del token. 3) **Control de trama (FC)**: Indica el tipo de trama (token, datos, etc.) y prioridad. 4) **Fin del delimitador (ED)**: Marca el final del token. El token circula por el anillo y cuando una estación lo captura, puede transmitir datos. FDDI usa un protocolo de paso de testigo (token passing) para controlar el acceso al medio de manera determinística."
+  },
+  {
+    "question": "La técnica PCM para la codificación de voz posee:",
+    "options": [
+      "8000 muestras por segundo y 1 byte por muestra.",
+      "44 100 muestras por segundo y 8 bytes por muestra.",
+      "16 000 muestras por segundo y 2 bytes por muestra.",
+      "128 muestras por segundo y 1 byte por muestra."
+    ],
+    "correct": 0,
+    "explanation": "**PCM (Pulse Code Modulation)** para voz utiliza: **8000 muestras/segundo**: Basado en el teorema de Nyquist para una banda de voz de 4 kHz (8 kHz > 2 × 4 kHz). **1 byte (8 bits) por muestra**: Proporciona 256 niveles de cuantización. Esto resulta en **64 kbps** (8000 × 8 = 64,000 bits/segundo), que es el estándar para telefonía digital (canal DS0). Esta configuración ofrece calidad telefónica adecuada, optimizando el balance entre calidad de audio y ancho de banda requerido."
+  },
+  {
+    "question": "A la hora de implementar cualquier tipo de aplicación en una red NGN, debemos tener en cuenta que existen algunas diferencias con la red Internet que conocemos. Una de las diferencias más importantes entre ambas es:",
+    "options": [
+      "En NGN la arquitectura de servicios es «improvisada».",
+      "En Internet no se permite el uso del protocolo VoIP.",
+      "En NGN es necesario garantizar la QoS y la confiabilidad de todos los servicios.",
+      "En Internet las tablas de enrutamiento son únicamente estáticas."
+    ],
+    "correct": 2,
+    "explanation": "La diferencia fundamental entre **NGN e Internet tradicional** es que NGN **debe garantizar QoS y confiabilidad** para todos los servicios. Mientras Internet usa un modelo 'best effort' sin garantías, NGN implementa: 1) **QoS diferenciada**: Priorización y reserva de recursos. 2) **SLAs garantizados**: Compromisos de rendimiento medibles. 3) **Control de admisión**: Rechaza conexiones que no puede soportar adecuadamente. 4) **Monitoreo continuo**: Supervisión de calidad en tiempo real. Esto es esencial para servicios críticos como VoIP, video conferencia y aplicaciones empresariales que requieren rendimiento predecible."
+  },
+  {
+    "question": "En el protocolo IPv4, si queremos utilizar 8 bits para identificar los hosts de una determinada red, la máscara de red que indicaríamos al final de la dirección IP de la red es:",
+    "options": [
+      "/8",
+      "/16",
+      "/24",
+      "/32"
+    ],
+    "correct": 2,
+    "explanation": "Si usamos **8 bits para hosts**, necesitamos **24 bits para la red**, resultando en una máscara **/24**. Explicación: 1) **IPv4 tiene 32 bits totales**. 2) **8 bits para hosts** = 256 direcciones posibles (254 útiles, excluyendo red y broadcast). 3) **24 bits restantes para red** = 16,777,216 redes posibles. 4) **/24 en notación CIDR** = 255.255.255.0 en decimal. Esta configuración es típica de redes Clase C y muy común en redes locales pequeñas y medianas. Ejemplos: 192.168.1.0/24 permite hosts de 192.168.1.1 a 192.168.1.254."
+  },
+  {
+    "question": "A la hora de implementar una red NGN, ¿qué tipo de función debemos utilizar para procesar los medios y el tráfico en el momento en el que se mezcla la red troncal de tráfico agrupado proveniente de distintas redes de acceso?",
+    "options": [
+      "Función de borde.",
+      "Función de red de acceso.",
+      "Función de pasarela.",
+      "Función de procesamiento de medio."
+    ],
+    "correct": 0,
+    "explanation": "En NGN, la **función de borde** se encarga de procesar medios y tráfico cuando se agrega tráfico de múltiples redes de acceso en la red troncal. Sus responsabilidades incluyen: 1) **Agregación de tráfico**: Concentrar flujos de múltiples accesos. 2) **Procesamiento de medios**: Transcodificación, mezcla de audio/video. 3) **Control de QoS**: Aplicar políticas de calidad de servicio. 4) **Interworking**: Adaptar entre diferentes tecnologías de acceso. 5) **Punto de demarcación**: Entre redes de acceso y core. Está ubicada estratégicamente en el límite entre la red de acceso y la red core."
+  },
+  {
+    "question": "¿Qué características principales deben ofrecer las redes IP multimedia subsystem (IMS)?",
+    "options": [
+      "Uso de banda ancha para las transmisiones, con una QoS definida extremo a extremo.",
+      "Convergencia de servicios fijos y móviles.",
+      "Deben soportar acceso por cable e inalámbrico al mismo tiempo, ofreciendo una gran cantidad de ancho de banda a los proveedores de servicios y usuarios.",
+      "El proceso de autenticación debe ser lo más simple posible, fácil de utilizar y con elementos de personalización."
+    ],
+    "correct": 3,
+    "explanation": "Una característica clave de **IMS** es que el **proceso de autenticación debe ser simple, fácil de usar y personalizable**. IMS implementa: 1) **Single Sign-On (SSO)**: Una autenticación para múltiples servicios. 2) **Personalización**: Perfiles de usuario adaptables. 3) **Simplicidad**: Experiencia de usuario transparente. 4) **Seguridad robusta**: Pero sin complejidad para el usuario. 5) **Identidad unificada**: Mismo usuario en servicios fijos y móviles. Aunque IMS también ofrece convergencia y QoS, la autenticación simplificada es fundamental para la adopción masiva de servicios multimedia."
+  },
+  {
+    "question": "Alguna de las características principales de la red ATM es:",
+    "options": [
+      "Especifica el uso de un doble anillo con paso de testigo, en los que el tráfico de red viaja en direcciones opuestas.",
+      "Según la normativa ANSI X3T9.5 en la que se basa esta tecnología permite la transmisión de datos a 100 Mbps, con un esquema tolerante a fallos, flexible y escalable.",
+      "Es un servicio público que proporciona conexiones entre usuarios a través de redes de alta velocidad.",
+      "El tiempo de información de las células es transparente a la red."
+    ],
+    "correct": 3,
+    "explanation": "Una característica clave de **ATM (Asynchronous Transfer Mode)** es que **el tiempo de información de las células es transparente a la red**. Esto significa: 1) **Células de tamaño fijo**: 53 bytes (5 de cabecera + 48 de datos). 2) **Switching asíncrono**: No hay sincronización temporal entre células. 3) **Transparencia temporal**: La red no necesita conocer la estructura temporal del contenido. 4) **Multiplexación estadística**: Células de diferentes flujos se intercalan libremente. 5) **QoS independiente del tiempo**: La calidad se basa en ancho de banda y latencia, no en sincronización. Las opciones A y B describen FDDI, no ATM."
+  },
+  {
+    "question": "La suma de comprobación de cabecera del protocolo IPv4:",
+    "options": [
+      "Se utiliza para que los paquetes de datos o datagramas no estén un tiempo indefinido viajando por la red.",
+      "Se utiliza cuando el datagrama llega a su destino final.",
+      "Se utiliza para que los routers puedan detectar errores de bit en un determinado datagrama que hayan recibido.",
+      "Se utiliza para comprobar el tamaño de la cabecera IP."
+    ],
+    "correct": 2,
+    "explanation": "El **checksum de cabecera IPv4** permite a los **routers detectar errores de bit** en la cabecera del datagrama. Proceso: 1) **Cálculo**: Se suman todas las palabras de 16 bits de la cabecera. 2) **Verificación en cada router**: Cada router recalcula y verifica el checksum. 3) **Descarte si hay error**: Si no coincide, el paquete se descarta. 4) **Solo cabecera**: No protege los datos, solo la cabecera IP. 5) **Recálculo necesario**: Cada router debe recalcular porque TTL cambia. Nota: El TTL (opción A) es un campo separado que evita bucles infinitos."
+  },
+  {
+    "question": "Dentro de las funciones de transporte en las NGN, las funciones de borde se utilizan para:",
+    "options": [
+      "Permitir el acceso de los usuarios a los extremos de la red, también se encargan de recolectar y agrupar el tráfico de dichos accesos hacia la red medular.",
+      "Procesar recursos de medios para la prestación de servicio, como pueden ser la generación de señales de tono y la transcodificación.",
+      "Proporcionar capacidades para trabajar con funciones de usuario extremo con otras redes.",
+      "Procesar los medios y el tráfico en el momento en el que se mezcla la red troncal de tráfico agrupado proveniente de las distintas redes de acceso."
+    ],
+    "correct": 3,
+    "explanation": "Las **funciones de borde en NGN** se encargan de **procesar medios y tráfico cuando se mezcla el tráfico agrupado** de diferentes redes de acceso en la red troncal. Características: 1) **Punto de agregación**: Donde converge tráfico de múltiples accesos. 2) **Procesamiento de medios**: Transcodificación, adaptación de formatos. 3) **Interworking**: Entre diferentes tecnologías (TDM, IP, ATM). 4) **QoS enforcement**: Aplicación de políticas de calidad. 5) **Demarcación**: Entre dominio de acceso y core. Es el punto crítico donde se unifica el tráfico heterogéneo antes de entrar al backbone."
+  },
+  {
+    "question": "Si queremos utilizar direcciones IPv6 equivalentes a las direcciones públicas de IPv4, estas deben comenzar por el prefijo:",
+    "options": [
+      "0000::/8.",
+      "FE80::/10.",
+      "FC00::/7.",
+      "2000::/3."
+    ],
+    "correct": 3,
+    "explanation": "Las direcciones **IPv6 globales unicast** (equivalentes a IPs públicas IPv4) usan el prefijo **2000::/3**. Estructura de prefijos IPv6: 1) **2000::/3**: Direcciones globales unicast (públicas) - rango 2000:: a 3FFF::. 2) **FE80::/10**: Link-local (privadas de enlace). 3) **FC00::/7**: Unique local addresses (privadas). 4) **0000::/8**: Direcciones especiales y reservadas. El prefijo 2000::/3 identifica direcciones enrutables globalmente en Internet, asignadas por RIRs a ISPs y organizaciones, proporcionando conectividad end-to-end similar a las IPs públicas IPv4."
+  },
+  {
+    "question": "El formato corto correcto de la siguiente dirección IPv6 (1328:7000:0000:0a00:0002:1000:3c0b:2a0d) es:",
+    "options": [
+      "1328:7::a:2:1:3c0b:2a0d",
+      "1328:7000::a:2:1:3c0b:2a0d",
+      "1328:7::a00:2:1000:3c0b:2a0d",
+      "1328:7000::a00:2:1000:3c0b:2a0d"
+    ],
+    "correct": 3,
+    "explanation": "La compresión IPv6 sigue reglas específicas: **Regla 1**: Eliminar ceros a la izquierda en cada bloque. **Regla 2**: Reemplazar secuencias de bloques :0000: con :: (solo una vez). Análisis: 1) **1328:7000:0000:0a00:0002:1000:3c0b:2a0d** 2) **Eliminar ceros iniciales**: 7000 permanece (no eliminar trailing zeros), 0000→0, 0a00→a00, 0002→2. 3) **Un solo bloque cero**: No hay secuencia larga de ceros para `::``. 4) **Resultado**: 1328:7000::a00:2:1000:3c0b:2a0d. La clave es entender que solo se eliminan ceros a la izquierda de cada bloque, no trailing zeros."
+  },
+  {
+    "question": "Si queremos enviar un documento de un dispositivo móvil a otro situado relativamente cerca de nosotros sin tener que utilizar cables o crear una red temporal, ¿qué tipo de red utilizaríamos?",
+    "options": [
+      "WiMAX.",
+      "Bluetooth.",
+      "Roaming.",
+      "Hotspot."
+    ],
+    "correct": 1,
+    "explanation": "Para enviar documentos entre dispositivos móviles cercanos sin cables ni redes temporales, **Bluetooth** es la opción ideal. Características: 1) **Corto alcance**: 10 metros típicamente, perfecto para dispositivos cercanos. 2) **Bajo consumo**: Especialmente Bluetooth LE (Low Energy). 3) **Conexión directa**: Peer-to-peer sin infraestructura adicional. 4) **Simplicidad**: Emparejamiento fácil y automático. 5) **Estándar universal**: Disponible en todos los móviles modernos. WiMAX es para larga distancia, Roaming es para redes celulares, y Hotspot requiere crear una red WiFi temporal."
+  },
+  {
+    "question": "En nuestra empresa nos encargan que creemos una intranet con direcciones IPv4 de clase B que abarque desde las direcciones 161.67.0.0 hasta la 161.67.255.255. ¿Cuál es la máscara de red que tendremos que utilizar para esta red?",
+    "options": [
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.0.0.0",
+      "Todas las respuestas son falsas."
+    ],
+    "correct": 0,
+    "explanation": "Para el rango **161.67.0.0 a 161.67.255.255**, necesitamos la máscara **255.255.0.0**. Análisis: 1) **Clase B natural**: Primeros 16 bits para red (161.67), últimos 16 para hosts. 2) **Rango dado**: 161.67.x.x donde x puede ser 0-255. 3) **Máscara /16**: 255.255.0.0 en decimal. 4) **Verificación**: 161.67.0.0/16 abarca exactamente de 161.67.0.0 a 161.67.255.255. 5) **65,536 direcciones**: 254 redes × 254 hosts útiles. Esta es la máscara estándar para una red Clase B completa sin subnetting."
+  },
+  {
+    "question": "El proceso de digitalización en la compresión de audio y vídeo consiste en:",
+    "options": [
+      "Eliminar las secuencias de bits, ceros o unos, repetidos en determinadas secuencias de audio y vídeo.",
+      "Reducir el retardo de envío de audio y vídeo por la red.",
+      "Eliminar la redundancia de contenidos de audio y vídeo antes de enviarlos.",
+      "Representar audio y vídeo en una secuencia de bits para poder ser enviados."
+    ],
+    "correct": 3,
+    "explanation": "La **digitalización** es el proceso fundamental de **convertir señales analógicas de audio/vídeo en secuencias de bits digitales**. Proceso: 1) **Muestreo**: Capturar valores en intervalos regulares. 2) **Cuantización**: Asignar valores discretos a cada muestra. 3) **Codificación**: Convertir a representación binaria. 4) **Resultado**: Flujo de bits transmisible por redes digitales. 5) **Requisito previo**: Debe ocurrir antes de cualquier compresión. La digitalización NO es compresión (opción C), ni optimización de red (opción B). Es la conversión básica analógico-a-digital que permite el procesamiento posterior."
+  },
+  {
+    "question": "En la arquitectura de red inalámbrica 802.11, un basic service set (BBS) está formado por:",
+    "options": [
+      "Un router inalámbrico.",
+      "Un punto de acceso.",
+      "Una o varias estaciones Ethernet.",
+      "Un equipo repetidor."
+    ],
+    "correct": 1,
+    "explanation": "En 802.11, un **Basic Service Set (BSS)** está formado por **un punto de acceso** más las estaciones asociadas. Tipos de BSS: 1) **Infrastructure BSS**: AP + estaciones inalámbricas asociadas. 2) **Independent BSS (IBSS)**: Solo estaciones en modo ad-hoc (sin AP). 3) **Identificación**: Cada BSS tiene un BSSID único (MAC del AP). 4) **Cobertura**: Área geográfica donde las estaciones pueden comunicarse con el AP. 5) **Función del AP**: Centraliza comunicación, conecta con red cableada, gestiona acceso al medio. El AP es el elemento central que define y controla el BSS."
+  },
+  {
+    "question": "A la hora de desarrollar cualquier aplicación de telefonía IP, es necesario tener en cuenta que el retardo terminal a terminal aceptable puede variar entre:",
+    "options": [
+      "15 y 150 milisegundos.",
+      "15 y 250 milisegundos.",
+      "15 y 300 milisegundos.",
+      "15 y 400 milisegundos."
+    ],
+    "correct": 3,
+    "explanation": "Para **telefonía IP**, el retardo end-to-end aceptable varía **entre 15 y 400 milisegundos**. Clasificación ITU-T G.114: 1) **0-150 ms**: Excelente para la mayoría de aplicaciones. 2) **150-400 ms**: Aceptable para comunicación internacional. 3) **>400 ms**: Inaceptable para conversación interactiva. 4) **Factores**: Procesamiento, queuing, transmisión, propagación. 5) **Objetivo típico**: <150 ms para llamadas locales, <400 ms para internacionales. El límite de 400 ms es crítico porque por encima aparecen ecos y interrupciones que degradan la conversación natural."
+  },
+  {
+    "question": "En el formato de trama de Frame Relay, el campo de información puede tener un tamaño de hasta:",
+    "options": [
+      "512 bytes.",
+      "1024 bytes.",
+      "1600 bytes.",
+      "1880 bytes."
+    ],
+    "correct": 2,
+    "explanation": "En **Frame Relay**, el campo de información puede tener hasta **1600 bytes**. Estructura de trama: 1) **Cabecera**: 2 bytes (Flag, DLCI, control). 2) **Información**: Variable, máximo 1600 bytes por defecto. 3) **FCS**: 2 bytes (Frame Check Sequence). 4) **Flag final**: 1 byte. 5) **Total máximo**: ~1605 bytes. El tamaño puede ser configurable por el proveedor, pero 1600 bytes es el estándar. Esto permite encapsular tramas Ethernet (1518 bytes) sin fragmentación, siendo eficiente para tráfico LAN sobre WAN."
+  },
+  {
+    "question": "Alguna de las principales características de las redes ad hoc consiste en que:",
+    "options": [
+      "Solo pueden crearse utilizando ordenadores portátiles.",
+      "Poseen un nodo central.",
+      "Se conectan a Internet a través de un router.",
+      "Se crean sin necesidad de utilizar un punto de acceso."
+    ],
+    "correct": 3,
+    "explanation": "Las **redes ad hoc** se caracterizan por **no necesitar punto de acceso**. Características principales: 1) **Peer-to-peer**: Comunicación directa entre dispositivos. 2) **Sin infraestructura**: No requieren APs, routers o servidores centrales. 3) **Auto-organización**: Los nodos se descubren y configuran automáticamente. 4) **Topología dinámica**: Los nodos pueden unirse/salir libremente. 5) **Enrutamiento multi-hop**: Los nodos actúan como routers para otros. 6) **Cualquier dispositivo**: Móviles, laptops, tablets, IoT. Son ideales para situaciones temporales, emergencias o donde no hay infraestructura disponible."
+  },
+  {
+    "question": "Los estándares 802.11 existentes en la actualidad suelen compartir distintas características. Alguna de estas características es:",
+    "options": [
+      "Que también son conocidas como redes inalámbricas de área personal (WPAN, wireless personal area network).",
+      "Ofrecen conexiones inalámbricas para la transferencia de datos a una gran cantidad de usuarios en un área extensa, ofreciendo velocidades que pueden competir con las de las redes ADSL y las de los módems por cable.",
+      "Poseen una arquitectura de la que forma parte una red de acceso por radio, formada por la estación base móvil junto con un controlador.",
+      "Poseen la posibilidad de disminuir la velocidad de transmisión con el objetivo de alcanzar distancias mayores."
+    ],
+    "correct": 3,
+    "explanation": "Los estándares **802.11 pueden reducir velocidad de transmisión para alcanzar mayores distancias**. Características adaptativas: 1) **Rate adaptation**: Ajuste automático de velocidad según condiciones. 2) **Modulación adaptiva**: BPSK→QPSK→16QAM→64QAM según SNR. 3) **Trade-off distancia-velocidad**: Mayor distancia = menor velocidad y viceversa. 4) **Control automático**: Los drivers ajustan según calidad de señal. 5) **Ejemplo**: 802.11g de 54 Mbps a 1 m puede bajar a 6 Mbps a 100 m. Las opciones A (WPAN es Bluetooth), B (describe WiMAX) y C (describe redes celulares) son incorrectas."
+  },
+  {
+    "question": "Dentro de los principios de diseño del protocolo IPv4 recogidos en el documento RFC 1958 definido en el año 1996, el principio de modularidad consiste en:",
+    "options": [
+      "Que si existen varias formas de realizar una determinada tarea, únicamente elija una de ellas.",
+      "Que las capas de los protocolos sean totalmente independientes unas de otras consiguiendo que, si se modifica una capa, no afecte al funcionamiento del resto.",
+      "El envío de paquetes que cumplan el estándar, pero se debe poder tratar con paquetes recibidos que no cumplan dicho estándar.",
+      "Que no se puede dar por finalizado un diseño o desarrollo de un estándar hasta que todo funcione correctamente."
+    ],
+    "correct": 1,
+    "explanation": "El **principio de modularidad** del RFC 1958 establece que **las capas de protocolos deben ser independientes** para que cambios en una capa no afecten las demás. Beneficios: 1) **Encapsulación**: Cada capa oculta su implementación interna. 2) **Interfaces definidas**: APIs claras entre capas. 3) **Evolución independiente**: IPv4→IPv6 sin cambiar aplicaciones. 4) **Mantenimiento**: Bugs en una capa no afectan otras. 5) **Innovación**: Nuevos protocolos en una capa sin rediseñar todo. Ejemplo: TCP puede funcionar sobre IPv4 o IPv6 sin cambios, aplicaciones HTTP funcionan sobre TCP sin conocer la red subyacente."
+  },
+  {
+    "question": "Uno de los elementos que debemos tener en cuenta a la hora de enviar paquetes a través de la red es el de disponer de mecanismos de recuperación frente a pérdidas de dichos paquetes. Si en el mecanismo que vamos a implementar para que no ocurran pérdidas de paquetes, el emisor se encarga de separar los distintos paquetes una determinada distancia en el flujo que se va a transmitir, proponemos utilizar un mecanismo de:",
+    "options": [
+      "Corrección de errores hacia adelante.",
+      "Corrección de errores hacia atrás.",
+      "Envío de flujo redundante codificado.",
+      "Mecanismo de intercalado."
+    ],
+    "correct": 3,
+    "explanation": "El **mecanismo de intercalado (interleaving)** separa paquetes relacionados en el flujo de transmisión para proteger contra pérdidas en ráfaga. Funcionamiento: 1) **Separación temporal**: Paquetes consecutivos de un flujo se envían separados. 2) **Protección contra ráfagas**: Si se pierden varios paquetes consecutivos, afectan flujos diferentes. 3) **Reorganización**: El receptor reordena los paquetes recibidos. 4) **Ejemplo**: Flujo A-B-C se envía como A1-B1-C1-A2-B2-C2. 5) **Aplicación**: Especialmente útil en multimedia donde pequeñas pérdidas son tolerables pero ráfagas no. Diferente de FEC que añade redundancia."
+  },
+  {
+    "question": "Cuando desarrollamos una red con tecnología Frame Relay, debemos tener en cuenta que las redes se encargan de gestionar los circuitos:",
+    "options": [
+      "ITU y ATM.",
+      "CWS y CCS.",
+      "PVC y SVC.",
+      "FENC y BENC."
+    ],
+    "correct": 2,
+    "explanation": "En **Frame Relay**, las redes gestionan circuitos **PVC (Permanent Virtual Circuit) y SVC (Switched Virtual Circuit)**. Tipos de circuitos: 1) **PVC**: Circuitos virtuales permanentes preconfigurados. - Establecidos por el proveedor. - Siempre disponibles. - Más económicos y simples. 2) **SVC**: Circuitos virtuales conmutados bajo demanda. - Establecidos dinámicamente cuando se necesitan. - Mayor flexibilidad. - Más costosos. 3) **DLCI**: Data Link Connection Identifier para identificar cada circuito. Frame Relay es una tecnología de capa 2 que usa estos circuitos virtuales para crear conexiones lógicas sobre la infraestructura física compartida."
+  },
+  {
+    "question": "El modelo TCP/IP basado en el modelo OSI está formado por las siguientes capas:",
+    "options": [
+      "Aplicación, presentación, transporte y física.",
+      "Presentación, Internet, enlace y física.",
+      "Aplicación, transporte, Internet y enlace.",
+      "Presentación, Internet, red y física."
+    ],
+    "correct": 2,
+    "explanation": "El **modelo TCP/IP** tiene 4 capas: **Aplicación, Transporte, Internet y Enlace**. Correspondencia con OSI: 1) **Aplicación**: Combina Aplicación + Presentación + Sesión de OSI (HTTP, FTP, SMTP). 2) **Transporte**: Equivale a Transporte OSI (TCP, UDP). 3) **Internet**: Equivale a Red OSI (IP, ICMP, ARP). 4) **Enlace**: Combina Enlace + Física OSI (Ethernet, WiFi). El modelo TCP/IP es más simple y práctico que OSI, siendo el estándar de facto en Internet. No incluye capa de presentación separada porque las aplicaciones manejan su propia presentación de datos."
+  },
+  {
+    "question": "Con la ampliación del espacio de direcciones, IPv6 dispone de:",
+    "options": [
+      "2^64 direcciones.",
+      "2^128 direcciones.",
+      "2^192 direcciones.",
+      "2^224 direcciones."
+    ],
+    "correct": 1,
+    "explanation": "**IPv6 utiliza direcciones de 128 bits**, proporcionando **2^128 direcciones** posibles. Comparación con IPv4: 1) **IPv4**: 32 bits = 2^32 = ~4.3 mil millones de direcciones. 2) **IPv6**: 128 bits = 2^128 = ~340 undecillones de direcciones. 3) **Crecimiento**: 296 veces más bits que IPv4. 4) **Suficiencia**: Prácticamente ilimitadas para cualquier aplicación concebible. 5) **Estructura**: 128 bits permiten jerarquías complejas sin agotamiento. Esta expansión resuelve definitivamente el problema de agotamiento de direcciones y permite nuevos paradigmas como direcciones únicas para cada dispositivo IoT."
+  },
+  {
+    "question": "La capa de transporte de las redes IP multimedia subsystem (IMS) tiene como objetivo principal:",
+    "options": [
+      "Enviar y traducir la información de señalización y control desde una red IP a la red PSTN y viceversa.",
+      "Asegurar que el equipo de usuario (UE) se comunique con su S-CSCF asignado para que, de esta forma, se gestione la comunicación, verificación de acceso a servicios, gestión de recursos y establecimiento de conexión con el UE destino.",
+      "Posicionarse, gracias a la capa de control, como integrador de servicios ofertados por él mismo o por terceros.",
+      "Procesar y enrutar de señalización y la consulta del perfil de usuario, pudiendo encargarse también de la tarificación si los servicios son de pago."
+    ],
+    "correct": 1,
+    "explanation": "La **capa de transporte IMS** tiene como objetivo principal **asegurar que el UE se comunique con su S-CSCF** para gestión completa de la sesión. Funciones específicas: 1) **Registro**: UE se registra con P-CSCF que redirige a S-CSCF. 2) **Autenticación**: Verificación de credenciales del usuario. 3) **Autorización**: Verificación de acceso a servicios específicos. 4) **Gestión de recursos**: QoS y ancho de banda para la sesión. 5) **Establecimiento de llamada**: Coordinación entre UE origen y destino. 6) **Mantenimiento de sesión**: Supervisión durante la comunicación. El S-CSCF actúa como proxy de sesión central para el usuario."
+  },
+  {
+    "question": "Para utilizar los encabezados extendidos IPv6, estos deben utilizarse en el siguiente orden:",
+    "options": [
+      "Hop-by-hop, destino, enrutamiento, fragmentos, autenticación, carga de seguridad y destino.",
+      "Destino, Hop-by-hop, autenticación, fragmentos, autenticación, carga de seguridad y destino.",
+      "Destino, Hop-by-hop, fragmentos, carga de seguridad, autenticación, fragmentos y destino.",
+      "Hop-by-hop, enrutamiento, destino, fragmentos, autenticación, carga de seguridad y destino."
+    ],
+    "correct": 0,
+    "explanation": "El **orden correcto de encabezados extendidos IPv6** es: **Hop-by-hop, destino, enrutamiento, fragmentos, autenticación, carga de seguridad y destino**. Razones del orden: 1) **Hop-by-hop**: Debe ser primero, procesado por cada router. 2) **Destino (opciones)**: Para procesamiento en destinos intermedios. 3) **Enrutamiento**: Especifica ruta a través de nodos intermedios. 4) **Fragmentos**: Para reensamblaje de paquetes grandes. 5) **Autenticación (AH)**: Protege integridad antes de ESP. 6) **Carga de seguridad (ESP)**: Cifra payload. 7) **Destino (final)**: Procesado solo por destino final. Este orden optimiza el procesamiento y seguridad."
+  }
+]

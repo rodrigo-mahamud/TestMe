@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Las redes IMS (IP multimedia subsystem) deben ofrecer:",
+    "options": [
+      "Una mayor cantidad y diversidad de servicios.",
+      "Procesos de sincronización transparentes para usuarios, sin importar la transparencia en dispositivos.",
+      "Autenticación tipo single sing-on.",
+      "Todas las anteriores son falsas."
+    ],
+    "correct": 0,
+    "explanation": "Las redes IMS (IP Multimedia Subsystem) están diseñadas para proporcionar una arquitectura de red que permita la convergencia de servicios de voz, datos y multimedia. Su principal objetivo es ofrecer una mayor cantidad y diversidad de servicios a los usuarios, incluyendo voz, video, mensajería, presencia y aplicaciones multimedia interactivas, todo sobre una infraestructura IP unificada."
+  },
+  {
+    "question": "IPv6, además de ampliar el uso de direcciones IP, nos ofrece las siguientes características:",
+    "options": [
+      "Cabecera compleja, etiquetado de flujo, calidad de servicio y mejora de las comunicaciones.",
+      "Cabecera simplificada, prioridad y etiquetado de flujo, seguridad y calidad de servicio.",
+      "Cabecera simple, prioridad de flujo sin etiquetado, seguridad y envío multimedia.",
+      "Cabecera con más opciones, prioridad y etiquetado de flujo, seguridad y calidad de servicio."
+    ],
+    "correct": 1,
+    "explanation": "IPv6 introduce mejoras significativas respecto a IPv4: 1) Cabecera simplificada con menos campos para mejorar la eficiencia del enrutamiento, 2) Etiquetado de flujo (Flow Label) para identificar paquetes del mismo flujo de datos, 3) Campo de prioridad para QoS, 4) Seguridad integrada con IPSec obligatorio, y 5) Mejor soporte para calidad de servicio y aplicaciones multimedia en tiempo real."
+  },
+  {
+    "question": "Una de las características en contra del uso de NAT es:",
+    "options": [
+      "Cumple con el modelo extremo a extremo de conectividad definido para Internet.",
+      "No cambia el concepto de Internet que consiste en una red sin conexión.",
+      "Cumple la regla fundamental de los protocolos distribuidos.",
+      "Exige que como protocolos de transporte siempre se utilicen TCP o UDP."
+    ],
+    "correct": 3,
+    "explanation": "NAT (Network Address Translation) presenta varias limitaciones: rompe el modelo extremo a extremo de Internet, modifica el concepto de red sin conexión ya que mantiene estado de las conexiones, viola principios de protocolos distribuidos, y tiene restricciones con ciertos protocolos. La opción correcta indica que NAT exige el uso de TCP o UDP, ya que no funciona bien con todos los protocolos (como algunos protocolos de túnel o aplicaciones P2P que requieren conexiones directas)."
+  },
+  {
+    "question": "Los mecanismos existentes en redes multimedia para la recuperación frente a pérdidas de paquetes son:",
+    "options": [
+      "Intercalado y corrección de errores hacia atrás.",
+      "Intercalado y corrección de errores hacia adelante.",
+      "Fluctuación y corrección de errores adaptativos.",
+      "Fluctuación y corrección de errores hacia adelante."
+    ],
+    "correct": 1,
+    "explanation": "En redes multimedia se utilizan dos mecanismos principales para recuperación de pérdidas: 1) **Intercalado (Interleaving)**: distribuye los datos de manera que las pérdidas consecutivas se distribuyan en el tiempo, reduciendo su impacto perceptual. 2) **Corrección de errores hacia adelante (FEC - Forward Error Correction)**: envía información redundante que permite reconstruir datos perdidos sin retransmisión, esencial en aplicaciones de tiempo real donde no hay tiempo para reenvíos."
+  },
+  {
+    "question": "Las direcciones IPv6 con este formato FE80::/10 son:",
+    "options": [
+      "Direcciones reservadas para IETF.",
+      "Direcciones unicast globales.",
+      "Direcciones multicast.",
+      "Direcciones unicast de enlace local."
+    ],
+    "correct": 3,
+    "explanation": "Las direcciones IPv6 que comienzan con FE80::/10 son direcciones **unicast de enlace local** (Link-Local). Estas direcciones: 1) Solo son válidas en el enlace local (no se enrutan), 2) Se auto-configuran automáticamente en cada interfaz, 3) Son equivalentes a las direcciones 169.254.x.x de IPv4, 4) Se usan para comunicación en la misma red local, descubrimiento de vecinos y configuración automática."
+  },
+  {
+    "question": "La dirección unicast en IPv4 consiste en:",
+    "options": [
+      "Una dirección que consiste en el envío de paquetes a todos los dispositivos conectados a una red concreta.",
+      "Una dirección con el formato 0.0.0.0.",
+      "Que un cliente se comunique con un servidor dentro de una misma máquina sin necesidad de utilizar mensajes dentro de la capa física.",
+      "No existen ese tipo de direcciones en IPv4."
+    ],
+    "correct": 2,
+    "explanation": "Una dirección **unicast** en IPv4 identifica una única interfaz de red y permite comunicación punto a punto. La opción correcta describe la comunicación local (loopback) donde un cliente se comunica con un servidor en la misma máquina (127.0.0.1) sin usar la capa física. Las otras opciones describen broadcast (opción 1), dirección especial de red (opción 2), o son incorrectas (opción 4), ya que unicast es el tipo más común de direccionamiento en IPv4."
+  },
+  {
+    "question": "En la red FDDI disponemos de dos tipos de nodos. Los nodos de clase B se definen como:",
+    "options": [
+      "Dispositivos que se conectan a la red FDDI a través de los nodos de clase A y únicamente al anillo primario.",
+      "Dispositivos que se conectan a la red FDDI a través de los nodos de clase A y únicamente al anillo secundario.",
+      "Dispositivos que se conectan a la red FDDI a través de los nodos de clase A y se conectan al anillo principal y secundario.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 0,
+    "explanation": "En redes FDDI (Fiber Distributed Data Interface), existen dos clases de nodos: **Clase A (DAS - Dual Attachment Stations)**: se conectan a ambos anillos y pueden funcionar como concentradores. **Clase B (SAS - Single Attachment Stations)**: dispositivos más simples que se conectan solo al anillo primario, generalmente a través de concentradores clase A. Esta configuración reduce costos y complejidad para dispositivos que no requieren la redundancia completa de doble anillo."
+  },
+  {
+    "question": "La dirección IPv6 simplificada correspondiente a 1522:0000:0000:0000:0002:0500:3c01:2502 es:",
+    "options": [
+      "1522::2:5:3c01:2502",
+      "1522:0:0:0:2:05::3c01:2502",
+      "1522::2:0500:3c01:2502",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2,
+    "explanation": "Para simplificar direcciones IPv6 se aplican estas reglas: 1) **Eliminar ceros a la izquierda** en cada grupo: 0000→0, 0002→2, 0500→500. 2) **Comprimir grupos consecutivos de ceros** con :: (solo una vez por dirección). La dirección 1522:0000:0000:0000:0002:0500:3c01:2502 tiene tres grupos consecutivos de ceros que se comprimen con ::, y se eliminan ceros iniciales: 0002→2, pero 0500 se mantiene como 500 (no se simplifica a 5 porque no todos los ceros son iniciales). Resultado: **1522::2:500:3c01:2502**."
+  },
+  {
+    "question": "Los organismos IETF y 3GPP, de forma conjunta, desarrollaron los estándares y versiones de IMS. ¿En cuál de estas releases se añadió soporte para el acceso de redes cableadas?",
+    "options": [
+      "Release 4.",
+      "Release 5.",
+      "Release 6.",
+      "Release 7."
+    ],
+    "correct": 3,
+    "explanation": "La evolución de IMS por releases fue: **Release 5**: Especificación inicial de IMS para redes móviles 3G. **Release 6**: Mejoras en servicios y interoperabilidad. **Release 7**: Se añadió soporte para acceso desde redes fijas/cableadas, permitiendo que IMS no se limitara solo a redes móviles sino que pudiera servir como plataforma unificada para servicios multimedia en cualquier tipo de acceso de red (móvil, fijo, cable, WiFi, etc.)."
+  },
+  {
+    "question": "El servicio de entrega best effort:",
+    "options": [
+      "Puede producir la pérdida de paquetes enviados.",
+      "Puede experimentar un gran retardo entre origen y destino.",
+      "Puede tener una alta fluctuación temporal de los paquetes enviados.",
+      "Todas las anteriores son correctas."
+    ],
+    "correct": 3,
+    "explanation": "El servicio **best effort** es el modelo básico de entrega de Internet sin garantías de QoS. Sus características incluyen: 1) **Pérdida de paquetes**: cuando los routers se congestionan, descartan paquetes. 2) **Retardo variable**: el tiempo de entrega depende de la carga de la red. 3) **Jitter (fluctuación)**: variación en los tiempos de llegada de paquetes consecutivos. 4) **Sin garantías**: no hay compromisos de ancho de banda, latencia o pérdidas. Es simple pero inadecuado para aplicaciones críticas o multimedia en tiempo real."
+  }
+]

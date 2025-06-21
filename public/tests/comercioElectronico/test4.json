@@ -1,0 +1,52 @@
+[
+  {
+    "question": "¿Qué es el remarketing en comercio electrónico?",
+    "options": [
+      "Vender productos usados",
+      "Mostrar anuncios a usuarios que ya visitaron tu sitio web",
+      "Cambiar el precio de los productos",
+      "Actualizar el catálogo de productos"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es el objetivo principal del email marketing en e-commerce?",
+    "options": [
+      "Reducir los costos de envío",
+      "Mantener la relación con clientes y generar ventas recurrentes",
+      "Mejorar el diseño del sitio web",
+      "Optimizar el inventario"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué es el cross-selling?",
+    "options": [
+      "Vender productos en diferentes países",
+      "Ofrecer productos complementarios al que el cliente está comprando",
+      "Vender productos a precio reducido",
+      "Intercambiar productos entre tiendas"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es una métrica importante en el análisis de e-commerce?",
+    "options": [
+      "Número de empleados",
+      "Tasa de conversión",
+      "Tamaño de las oficinas",
+      "Número de proveedores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué es el upselling en comercio electrónico?",
+    "options": [
+      "Vender productos a precios más altos",
+      "Ofrecer una versión superior del producto que el cliente está considerando",
+      "Subir productos a la plataforma",
+      "Aumentar el stock de productos"
+    ],
+    "correct": 1
+  }
+]

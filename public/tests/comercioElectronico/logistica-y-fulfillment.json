@@ -1,0 +1,32 @@
+[
+  {
+    "question": "¿Qué es la logística en e-commerce?",
+    "options": [
+      "El proceso de diseño web",
+      "La gestión del flujo de productos desde el almacén hasta el cliente",
+      "La estrategia de marketing digital",
+      "El análisis de datos de ventas"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es la principal ventaja del fulfillment por Amazon (FBA)?",
+    "options": [
+      "Menores comisiones",
+      "Amazon se encarga del almacenamiento, empaque y envío",
+      "Mayor control del inventario",
+      "Acceso a más plataformas de venta"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué es el Customer Lifetime Value (CLV)?",
+    "options": [
+      "El tiempo que un cliente pasa en el sitio web",
+      "La frecuencia de compra de un cliente",
+      "El valor total que un cliente aporta durante toda su relación con la empresa",
+      "El descuento promedio que recibe un cliente"
+    ],
+    "correct": 2
+  }
+]

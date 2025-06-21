@@ -1,0 +1,32 @@
+[
+  {
+    "question": "¿Cuál es la principal ventaja del comercio electrónico?",
+    "options": [
+      "Mayor coste operativo",
+      "Acceso limitado a clientes",
+      "Disponibilidad 24/7 y alcance global",
+      "Necesidad de espacio físico"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué significa B2B en comercio electrónico?",
+    "options": [
+      "Business to Business",
+      "Business to Buyer",
+      "Brand to Brand",
+      "Business to Bank"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuál es un ejemplo de marketplace?",
+    "options": [
+      "Una tienda física",
+      "Amazon",
+      "Un blog personal",
+      "Una red social"
+    ],
+    "correct": 1
+  }
+]

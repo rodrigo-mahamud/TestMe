@@ -1,0 +1,42 @@
+[
+  {
+    "question": "¿Qué significa SEO en el contexto del comercio electrónico?",
+    "options": [
+      "Sales Enhancement Operations",
+      "Search Engine Optimization", 
+      "Secure Electronic Operations",
+      "Social E-commerce Optimization"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es la principal función de un carrito de compras?",
+    "options": [
+      "Procesar pagos inmediatamente",
+      "Almacenar temporalmente productos seleccionados",
+      "Mostrar recomendaciones de productos",
+      "Gestionar el inventario"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué es el abandono del carrito de compras?",
+    "options": [
+      "Cuando un cliente compra todos los productos",
+      "Cuando se agota el stock de un producto",
+      "Cuando un cliente añade productos pero no completa la compra",
+      "Cuando se aplica un descuento"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Cuál es una ventaja del drop shipping?",
+    "options": [
+      "Control total del inventario",
+      "Menores costos de almacenamiento",
+      "Tiempos de envío más rápidos",
+      "Mayores márgenes de beneficio"
+    ],
+    "correct": 1
+  }
+]

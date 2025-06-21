@@ -1,0 +1,52 @@
+[
+  {
+    "question": "¿Qué es el dropshipping en el comercio electrónico?",
+    "options": [
+      "Un método de pago online",
+      "Un modelo de negocio donde el vendedor no mantiene inventario",
+      "Una técnica de marketing digital",
+      "Un tipo de plataforma de e-commerce"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es la principal función de SSL en un sitio de comercio electrónico?",
+    "options": [
+      "Mejorar el SEO del sitio",
+      "Acelerar la velocidad de carga",
+      "Proteger la información transmitida entre el cliente y el servidor",
+      "Optimizar las imágenes de productos"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "¿Qué significa la conversión en comercio electrónico?",
+    "options": [
+      "El cambio de moneda en transacciones internacionales",
+      "La transformación de visitantes en clientes que realizan una compra",
+      "El proceso de migrar de una plataforma a otra",
+      "La optimización de motores de búsqueda"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es una ventaja del comercio electrónico móvil (m-commerce)?",
+    "options": [
+      "Mayor seguridad en las transacciones",
+      "Acceso a compras desde cualquier lugar y momento",
+      "Precios más bajos que el comercio tradicional",
+      "Mejor calidad de productos"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué es un gateway de pago?",
+    "options": [
+      "Una aplicación móvil para compras",
+      "Un servicio que procesa transacciones con tarjetas de crédito online",
+      "Un tipo de descuento en e-commerce",
+      "Una herramienta de análisis de ventas"
+    ],
+    "correct": 1
+  }
+]

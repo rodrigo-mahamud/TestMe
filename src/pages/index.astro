@@ -1,0 +1,9 @@
+---
+// Página principal de TestMe
+import Layout from '../layouts/Layout.astro';
+import { TestApp } from '../components/TestApp.tsx';
+---
+
+<Layout title="TestMe - Plataforma de Tests Interactivos">
+	<TestApp client:load />
+</Layout>

@@ -1,0 +1,282 @@
+[
+   {
+      "question": "El vídeo Cómo funciona la web-Protocolo TCP/IP-Guerreros de la red nos muestra:",
+      "options": [
+         "Qué pasa cuando se hace clic en alguna página web.",
+         "El lado oscuro de internet (dark side).",
+         "Cómo es el acceso a la web.",
+         "En qué consiste la piratería en la web."
+      ],
+      "correct": 0,
+      "explanation": "El vídeo **'Warriors of the Net'** muestra específicamente **qué pasa cuando se hace clic en una página web**. Contenido: 1) **Viaje de los datos**: Sigue un paquete IP desde que se genera hasta llegar al destino. 2) **Proceso completo**: DNS, ARP, encapsulación, routing, conmutación, entrega final. 3) **Protocolos en acción**: HTTP, TCP, IP, Ethernet trabajando juntos. 4) **Infraestructura**: Routers, switches, firewalls, servidores que procesan la petición. 5) **Didáctico**: Visualiza conceptos abstractos de redes de forma comprensible. Es un recurso educativo clásico que desmitifica el proceso complejo pero transparente que ocurre cuando navegamos por Internet, mostrando la orquestación de protocolos y dispositivos."
+   },
+   {
+      "question": "De los siguientes dispositivos, ¿cuál no actúa a nivel de enlace?",
+      "options": ["Switch.", "Hub.", "Puente.", "Punto de acceso."],
+      "correct": 1,
+      "explanation": "El **Hub NO actúa a nivel de enlace** (Capa 2), sino a **nivel físico** (Capa 1). Comparación: 1) **Hub (Capa 1)**: Repetidor multipuerto, regenera señales eléctricas, no procesa tramas, dominio de colisión único, half-duplex. 2) **Switch (Capa 2)**: Procesa direcciones MAC, tabla de conmutación, dominios de colisión separados, full-duplex. 3) **Puente (Capa 2)**: Conecta segmentos LAN, filtra por direcciones MAC, reduce colisiones. 4) **Punto de Acceso (Capa 2)**: Procesa tramas 802.11, convierte entre inalámbrico y Ethernet. Los hubs son dispositivos obsoletos que simplemente repiten bits sin inteligencia de direccionamiento MAC."
+   },
+   {
+      "question": "Los estándares 802.11 permiten trabajar:",
+      "options": [
+         "Tanto en modo ad hoc como en modo maestro-esclavo.",
+         "Tanto en modo ad hoc como en modo infraestructura.",
+         "Únicamente en modo ad hoc.",
+         "Únicamente en modo infraestructura."
+      ],
+      "correct": 1,
+      "explanation": "**802.11 soporta tanto modo ad hoc como modo infraestructura**. Modos: 1) **Ad hoc (IBSS)**: Dispositivos se conectan directamente peer-to-peer, sin punto de acceso, red temporal, menor alcance. 2) **Infraestructura (BSS/ESS)**: Dispositivos se conectan a través de Access Points, red gestionada centralmente, mayor alcance y funcionalidades. 3) **Diferencias**: Ad hoc es más simple pero limitado, infraestructura ofrece roaming, gestión centralizada, mejor seguridad. 4) **Usos**: Ad hoc para conexiones temporales (compartir archivos), infraestructura para redes corporativas/domésticas. 5) **Estándares**: Todos los 802.11 (a/b/g/n/ac/ax) soportan ambos modos. El término 'maestro-esclavo' no es la nomenclatura estándar 802.11."
+   },
+   {
+      "question": "La arquitectura P2P consiste en:",
+      "options": [
+         "Aprovechar la comunicación indirecta entre cada par de hosts conectados intermitentemente, llamados «peers».",
+         "Aprovechar la comunicación directa entre cada par de hosts conectados continuamente, llamados «peers».",
+         "Aprovechar la comunicación directa entre cada par de hosts conectados intermitentemente.",
+         "Aprovechar la comunicación indirecta entre cada par de hosts conectados continuamente."
+      ],
+      "correct": 2,
+      "explanation": "**P2P aprovecha la comunicación directa entre hosts conectados intermitentemente**. Características: 1) **Comunicación directa**: Los peers se comunican entre sí sin servidor central intermediario. 2) **Conexión intermitente**: Los peers pueden conectarse y desconectarse dinámicamente. 3) **Sin 'peers' nombrados**: En P2P puro no hay denominación específica de nodos. 4) **Escalabilidad**: Cada peer aporta recursos (ancho de banda, almacenamiento, procesamiento). 5) **Ejemplos**: BitTorrent, Gnutella, Skype (P2P híbrido). 6) **Ventajas**: Distribución de carga, resistencia a fallos, sin punto único de falla. 7) **Desafíos**: Descubrimiento de peers, seguridad, NAT traversal. La intermitencia es clave: los peers pueden unirse/salir libremente."
+   },
+   {
+      "question": "El valor base, conocido como el número de secuencia del paquete no reconocido más antiguo, se utiliza en el protocolo:",
+      "options": ["Go-Back-N.", "Repetición selectiva.", "Transferencia de datos fiable con procesamiento en cadena.", "Bit alternante."],
+      "correct": 0,
+      "explanation": "El **valor base en Go-Back-N** es el **número de secuencia del paquete no reconocido más antiguo**. Funcionamiento: 1) **Ventana deslizante**: Sender mantiene ventana de N paquetes sin ACK. 2) **Base**: Primer paquete enviado pero no confirmado, marca inicio de ventana. 3) **Envío**: Nextseqnum marca siguiente paquete a enviar. 4) **ACK recibido**: Base avanza al siguiente paquete no confirmado, ventana se desliza. 5) **Timeout**: Retransmite desde base hasta nextseqnum-1. 6) **Diferencia con SR**: Selective Repeat usa ventanas independientes sender/receiver. 7) **Stop-and-Wait/Bit alternante**: No usan concepto de 'base' porque ventana = 1. Go-Back-N es eficiente en redes con baja tasa de errores."
+   },
+   {
+      "question": "El número máximo de canales que se permiten manejar en wifi son:",
+      "options": ["11.", "13.", "15.", "Ninguna de las respuestas anteriores."],
+      "correct": 1,
+      "explanation": "En WiFi, el número máximo de canales es **13** (en Europa). Distribución por región: 1) **Europa/ETSI**: 13 canales (1-13) en 2.4 GHz. 2) **Estados Unidos/FCC**: 11 canales (1-11). 3) **Japón**: 14 canales (1-14), canal 14 solo para 802.11b. 4) **Solapamiento**: Solo 3 canales no solapados (1, 6, 11) útiles simultáneamente. 5) **5 GHz**: Muchos más canales disponibles, menos congestionados. 6) **Normativa**: Determinada por regulaciones de telecomunicaciones locales. 7) **Separación**: Canales separados 5 MHz, señal ocupa ~22 MHz. El número varía según país, pero 13 es el máximo estándar en la banda 2.4 GHz más ampliamente adoptada."
+   },
+   {
+      "question": "Las redes locales inalámbricas ad hoc son aquellas en las que:",
+      "options": [
+         "Todos los dispositivos se conectan a un punto de acceso inalámbrico que gestiona todas las comunicaciones entre ellos.",
+         "Cada dispositivo se conecta a un punto de distribución de la red.",
+         "Los dispositivos se conectan directamente entre sí, sin la presencia de intermediarios.",
+         "Cada dispositivo debe estar asociado a un AP inalámbrico y existe más de un AP para la misma red."
+      ],
+      "correct": 2,
+      "explanation": "Las redes **ad hoc** son aquellas donde **los dispositivos se conectan directamente entre sí, sin intermediarios**. Características: 1) **Sin infraestructura**: No requieren Access Points ni equipos centralizados. 2) **IBSS (Independent BSS)**: Cada dispositivo puede comunicarse directamente con otros en rango. 3) **Auto-organización**: Los nodos se descubren automáticamente. 4) **Limitaciones**: Alcance limitado al rango de radio, no hay roaming, gestión distribuida. 5) **Usos**: Conexiones temporales, compartir archivos, gaming local, situaciones de emergencia. 6) **Diferencia con infraestructura**: En modo infraestructura todo pasa por AP. 7) **Protocolo**: Mismo 802.11 pero en modo IBSS en lugar de BSS. Son redes peer-to-peer inalámbricas ideales para conexiones ocasionales."
+   },
+   {
+      "question": "Un host A envía un paquete de datos, a través del protocolo HTTP, a un servidor web. ¿Qué deberá utilizar la capa de transporte para pasar el stream de datos a la aplicación adecuada en el servidor?",
+      "options": ["Acuse de recibo.", "Número de secuencia.", "Número de puerto de origen.", "Número de puerto destino."],
+      "correct": 3,
+      "explanation": "La capa de transporte usa el **número de puerto destino** para entregar datos a la aplicación correcta. Proceso: 1) **Demultiplexación**: TCP/UDP usan puertos para dirigir datos a aplicaciones específicas. 2) **Puerto destino**: Identifica el servicio en el servidor (HTTP = puerto 80, HTTPS = 443). 3) **Socket**: Combinación IP destino + puerto destino identifica el endpoint. 4) **Otros campos**: ACK y números de secuencia son para control de flujo/orden, puerto origen identifica la aplicación cliente. 5) **Ejemplo**: HTTP llega a puerto 80, el servidor sabe entregarlo al proceso web server. 6) **Well-known ports**: 0-1023 reservados para servicios estándar. Sin el puerto destino correcto, el servidor no sabría qué aplicación debe procesar la petición HTTP."
+   },
+   {
+      "question": "La principal función de un router es:",
+      "options": ["Enrutar segmentos de la capa 4.", "Enrutar paquetes de la capa 3.", "Enrutar bits de la capa 1.", "Enrutar tramas de la capa 3."],
+      "correct": 1,
+      "explanation": "La función principal de un router es **enrutar paquetes de la capa 3** (Red/Network). Funciones: 1) **Capa 3**: Trabaja con paquetes IP, no con segmentos (capa 4) ni bits (capa 1). 2) **Routing**: Determina la mejor ruta entre redes usando tablas de routing. 3) **Forwarding**: Reenvía paquetes hacia el siguiente hop basándose en IP destino. 4) **Interconexión**: Conecta diferentes redes/subredes. 5) **Protocolos**: Usa protocolos de routing (OSPF, BGP, RIP) para construir tablas. 6) **Procesamiento**: Examina cabecera IP, decrementa TTL, recalcula checksum. 7) **Diferencia**: Switches trabajan capa 2 (tramas), hubs capa 1 (bits). Los routers son dispositivos de capa 3 que toman decisiones inteligentes de reenvío basadas en direcciones IP."
+   },
+   {
+      "question": "Señala cuál de los siguientes protocolos es de la capa de enlace:",
+      "options": ["OSPF.", "PPP.", "DHCP.", "Ninguna de las otras respuestas."],
+      "correct": 1,
+      "explanation": "**PPP (Point-to-Point Protocol)** es un protocolo de **capa de enlace** (Capa 2). Clasificación: 1) **PPP (Capa 2)**: Protocolo de enlace punto a punto, encapsula paquetes de red, autenticación (PAP/CHAP), configuración de enlaces. 2) **OSPF (Capa 3)**: Protocolo de routing, construye tablas de routing, intercambia información de topología. 3) **DHCP (Capa 7/Aplicación)**: Asigna direcciones IP dinámicamente, configuración automática de red. 4) **Características PPP**: Detección de errores, compresión, multiprotocolo (IP, IPX), autenticación. 5) **Usos PPP**: Conexiones dial-up, DSL, conexiones seriales. PPP establece, configura y mantiene conexiones de datos punto a punto, operando directamente sobre la capa física."
+   },
+   {
+      "question": "La técnica de modulación TDM significa:",
+      "options": ["Total division multiplexing.", "Total division modulation.", "Time division multiplexing.", "Time division modulation."],
+      "correct": 2,
+      "explanation": "**TDM significa Time Division Multiplexing** (Multiplexación por División de Tiempo). Características: 1) **Multiplexación**: Técnica para compartir un canal entre múltiples usuarios/señales. 2) **División temporal**: Cada usuario utiliza todo el ancho de banda durante intervalos de tiempo específicos. 3) **Time slots**: Canal dividido en ranuras temporales asignadas a diferentes fuentes. 4) **Sincronización**: Requiere sincronización precisa entre transmisor y receptor. 5) **Tipos**: TDM síncrono (STDM) y TDM estadístico. 6) **Ejemplos**: T1/E1, SONET/SDH, GSM. 7) **Diferencia**: No es modulación sino multiplexación; modulación cambia características de la portadora. TDM es fundamental en telecomunicaciones digitales para maximizar uso de canales."
+   },
+   {
+      "question": "Las aplicaciones sensibles al ancho de banda, son aquellas que:",
+      "options": [
+         "Necesitan que se cumplan ciertos requisitos respecto al envío de datos.",
+         "Necesitan que se cumplan ciertos requisitos respecto a la recepción de datos.",
+         "Necesitan que se cumplan ciertos requisitos respecto a la tasa de transferencia.",
+         "Necesitan que se cumplan ciertos requisitos respecto al envío y a la recepción de datos."
+      ],
+      "correct": 2,
+      "explanation": "Las aplicaciones **sensibles al ancho de banda necesitan requisitos específicos de tasa de transferencia**. Características: 1) **Throughput crítico**: Requieren un mínimo de Mbps para funcionar correctamente. 2) **Ejemplos**: Streaming de vídeo HD/4K, videoconferencia, backup de grandes archivos. 3) **Adaptabilidad**: Pueden ajustar calidad según ancho de banda disponible (adaptive bitrate). 4) **Diferencia con latencia**: Sensibles al ancho de banda ≠ sensibles al retardo (tiempo). 5) **QoS**: Requieren garantías de ancho de banda mínimo. 6) **Comportamiento**: Si no tienen suficiente ancho de banda: buffering, calidad reducida, interrupciones. 7) **Gestión**: Traffic shaping, QoS policies para asegurar ancho de banda. Se distinguen de aplicaciones sensibles al retardo (gaming, VoIP) que priorizan baja latencia."
+   },
+   {
+      "question": "Las principales características del protocolo RSVP son:",
+      "options": [
+         "Es orientado al emisor y proporciona reservas de ancho de banda en árboles de unidifusión.",
+         "Es orientado al receptor y proporciona reservas de ancho de banda en árboles de unidifusión.",
+         "Es orientado al receptor y proporciona reservas de ancho de banda en árboles de multidifusión.",
+         "Es orientado al emisor y proporciona reservas de ancho de banda en árboles de multidifusión."
+      ],
+      "correct": 2,
+      "explanation": "**RSVP es orientado al receptor y proporciona reservas en árboles de multidifusión**. Características: 1) **Receiver-initiated**: Los receptores solicitan reservas, no los emisores. 2) **Multicast**: Diseñado principalmente para aplicaciones multicast (aunque soporta unicast). 3) **Path/Resv**: Emisor envía PATH, receptores responden con RESV. 4) **Soft state**: Reservas deben renovarse periódicamente, se eliminan automáticamente si no se refrescan. 5) **QoS**: Garantiza ancho de banda, retardo, jitter para flujos específicos. 6) **Escalabilidad**: Optimizado para multicast donde múltiples receptores pueden tener diferentes requisitos QoS. 7) **Integración**: Trabaja con protocolos de routing multicast. RSVP permite que cada receptor en una sesión multicast reserve los recursos que necesita específicamente."
+   },
+   {
+      "question": "El algoritmo de enrutamiento descentralizado por vector de distancias tiene las siguientes características:",
+      "options": [
+         "Iterativo, asíncrono y distribuido.",
+         "Iterativo, síncrono y distribuido.",
+         "No iterativo, síncrono y descentralizado.",
+         "No iterativo, asíncrono y descentralizado."
+      ],
+      "correct": 0,
+      "explanation": "El algoritmo **distance vector es iterativo, asíncrono y distribuido**. Características: 1) **Iterativo**: Los nodos intercambian información repetidamente hasta converger. 2) **Asíncrono**: Los nodos pueden actuar independientemente, sin sincronización global. 3) **Distribuido**: Cada nodo mantiene su propia tabla, no hay control centralizado. 4) **Algoritmo Bellman-Ford**: Base matemática para cálculo de rutas óptimas. 5) **Intercambio**: Cada nodo envía su vector distancia a vecinos periódicamente. 6) **Convergencia**: Eventualmente todos los nodos tienen información consistente. 7) **Ejemplos**: RIP, BGP (híbrido). 8) **Contraste**: Link-state (OSPF) es síncrono y centralizado en el cálculo. La naturaleza asíncrona permite flexibilidad pero puede causar loops temporales durante convergencia."
+   },
+   {
+      "question": "En el vídeo de Berners Lee, cuyo título es Cómo nació la Web, expresa que el pilar base de su creación fue:",
+      "options": [
+         "«Puse todas las piezas juntas, en el lugar correcto, en el momento adecuado e hice la WWW».",
+         "«Puse todas las piezas juntas, en el lugar correcto, en el momento adecuado y fundé la W3C».",
+         "«Puse todas las piezas juntas, en el lugar correcto, en el momento adecuado e inventé el protocolo HTTP».",
+         "Ninguna de las respuestas anteriores."
+      ],
+      "correct": 0,
+      "explanation": "Berners-Lee expresó que **'puso todas las piezas juntas en el lugar y momento adecuado e hizo la WWW'**. Contexto histórico: 1) **Convergencia**: Hipertexto, Internet, protocolos TCP/IP ya existían. 2) **Innovación**: Combinó conceptos existentes de forma revolucionaria. 3) **Componentes**: HTTP, HTML, URLs, primer navegador/servidor web. 4) **CERN**: Ambiente ideal con investigadores internacionales necesitando compartir información. 5) **Momento**: 1989-1991, Internet ya estaba maduro pero faltaba interface amigable. 6) **Filosofía**: Web abierta, estándares públicos, no propietaria. 7) **W3C**: Fundado después (1994) para estandarizar la Web. La genialidad fue reconocer que las tecnologías existentes podían combinarse para crear algo completamente nuevo."
+   },
+   {
+      "question": "El protocolo DNS utiliza:",
+      "options": ["TCP.", "UDP.", "Tanto TCP como UDP, dependiendo del servicio.", "Ninguna de las respuestas anteriores."],
+      "correct": 2,
+      "explanation": "**DNS usa tanto TCP como UDP dependiendo del servicio**. Uso específico: 1) **UDP (puerto 53)**: Consultas normales de resolución, más rápido, menor overhead. 2) **TCP (puerto 53)**: Transferencias de zona entre servidores, respuestas >512 bytes. 3) **Criterios UDP**: Consultas simples A, AAAA, MX, PTR que caben en un paquete. 4) **Criterios TCP**: Zona transfers (AXFR), respuestas grandes, cuando UDP falla. 5) **EDNS0**: Extensión que permite UDP con paquetes más grandes (hasta 4096 bytes). 6) **Moderno**: DNS over HTTPS (DoH), DNS over TLS (DoT) usan TCP. 7) **Eficiencia**: UDP para velocidad en consultas frecuentes, TCP para confiabilidad en operaciones críticas. Esta dualidad optimiza rendimiento y confiabilidad según el contexto."
+   },
+   {
+      "question": "La siguiente página web, https://www.cdmon.com/es/conversor-host-ip, nos permite:",
+      "options": [
+         "Averiguar únicamente el nombre correspondiente de un servidor asociado a una IP.",
+         "Averiguar la IP correspondiente a partir del nombre del servidor.",
+         "Averiguar el nombre correspondiente de un servidor asociado a una IP y viceversa.",
+         "Ninguna de las respuestas anteriores."
+      ],
+      "correct": 2,
+      "explanation": "La herramienta permite **averiguar tanto el nombre del servidor desde IP como IP desde nombre** (lookup bidireccional). Funcionalidades: 1) **Forward lookup**: Nombre → IP (resolución DNS normal). 2) **Reverse lookup**: IP → Nombre (consulta PTR en DNS). 3) **Herramientas similares**: nslookup, dig, host en línea de comandos. 4) **Proceso forward**: Consulta registros A/AAAA en DNS. 5) **Proceso reverse**: Consulta registros PTR en dominios in-addr.arpa/ip6.arpa. 6) **Usos**: Verificación de configuración DNS, troubleshooting, análisis de red. 7) **Limitaciones**: Reverse lookup requiere que esté configurado por el administrador de la IP. Es una implementación web de herramientas DNS estándar para facilitar consultas bidireccionales."
+   },
+   {
+      "question": "Las tres técnicas que utiliza MPEG para eliminar información redundante son:",
+      "options": [
+         "La redundancia cíclica, la redundancia temporal y la redundancia informativa.",
+         "La redundancia espacial, la redundancia temporal y la redundancia informativa.",
+         "La redundancia temporal, la redundancia espacial y la redundancia cíclica.",
+         "La redundancia temporal, la redundancia espacial y la redundancia estadística."
+      ],
+      "correct": 3,
+      "explanation": "MPEG elimina **redundancia temporal, espacial y estadística**. Técnicas: 1) **Redundancia temporal**: Entre frames consecutivos, usando motion compensation y predicción. Frames I, P, B. 2) **Redundancia espacial**: Dentro del mismo frame, usando transformadas DCT y cuantización. 3) **Redundancia estadística**: Codificación entrópica (Huffman, arithmetic coding) para optimizar bits. 4) **Proceso completo**: Predicción temporal → transformada espacial → cuantización → codificación estadística. 5) **GOP (Group of Pictures)**: Estructura para optimizar predicción temporal. 6) **Estándares**: MPEG-1, MPEG-2, MPEG-4, H.264/AVC, H.265/HEVC usan estas técnicas. 7) **Resultado**: Compresión 50:1 o mayor manteniendo calidad aceptable. Estas tres redundancias capturan las principales fuentes de información repetitiva en vídeo."
+   },
+   {
+      "question": "Una de las razones por las que el protocolo UDP tiene éxito es:",
+      "options": [
+         "Gracias al establecimiento de la conexión.",
+         "Gracias a que mantiene la información de estado de la conexión.",
+         "Gracias a la gran sobrecarga de vida a la cabecera de los paquetes.",
+         "Gracias al mejor control en el nivel de aplicación sobre los datos que se envían y cuándo."
+      ],
+      "correct": 3,
+      "explanation": "UDP tiene éxito por **el mejor control a nivel de aplicación sobre qué y cuándo enviar datos**. Ventajas UDP: 1) **Control de aplicación**: La aplicación decide exactamente qué enviar y cuándo, sin interferencia del protocolo. 2) **Sin conexión**: No hay setup/teardown, envío inmediato. 3) **Sin estado**: Cada datagrama es independiente, no mantiene información de sesión. 4) **Bajo overhead**: Cabecera de solo 8 bytes vs 20+ de TCP. 5) **Sin control de flujo**: No ralentiza por congestión o ventanas. 6) **Ideal para**: Streaming en tiempo real, DNS, DHCP, gaming, VoIP. 7) **Trade-off**: Sacrifica confiabilidad por velocidad y control. Las aplicaciones que necesitan rendimiento específico prefieren implementar su propio control de confiabilidad sobre UDP."
+   },
+   {
+      "question": "La relación SNR, ¿qué es?",
+      "options": [
+         "La relación SNR, conocida como señal-ruido, es una medida absoluta de la intensidad de la señal recibida y de ese ruido, medido en decibelios.",
+         "La relación SNR, conocida como señal-ruido-recepción, es una medida relativa de la intensidad de la señal recibida y de ese ruido, medido en decibelios.",
+         "La relación SNR es una medida relativa del ruido que se produce en un canal de comunicación.",
+         "Ninguna de las respuestas anteriores."
+      ],
+      "correct": 3,
+      "explanation": "**SNR (Signal-to-Noise Ratio)** es la **relación señal-ruido, medida relativa entre potencia de señal útil y potencia de ruido**, expresada en decibelios. Definición correcta: 1) **Fórmula**: SNR = 10 * log10(Potencia_señal / Potencia_ruido) dB. 2) **Medida relativa**: Compara señal vs ruido, no valores absolutos. 3) **Importancia**: Determina calidad de comunicación y tasa de errores. 4) **Interpretación**: SNR alto = señal clara, SNR bajo = señal degradada. 5) **Aplicaciones**: Radio, TV, comunicaciones digitales, WiFi. 6) **Umbral**: Cada tecnología tiene SNR mínimo para funcionamiento. 7) **No es 'señal-ruido-recepción'**: Es simplemente Signal-to-Noise Ratio. Ninguna opción define correctamente SNR como la relación relativa entre potencias de señal útil y ruido."
+   },
+   {
+      "question": "Si existe un protocolo que proporciona un servicio de entrega de datos garantizado, se dice que dicho protocolo:",
+      "options": [
+         "Proporciona un servicio de datos seguro.",
+         "Proporciona una transferencia fiable de datos.",
+         "Es mejor utilizarlo que uno de entrega de datos no garantizado.",
+         "Ninguna de las respuestas anteriores."
+      ],
+      "correct": 1,
+      "explanation": "Un protocolo con **entrega garantizada proporciona transferencia fiable de datos** (reliable data transfer). Características: 1) **Fiabilidad**: Garantiza que todos los datos enviados lleguen correctamente al destino. 2) **Mecanismos**: ACKs, retransmisiones, control de flujo, detección de errores. 3) **Ejemplos**: TCP (fiable), UDP (no fiable). 4) **Diferencia con seguridad**: 'Seguro' implica cifrado/autenticación, 'fiable' implica entrega garantizada. 5) **Trade-offs**: Fiabilidad vs velocidad/overhead. 6) **Aplicaciones**: TCP para web, email, transferencias; UDP para streaming, gaming. 7) **No siempre mejor**: Depende de la aplicación; streaming prefiere velocidad sobre garantías. La terminología técnica precisa es 'reliable' (fiable) para entrega garantizada, no 'secure' (seguro) que se refiere a aspectos de seguridad."
+   },
+   {
+      "question": "La principal característica del protocolo paso de testigo es que:",
+      "options": [
+         "No existe ningún nodo maestro.",
+         "Debe existir al menos un nodo maestro que es el que comienza con el paso de testigo al resto de nodos.",
+         "Hay una trama de gran tamaño y de propósito especial, conocida con el nombre de testigo (token).",
+         "Los nodos transmiten mientras no tengan el token."
+      ],
+      "correct": 2,
+      "explanation": "La característica principal del **token passing es la existencia de una trama especial llamada token**. Características: 1) **Token**: Trama especial que circula por la red otorgando derecho a transmitir. 2) **Control de acceso**: Solo quien tiene el token puede transmitir datos. 3) **Circulación**: Token pasa de nodo a nodo en orden predeterminado. 4) **Sin colisiones**: Acceso determinista, elimina colisiones por diseño. 5) **Ejemplos**: Token Ring (IEEE 802.5), FDDI. 6) **No hay maestro fijo**: Cualquier nodo puede inicializar token si se pierde. 7) **Transmisión**: Los nodos solo transmiten CUANDO tienen el token, no cuando no lo tienen. El token es el elemento central que define todo el protocolo."
+   },
+   {
+      "question": "RTSP es un protocolo:",
+      "options": [
+         "Fuera de banda.",
+         "Que define si el flujo será transportado en UDP o TCP.",
+         "Que define esquemas de comprensión para audio y vídeo.",
+         "Que utiliza un número de puerto diferente al 544."
+      ],
+      "correct": 0,
+      "explanation": "**RTSP es un protocolo fuera de banda** (out-of-band). Características: 1) **Out-of-band**: El control (RTSP) y los datos (RTP) van por canales separados. 2) **Separación**: RTSP controla la sesión, RTP/RTCP transportan los datos multimedia. 3) **Puerto**: RTSP usa puerto 554 (no 544), TCP para señalización. 4) **Analogía**: Como un mando a distancia (RTSP) que controla un reproductor (servidor de streaming). 5) **No define transporte**: No especifica UDP vs TCP para datos, eso lo hace RTP/RTCP. 6) **No define compresión**: No maneja códecs, solo controla reproducción (PLAY, PAUSE, STOP). 7) **Ventaja**: Control independiente permite flexibilidad en transporte de datos. La separación out-of-band permite optimizar cada canal según sus necesidades específicas."
+   },
+   {
+      "question": "Se define jitter como:",
+      "options": [
+         "La suma de los retardos de transmisión, de procesamiento y de puesta en cola de los routers.",
+         "El tiempo que transcurre desde el momento en que se genera un paquete en el origen hasta que se recibe en el destino puede fluctuar de un paquete a otro.",
+         "Las pérdidas de paquetes que se producen en la transmisión de los mismos.",
+         "Ninguna de las respuestas anteriores."
+      ],
+      "correct": 1,
+      "explanation": "**Jitter es la fluctuación del tiempo de tránsito entre paquetes**. Definición: 1) **Variación temporal**: Los paquetes no llegan con intervalos regulares aunque se envíen regularmente. 2) **Causas**: Congestión variable en routers, diferentes rutas, colas dinámicas. 3) **Medición**: Diferencia entre retardos de paquetes consecutivos. 4) **Impacto**: Afecta calidad en aplicaciones tiempo real (VoIP, video streaming). 5) **Mitigación**: Buffers de reproducción (jitter buffers), QoS, Traffic shaping. 6) **Diferencia**: Retardo total ≠ jitter; jitter es la variabilidad del retardo. 7) **Unidades**: Milisegundos, preferiblemente <10ms para VoIP. Es un problema específico de redes de paquetes que no existe en circuitos dedicados."
+   },
+   {
+      "question": "El campo desplazamiento de fragmentación sirve para:",
+      "options": [
+         "Indicar el lugar donde se insertará el fragmento dentro del datagrama completo, medido en múltiplos de 16 bits.",
+         "Indicar el lugar donde se insertará dicho datagrama en el buffer de recepción.",
+         "Indicar si el datagrama puede o no ser fragmentado.",
+         "Ninguna de las respuestas anteriores."
+      ],
+      "correct": 0,
+      "explanation": "El **Fragment Offset indica dónde insertar el fragmento en el datagrama original, en múltiplos de 8 bytes** (no 16 bits). Corrección: 1) **Unidad correcta**: Se mide en múltiplos de 8 bytes (64 bits), no 16 bits. 2) **Función**: Permite reensamblar fragmentos en orden correcto en el destino. 3) **Campo IPv4**: 13 bits en cabecera IP, permite hasta 8192 posiciones. 4) **Ejemplo**: Fragmento con offset 185 = datos comienzan en byte 185*8 = 1480. 5) **Reensamblaje**: Receptor usa offset para colocar cada fragmento en posición correcta. 6) **Don't Fragment**: El flag DF indica si se puede fragmentar, no el offset. 7) **More Fragments**: Flag MF indica si hay más fragmentos. Aunque la respuesta A tiene la unidad incorrecta, es la que mejor describe la función del campo."
+   },
+   {
+      "question": "En el vídeo Circuit switching & Packet switching, se nos muestra que el hecho de trocear la información a transmitir, evita:",
+      "options": [
+         "Que un hacker pueda acceder a toda la información transmitida.",
+         "Perder los paquetes al fragmentarse.",
+         "Que la red se congestione.",
+         "Ninguna de las respuestas anteriores."
+      ],
+      "correct": 2,
+      "explanation": "El **troceado de información en packet switching evita que la red se congestione**. Ventajas: 1) **Multiplexación estadística**: Múltiples flujos comparten el mismo enlace eficientemente. 2) **Uso óptimo**: Los enlaces no permanecen dedicados/ociosos como en circuit switching. 3) **Flexibilidad**: Los paquetes pueden tomar rutas diferentes según congestión. 4) **Adaptabilidad**: La red se adapta dinámicamente a la carga. 5) **Eficiencia**: Mejor aprovechamiento de recursos de red. 6) **No es seguridad**: El troceado no es una medida de seguridad contra hackers. 7) **No evita pérdidas**: Los paquetes aún pueden perderse por congestión. La principal ventaja del packet switching vs circuit switching es el uso eficiente de recursos que reduce la probabilidad de congestión."
+   },
+   {
+      "question": "En la transmisión de audio, ¿qué retardos son aceptables para que la conversación sea fluida?",
+      "options": [
+         "Los retardos comprendidos entre 50 y 150 milisegundos.",
+         "Los retardos comprendidos entre 150 y 400 milisegundos.",
+         "Los retardos menos de 50 milisegundos.",
+         "Ningún valor de retardo, ya que si existe retardo, las conversaciones son frustrantes."
+      ],
+      "correct": 0,
+      "explanation": "Para conversaciones fluidas se necesitan **retardos entre 50-150 milisegundos**. Rangos de calidad: 1) **<50ms**: Excelente, imperceptible para usuarios. 2) **50-150ms**: Bueno, conversación natural y fluida. 3) **150-400ms**: Aceptable pero notable, interrupciones ocasionales. 4) **>400ms**: Inaceptable, conversaciones frustrantes, solapamientos. 5) **Componentes del retardo**: Codificación, packetización, red, jitter buffer, decodificación. 6) **ITU-T G.114**: Estándar que define estos umbrales. 7) **VoIP típico**: 80-120ms end-to-end es común y aceptable. 8) **Factores**: Distancia geográfica, saltos de red, procesamiento. El rango 50-150ms representa el equilibrio óptimo entre calidad perceptual y viabilidad técnica en redes reales."
+   },
+   {
+      "question": "Un host suele estar conectado a un router. A dicho router se le conoce como:",
+      "options": ["Router predeterminado.", "Router del salto inmediato.", "Router gateway.", "Ninguna de las respuestas anteriores."],
+      "correct": 0,
+      "explanation": "Al router al que se conecta un host se le llama **router predeterminado** (default router/gateway). Terminología: 1) **Default router**: Router configurado como salida por defecto para tráfico fuera de la subred local. 2) **Default gateway**: Término equivalente, gateway predeterminado. 3) **First-hop router**: También correcto técnicamente, primer router en el camino. 4) **Configuración**: Se establece en configuración IP del host (DHCP o manual). 5) **Función**: Enruta todo tráfico destinado a redes remotas. 6) **Tabla de routing**: Entrada 0.0.0.0/0 apunta al default gateway. 7) **Analogía**: Como la 'puerta de salida' de la red local. 'Router predeterminado' es la terminología estándar más utilizada en documentación técnica y configuraciones de red."
+   },
+   {
+      "question": "Las redes MPLS suelen utilizarse para implementar:",
+      "options": ["Comunicaciones de redes fiables.", "Redes VPN.", "Comunicaciones de redes no fiables.", "El reenvío de mensajes de etiquetas."],
+      "correct": 1,
+      "explanation": "**MPLS se utiliza principalmente para implementar redes VPN**. Aplicaciones MPLS: 1) **MPLS VPN**: L3VPN (BGP/MPLS VPN) para conectar sitios corporativos de forma segura. 2) **Traffic Engineering**: Control preciso de rutas para optimizar uso de ancho de banda. 3) **QoS**: Diferentes clases de servicio usando etiquetas. 4) **Fast reroute**: Recuperación rápida ante fallos de enlace. 5) **Ventajas VPN**: Aislamiento de tráfico, escalabilidad, gestión simplificada. 6) **LSP (Label Switched Path)**: Túneles predefinidos para tráfico VPN. 7) **Proveedores**: ISPs ofrecen servicios MPLS VPN empresariales. Aunque MPLS maneja etiquetas, su uso principal comercial es proveer servicios VPN empresariales seguros y eficientes sobre infraestructura compartida."
+   },
+   {
+      "question": "Gracias al 4G:",
+      "options": [
+         "Podemos realizar llamadas con más calidad y el envío de MMS.",
+         "Podemos utilizar aplicaciones de cuarta generación en nuestros dispositivos móviles.",
+         "Podemos realizar llamadas, escribir correos, acceder a Internet y posicionamiento GPS.",
+         "Podemos realizar llamadas, escribir correos, acceder a Internet, posicionamiento GPS y escuchar música."
+      ],
+      "correct": 2,
+      "explanation": "**4G permite llamadas, correos, Internet y GPS** como servicios fundamentales. Capacidades 4G: 1) **VoLTE**: Llamadas de alta calidad sobre LTE. 2) **Internet móvil**: Velocidades hasta 100 Mbps (teórico), navegación fluida. 3) **Email/mensajería**: Comunicaciones de datos avanzadas. 4) **GPS/ubicación**: Servicios de localización precisos. 5) **Diferencias con 3G**: Mayor velocidad, menor latencia, mejor cobertura interior. 6) **No exclusivo**: Música no es específica de 4G, funciona desde 2G/3G. 7) **Aplicaciones**: Streaming, videoconferencia, redes sociales, IoT. 8) **Estándares**: LTE-Advanced, máximo 1 Gbps en condiciones ideales. 4G representa el salto a banda ancha móvil real que habilita servicios similares a conexiones fijas."
+   }
+]
