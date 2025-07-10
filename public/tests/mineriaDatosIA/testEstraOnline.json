@@ -1,0 +1,217 @@
+[
+   {
+      "question": "Una aseguradora quiere estimar el nivel de riesgo de cada cliente para poder ofrecer pólizas personalizadas. ¿A qué tipo de tarea de minería de datos se corresponde el problema anterior?",
+      "options": ["Clustering", "Análisis de correlación", "Clasificación", "Regresión"],
+      "correct": 3,
+      "explanation": "La estimación del nivel de riesgo es una tarea de **regresión** porque busca predecir un valor numérico continuo (nivel de riesgo) para cada cliente. A diferencia de la clasificación que asigna categorías discretas, la regresión predice valores en un rango continuo, permitiendo estimar con precisión el riesgo individual para personalizar las pólizas de seguro."
+   },
+   {
+      "question": "Dado el problema de la aseguradora anterior, ¿qué tipo de aprendizaje automático utilizarías para resolverlo?",
+      "options": ["Aprendizaje no supervisado", "Aprendizaje supervisado"],
+      "correct": 1,
+      "explanation": "Se requiere **aprendizaje supervisado** porque necesitamos datos históricos etiquetados con el nivel de riesgo real de clientes anteriores para entrenar el modelo. El modelo aprende la relación entre las características del cliente y su nivel de riesgo a partir de ejemplos conocidos."
+   },
+   {
+      "question": "Indica cuál de las siguientes opciones se corresponde con la primera fase del proceso de minería de datos:",
+      "options": ["Introducción de los datos", "Revisión de los modelos", "Creación y entrenamiento de los modelos", "Preparación de los datos"],
+      "correct": 0,
+      "explanation": "La **introducción de los datos** es la primera fase del proceso de minería de datos. Antes de cualquier preparación o modelado, primero debemos recopilar y cargar los datos desde sus fuentes originales al sistema de análisis."
+   },
+   {
+      "question": "Indica qué herramienta utilizada en minería de datos permite crear workflows mediante la combinación de nodos y flechas:",
+      "options": ["Python", "BigML", "R", "KNIME"],
+      "correct": 3,
+      "explanation": "**KNIME** es una plataforma de análisis de datos basada en flujos de trabajo visuales. Permite crear procesos de minería de datos conectando nodos (que representan operaciones) mediante flechas, facilitando el diseño y ejecución de análisis complejos sin necesidad de programar."
+   },
+   {
+      "question": "Una tabla de Excel es un ejemplo de datos...",
+      "options": ["... estructurados", "... no estructurados"],
+      "correct": 0,
+      "explanation": "Las tablas de Excel son datos **estructurados** porque organizan la información en filas y columnas con un esquema definido. Cada celda tiene una ubicación específica y los datos siguen un formato tabular predecible, a diferencia de textos libres o imágenes."
+   },
+   {
+      "question": "En un análisis de componentes principales, la i-ésima componente principal viene determinada por...",
+      "options": ["...el autovector de X^T X asociado al i-ésimo mayor autovalor", "...el autovalor de X^T X asociado al i-ésimo mayor autovector"],
+      "correct": 0,
+      "explanation": "En PCA, cada componente principal es un **autovector de la matriz de covarianza X^T X**, ordenados por sus autovalores correspondientes. El autovector asociado al mayor autovalor define la primera componente principal, capturando la máxima varianza de los datos."
+   },
+   {
+      "question": "Indica cuál de las siguientes opciones no es un factor influyente en la calidad de los datos:",
+      "options": ["Completitud", "Precisión", "Rastreabilidad", "Verosimilitud"],
+      "correct": 2,
+      "explanation": "La **rastreabilidad** no es un factor de calidad de datos, sino una característica de auditoría que permite seguir el origen y transformaciones de los datos. Los factores de calidad incluyen completitud (datos completos), precisión (exactitud) y verosimilitud (credibilidad)."
+   },
+   {
+      "question": "Indica a qué tipo de JOIN se corresponde el siguiente diagrama: [diagrama mostrando intersección de dos conjuntos]",
+      "options": ["INNER JOIN", "LEFT JOIN", "OUTER JOIN", "RIGHT JOIN"],
+      "correct": 0,
+      "explanation": "El diagrama muestra un **INNER JOIN**, que retorna únicamente los registros que tienen correspondencia en ambas tablas. Solo se incluyen las filas donde existe una coincidencia en la condición de unión, representado por la intersección de los conjuntos."
+   },
+   {
+      "question": "Dada la siguiente variable: X = [0, 1, 2, 3, 4, 5] ¿Cuál de las siguientes opciones se corresponde a su estandarización?",
+      "options": [
+         "[-1.69, 0.33, 0.67, 0.16, 1.35, 0.84]",
+         "[-1.46, -0.88, -0.29, 0.29, 0.88, 1.46]",
+         "[-1.46, -0.87, -0.29, 0.29, 0.87, 1.46]",
+         "[-0.78, -0.65, 2.17, -0.38, 0.24, -0.11]"
+      ],
+      "correct": 1,
+      "explanation": "La estandarización transforma los datos para tener media 0 y desviación estándar 1. Para X=[0,1,2,3,4,5], la media es 2.5 y la desviación estándar es 1.708. Aplicando la fórmula (x-μ)/σ se obtiene la secuencia [-1.46, -0.88, -0.29, 0.29, 0.88, 1.46]."
+   },
+   {
+      "question": "Se quieren sustituir los valores perdidos de una variable por una medida de tendencia central. El histograma de dicha variable es el siguiente: [histograma con distribución asimétrica] ¿Cuál de las siguientes medidas de tendencia central es la más adecuada?",
+      "options": ["Varianza", "Mediana", "Media", "Moda"],
+      "correct": 1,
+      "explanation": "Para distribuciones asimétricas con sesgo, la **mediana** es la medida más robusta para imputar valores perdidos. A diferencia de la media, no se ve afectada por valores extremos, proporcionando un valor central más representativo de la distribución real de los datos."
+   },
+   {
+      "question": "Se dispone del siguiente un árbol de decisión que permite clasificar a pacientes en enfermos y sanos. Dado un nuevo paciente cuyos datos son [chol = 200, trestbps = 150], indica a qué categoría le asigna el modelo.",
+      "options": ["Enfermo", "Sano"],
+      "correct": 1,
+      "explanation": "Siguiendo el árbol de decisión con chol=200 y trestbps=150: en el nodo raíz se evalúa si chol < 273.5 (verdadero), luego si trestbps <= 107 (falso), y finalmente se clasifica como **Sano** según las reglas del árbol."
+   },
+   {
+      "question": "Los árboles de decisión pertenecen a la familia de los modelos...",
+      "options": [
+         "...no paramétricos de regresión",
+         "...no paramétricos de clasificación",
+         "...paramétricos de clasificación",
+         "...paramétrico de regresión"
+      ],
+      "correct": 1,
+      "explanation": "Los árboles de decisión son modelos **no paramétricos de clasificación**. No asumen una forma funcional específica para la relación entre variables (no paramétricos) y se utilizan principalmente para tareas de clasificación, dividiendo el espacio de características mediante reglas de decisión."
+   },
+   {
+      "question": "Indica la expresión correcta del teorema de Bayes:",
+      "options": [
+         "P(G = k|X = x) = P(G=k)P(X=x|G=k)/P(X=x)",
+         "P(X = x|G = k) = P(X=x)P(G=k|X=x)/P(G=k)P(X=x)",
+         "P(X = x|G = k) = P(G=k)P(G=k|X=x)/P(X=x)",
+         "P(G = k|X = x) = P(X=x)P(X=x|G=k)/P(G=k)P(X=x)"
+      ],
+      "correct": 0,
+      "explanation": "El teorema de Bayes establece que **P(G=k|X=x) = P(G=k)P(X=x|G=k)/P(X=x)**. Relaciona la probabilidad posterior P(G=k|X=x) con la probabilidad prior P(G=k), la verosimilitud P(X=x|G=k) y la evidencia P(X=x)."
+   },
+   {
+      "question": "Una compañía eléctrica utiliza una regresión logística múltiple para predecir la baja de sus clientes. De esta forma, pueden ofrecer ofertas personalizadas para evitar la marcha de algunos de ellos. Dicho modelo utiliza dos regresores: r1 que mide la antigüedad del cliente en días y r2 que mide el precio de la mensualidad del cliente en euros. Tras ajustar el modelo, sus parámetros son: β0 = −1.5, β1 = 0.004, β2 = 0.01. Si el modelo codifica con 0 la permanencia y con 1 la baja, ¿cuál es la probabilidad de baja de un cliente que lleva en la compañía dos años completos (730 días) y paga al mes 55€?",
+      "options": ["83.27 %", "59.74 %", "63.77 %", "87.76 %"],
+      "correct": 3,
+      "explanation": "Aplicando la fórmula de regresión logística: z = -1.5 + 0.004(730) + 0.01(55) = -1.5 + 2.92 + 0.55 = 1.97. La probabilidad es P = 1/(1+e^(-z)) = 1/(1+e^(-1.97)) = 0.8776, equivalente a **87.76%** de probabilidad de baja."
+   },
+   {
+      "question": "¿Tiene sentido calcular el coeficiente de determinación en una regresión polinómica?",
+      "options": [
+         "No, porque no se cumple la descomposición en sumas de cuadrados",
+         "No, porque no se trata de una regresión lineal",
+         "Sí, porque el coeficiente de determinación se puede calcular en cualquier tipo de regresión",
+         "Sí, porque la regresión polinómica es un caso concreto de regresión lineal múltiple"
+      ],
+      "correct": 3,
+      "explanation": "**Sí tiene sentido** porque la regresión polinómica es un caso especial de regresión lineal múltiple. Aunque incluye términos como x², x³, etc., el modelo sigue siendo lineal en los parámetros, permitiendo calcular R² de la misma forma."
+   },
+   {
+      "question": "Indica cuál es el esquema básico de un algoritmo genético:",
+      "options": [
+         "generación de la población inicial → selección → mutación → cruce",
+         "generación de la población inicial → mutación → selección → cruce",
+         "generación de la población inicial → cruce → mutación → selección",
+         "generación de la población inicial → selección → cruce → mutación"
+      ],
+      "correct": 3,
+      "explanation": "El orden correcto es: **población inicial → selección → cruce → mutación**. Primero se seleccionan los mejores individuos (selección), se combinan para crear descendencia (cruce), y finalmente se introducen variaciones aleatorias (mutación) para mantener diversidad genética."
+   },
+   {
+      "question": "Dada la función de pérdida C(x, y) = x² + y² y un learning rate α = 0.1, calcula el resultado de realizar dos pasos del descenso del gradiente si se parte del punto (x0, y0) = (1, 1).",
+      "options": ["C(0.8, 0.8) = 1.28", "C(0.64, 0.64) = 0.819", "C(0.76, 0.76) = 1.1", "C(0.25, 0.25) = 0.37"],
+      "correct": 1,
+      "explanation": "Gradientes: ∂C/∂x = 2x, ∂C/∂y = 2y. Paso 1: x₁ = 1 - 0.1(2) = 0.8, y₁ = 0.8. Paso 2: x₂ = 0.8 - 0.1(1.6) = 0.64, y₂ = 0.64. Por tanto, C(0.64, 0.64) = 0.64² + 0.64² = **0.819**."
+   },
+   {
+      "question": "En un problema de regresión, ¿qué función de pérdida eligirías para una red neuronal?",
+      "options": ["CE(w, b) = − (1/N) Σ Σ h(ci, c)log(ŷi,c)", "MSE(w, b) = (1/N) Σ (yi − ŷi)²"],
+      "correct": 1,
+      "explanation": "Para regresión se usa el **Error Cuadrático Medio (MSE)** que mide la diferencia al cuadrado entre valores predichos y reales. La entropía cruzada (CE) se utiliza para problemas de clasificación, no de regresión."
+   },
+   {
+      "question": "¿A qué tipo de SVM pertenece el siguiente ejemplo? [imagen mostrando SVM con algunos puntos mal clasificados]",
+      "options": ["SVM de margen duro", "SVM de margen blando", "SVM con función núcleo"],
+      "correct": 1,
+      "explanation": "Es un **SVM de margen blando** porque permite algunos errores de clasificación (puntos del lado incorrecto del margen). A diferencia del margen duro que requiere separación perfecta, el margen blando tolera violaciones mediante variables de holgura."
+   },
+   {
+      "question": "Calcula la salida de un perceptrón simple con pesos w = [2, 1, 3]ᵀ, sesgo b = −6 y función de activación ReLU que recibe el vector de entrada x = [1, 0, 1]ᵀ.",
+      "options": ["-1", "1", "0"],
+      "correct": 2,
+      "explanation": "Cálculo: z = w·x + b = 2(1) + 1(0) + 3(1) + (-6) = 2 + 0 + 3 - 6 = -1. Aplicando ReLU: f(-1) = max(0, -1) = **0**. La función ReLU devuelve 0 para valores negativos."
+   },
+   {
+      "question": "Indica qué modelo combina las votaciones de varios modelos individuales en el que el peso del voto de cada modelo es el mismo:",
+      "options": ["Boosting", "Bagging", "Decision tree", "Random forest"],
+      "correct": 1,
+      "explanation": "**Bagging** combina modelos dando igual peso a cada uno, promediando sus predicciones. A diferencia de boosting donde los pesos dependen del rendimiento, en bagging todos los modelos contribuyen por igual a la predicción final."
+   },
+   {
+      "question": "Indica a qué métrica para evaluar el rendimiento de modelos de clasificación se corresponde la siguiente expresión: (VP+VN)/(P+N)",
+      "options": ["Especificidad", "Sensibilidad", "Exactitud", "Tasa de error"],
+      "correct": 2,
+      "explanation": "La fórmula (VP+VN)/(P+N) corresponde a la **exactitud** (accuracy), que mide la proporción total de predicciones correctas (verdaderos positivos + verdaderos negativos) sobre el total de casos."
+   },
+   {
+      "question": "El AUC puede tomar valores entre...",
+      "options": ["...0 y 2", "...0 y 1", "...0.5 y 1", "...-1 y 1"],
+      "correct": 1,
+      "explanation": "El AUC (Área Bajo la Curva ROC) toma valores entre **0 y 1**. Un valor de 0.5 indica clasificación aleatoria, 1 indica clasificación perfecta, y 0 indicaría clasificación perfectamente incorrecta."
+   },
+   {
+      "question": "Indica qué opción se ajusta el siguiente modelo: [imagen mostrando modelo sobreajustado]",
+      "options": ["Regresión con sesgo alto", "Clasificación con sesgo alto", "Regresión con varianza alta", "Clasificación con varianza alta"],
+      "correct": 3,
+      "explanation": "El modelo muestra **clasificación con varianza alta** (sobreajuste). La frontera de decisión es excesivamente compleja, ajustándose demasiado a los datos de entrenamiento, lo que resultará en pobre generalización."
+   },
+   {
+      "question": "Indica qué técnica de evaluación de modelos utiliza submuestras con reemplazamiento para estimar la distribución del rendimiento:",
+      "options": ["Validación cruzada k-fold", "Leave-one-out", "Método de retención (hold out method)", "Bootstrapping"],
+      "correct": 3,
+      "explanation": "**Bootstrapping** crea múltiples muestras mediante muestreo con reemplazo del conjunto original. Permite estimar la distribución del rendimiento del modelo y calcular intervalos de confianza para las métricas."
+   },
+   {
+      "question": "Indica qué sistema interactúa con los clientes para incrementar los beneficios de la organización:",
+      "options": ["Big data", "CRM", "ERP", "SCM"],
+      "correct": 1,
+      "explanation": "**CRM (Customer Relationship Management)** gestiona las interacciones con clientes actuales y potenciales. Su objetivo es mejorar las relaciones comerciales, retener clientes y aumentar las ventas y beneficios."
+   },
+   {
+      "question": "¿Qué significan las siglas CRM?",
+      "options": ["Critical Response Mechanism", "Cognitive Recognition Module", "Creative Resource Management", "Customer Relationship Management"],
+      "correct": 3,
+      "explanation": "CRM significa **Customer Relationship Management** (Gestión de Relaciones con Clientes), un sistema que ayuda a las empresas a gestionar y analizar las interacciones con clientes a lo largo de su ciclo de vida."
+   },
+   {
+      "question": "¿Qué significan las siglas ERP?",
+      "options": ["Enterprise Response Protocol", "Enterprise Resource Planning", "Enterprise Renewal Program", "Enterprise Research Platform"],
+      "correct": 1,
+      "explanation": "ERP significa **Enterprise Resource Planning** (Planificación de Recursos Empresariales), un software que integra y gestiona los procesos principales de negocio de una organización en tiempo real."
+   },
+   {
+      "question": "Indica qué modelo de subcontratación de minería de datos la organización tiene control total sobre el proceso:",
+      "options": [
+         "Subcontratación de consultores o expertos en minería de datos",
+         "Desarrollo de un programa interno",
+         "Compra de las puntuaciones (scores) o predicciones",
+         "Compra de modelos"
+      ],
+      "correct": 1,
+      "explanation": "Con el **desarrollo de un programa interno**, la organización mantiene control total sobre el proceso de minería de datos, desde la definición de objetivos hasta la implementación, sin depender de terceros."
+   },
+   {
+      "question": "Indica qué modelo de subcontratación de minería de datos consiste en aplicaciones particulares del negocio que automatizan ciertos procesos:",
+      "options": [
+         "Compra de las puntuaciones (scores) o predicciones",
+         "Desarrollo de un programa interno",
+         "Mediante la compra de software específico",
+         "Subcontratación de consultores o expertos en minería de datos"
+      ],
+      "correct": 2,
+      "explanation": "La **compra de software específico** proporciona aplicaciones preconfiguradas para casos de uso particulares del negocio, automatizando procesos específicos de minería de datos sin necesidad de desarrollo personalizado."
+   }
+]
