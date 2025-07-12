@@ -1,0 +1,272 @@
+[
+   {
+      "question": "Según las metodologías ágiles, una métrica clave para medir el progreso es:",
+      "options": [
+         "El número de horas trabajadas",
+         "La cantidad de reuniones realizadas",
+         "El software que funcione correctamente",
+         "La extensión de la documentación generada"
+      ],
+      "correct": 2,
+      "explanation": "En las metodologías ágiles, el **software funcionando** es la medida principal del progreso. El Manifiesto Ágil valora el software funcional sobre la documentación exhaustiva, enfocándose en entregar valor real al cliente."
+   },
+   {
+      "question": "¿Qué herramientas de diseño en Extreme Programming (XP) fomentan la colaboración del equipo mediante brainstorming?",
+      "options": ["Tableros Kanban", "Tarjetas CRC", "Gráficos de burndown", "Casos de uso"],
+      "correct": 1,
+      "explanation": "Las **tarjetas CRC** (Class-Responsibility-Collaboration) son herramientas de diseño en XP que facilitan sesiones colaborativas de brainstorming para identificar clases, responsabilidades y colaboraciones entre componentes."
+   },
+   {
+      "question": "¿Qué es el sprint backlog en scrum?",
+      "options": [
+         "Una lista de tareas completadas durante el sprint",
+         "Una lista de tareas seleccionadas para completarse en el sprint actual",
+         "Un registro de impedimentos encontrados en el sprint",
+         "Una descripción de las funcionalidades futuras"
+      ],
+      "correct": 1,
+      "explanation": "El **sprint backlog** es el conjunto de elementos del product backlog seleccionados para el sprint actual, más el plan para entregar el incremento del producto y alcanzar el objetivo del sprint."
+   },
+   {
+      "question": "¿Qué representan los burndown charts en scrum?",
+      "options": [
+         "El progreso acumulado en el proyecto",
+         "El trabajo pendiente a lo largo del tiempo",
+         "Los problemas detectados durante el sprint",
+         "El rendimiento individual de cada miembro del equipo"
+      ],
+      "correct": 1,
+      "explanation": "Los **burndown charts** muestran el trabajo pendiente restante en el tiempo. La línea descendente representa cómo disminuye el trabajo por completar durante el sprint, permitiendo visualizar si el equipo va al ritmo adecuado."
+   },
+   {
+      "question": "¿Qué papel cumple un guild en la metodología basada en squads?",
+      "options": [
+         "Supervisar los cambios realizados en el backlog",
+         "Coordinar a miembros interesados en compartir conocimientos",
+         "Sustituir al scrum master en la planificación",
+         "Resolver conflictos entre los squads"
+      ],
+      "correct": 1,
+      "explanation": "Un **guild** es una comunidad de interés que reúne a personas con habilidades o intereses similares de diferentes squads para compartir conocimientos, mejores prácticas y mantener la coherencia técnica."
+   },
+   {
+      "question": "¿Qué rol tiene el cliente en las metodologías ágiles?",
+      "options": [
+         "Participa solo al inicio y al final del proyecto",
+         "Es un colaborador constante en el desarrollo",
+         "Observa el progreso sin intervenir",
+         "Se limita a aprobar documentos de requisitos"
+      ],
+      "correct": 1,
+      "explanation": "En las metodologías ágiles, el cliente es un **colaborador constante** que participa activamente durante todo el desarrollo, proporcionando feedback continuo y ayudando a priorizar funcionalidades."
+   },
+   {
+      "question": "¿Qué implica la fase de definición en el ciclo de calidad?",
+      "options": [
+         "Establecer criterios medibles y objetivos claros",
+         "Ejecutar casos de prueba",
+         "Controlar el entorno de pruebas",
+         "Revisar métricas de calidad"
+      ],
+      "correct": 0,
+      "explanation": "La fase de definición implica **establecer criterios medibles y objetivos claros** de calidad. Define qué se va a medir, cómo se medirá y qué niveles de calidad son aceptables."
+   },
+   {
+      "question": "La comunicación cara a cara es preferida porque:",
+      "options": [
+         "Reduce los costes del proyecto",
+         "Es más eficiente para transmitir información entre equipos",
+         "Evita el uso de herramientas digitales",
+         "Facilita trabajar con equipos deslocalizados"
+      ],
+      "correct": 1,
+      "explanation": "La comunicación cara a cara es **más eficiente para transmitir información** porque permite comunicación no verbal, resolución inmediata de dudas y mayor riqueza en el intercambio de ideas."
+   },
+   {
+      "question": "¿Cuál es el enfoque principal de la metodología Crystal?",
+      "options": [
+         "Seguir estrictamente un conjunto de reglas predefinidas",
+         "Establecer procesos jerárquicos dentro del equipo",
+         "Adaptar políticas y prácticas a las características únicas del proyecto",
+         "Automatizar todas las tareas posibles"
+      ],
+      "correct": 2,
+      "explanation": "Crystal se enfoca en **adaptar políticas y prácticas** según el tamaño, criticidad y características únicas de cada proyecto. Es una familia de metodologías que se ajustan al contexto."
+   },
+   {
+      "question": "¿Qué valor de scrum se relaciona con la confianza del equipo para afrontar desafíos?",
+      "options": ["Coraje", "Compromiso", "Respeto", "Enfoque"],
+      "correct": 0,
+      "explanation": "El **coraje** es el valor de Scrum que representa la valentía para afrontar problemas difíciles, tomar decisiones arriesgadas y defender lo correcto, confiando en el apoyo del equipo."
+   },
+   {
+      "question": "En la integración continua, ¿qué práctica se considera incorrecta?",
+      "options": [
+         "Automatizar la construcción",
+         "Mantener cambios semanales en la rama estable",
+         "Probar automáticamente la automatización",
+         "Asegurarse de que cualquiera pueda acceder al ejecutable"
+      ],
+      "correct": 1,
+      "explanation": "Mantener **cambios semanales** es incorrecto en integración continua. Los cambios deben integrarse frecuentemente (varias veces al día), no acumularse durante una semana."
+   },
+   {
+      "question": "¿Qué significa el término lead time en desarrollo ágil?",
+      "options": [
+         "Tiempo entre la identificación del requisito y su entrega al cliente",
+         "Tiempo que un equipo dedica al análisis de requerimientos",
+         "Tiempo necesario para completar un sprint",
+         "Duración de las pruebas funcionales"
+      ],
+      "correct": 0,
+      "explanation": "**Lead time** es el tiempo total desde que se identifica un requisito hasta que se entrega al cliente. Incluye todo el ciclo: análisis, desarrollo, pruebas y despliegue."
+   },
+   {
+      "question": "¿Qué promueve la mentalidad ágil?",
+      "options": [
+         "Respeto, colaboración y ciclos de mejora",
+         "Planificación rígida y cumplimiento estricto",
+         "Reducción de interacciones entre los equipos",
+         "Documentación detallada en lugar de resultados prácticos"
+      ],
+      "correct": 0,
+      "explanation": "La mentalidad ágil promueve **respeto, colaboración y ciclos de mejora** continua. Se basa en valores humanos, trabajo en equipo y aprendizaje constante para adaptarse al cambio."
+   },
+   {
+      "question": "En el contexto de scrum, ¿qué se entiende por adaptación?",
+      "options": [
+         "Cambiar roles del equipo sin previo aviso",
+         "Ajustar procesos inmediatamente si se detectan desviaciones",
+         "Eliminar tareas no críticas al final del sprint",
+         "Flexibilizar el backlog en función de las entregas finales"
+      ],
+      "correct": 1,
+      "explanation": "La adaptación en Scrum significa **ajustar procesos inmediatamente** cuando la inspección revela desviaciones. Es parte del empirismo: transparencia, inspección y adaptación."
+   },
+   {
+      "question": "¿Cuál es la duración recomendada de un sprint en scrum?",
+      "options": ["De 1 a 2 semanas", "Sin límite de tiempo", "De 3 a 6 semanas", "De 2 a 4 semanas"],
+      "correct": 3,
+      "explanation": "La duración recomendada es de **2 a 4 semanas**. Sprints más cortos pueden no dar tiempo suficiente para completar trabajo valioso, mientras que más largos reducen la capacidad de adaptación."
+   },
+   {
+      "question": "¿Cuál/es es/son el/los rol/es del doomsayer en Extreme Programming (XP)?",
+      "options": [
+         "Identificar y comunicar riesgos del proyecto",
+         "Coordinar las tareas del equipo",
+         "Diseñar las pruebas funcionales",
+         "Garantizar que el cliente participe activamente"
+      ],
+      "correct": 0,
+      "explanation": "El **doomsayer** (profeta del desastre) en XP es responsable de identificar y comunicar riesgos potenciales del proyecto, actuando como la voz de la precaución."
+   },
+   {
+      "question": "¿Qué rol es responsable de enseñar y guiar al equipo en la metodología XP?",
+      "options": ["Tracker", "Consultor", "Tester", "Coach"],
+      "correct": 3,
+      "explanation": "El **Coach** en XP es responsable de enseñar las prácticas de XP, guiar al equipo en su implementación y ayudar a resolver problemas técnicos y de proceso."
+   },
+   {
+      "question": "¿Qué tipo de métricas analiza el código sin ejecutarlo?",
+      "options": ["Métricas dinámicas", "Métricas estáticas", "Métricas KPI", "Métricas de mantenibilidad"],
+      "correct": 1,
+      "explanation": "Las **métricas estáticas** analizan el código fuente sin ejecutarlo, evaluando aspectos como complejidad ciclomática, líneas de código, acoplamiento y cohesión."
+   },
+   {
+      "question": "¿Cuál es la mejor definición de las historias de usuario?",
+      "options": [
+         "Una descripción técnica del sistema",
+         "Una funcionalidad descrita desde el punto de vista del usuario",
+         "Un conjunto de tareas asignadas al equipo",
+         "Una descripción detallada de una épica"
+      ],
+      "correct": 1,
+      "explanation": "Una historia de usuario es **una funcionalidad descrita desde el punto de vista del usuario**. Expresa qué necesita el usuario y por qué, sin entrar en detalles técnicos de implementación."
+   },
+   {
+      "question": "¿Cuál/es es/son la/s responsabilidad/es principal/es del product owner?",
+      "options": [
+         "Facilitar las reuniones diarias",
+         "Gestionar y priorizar el product backlog",
+         "Resolver impedimentos técnicos",
+         "Redactar informes para los stakeholders"
+      ],
+      "correct": 1,
+      "explanation": "El Product Owner es responsable de **gestionar y priorizar el product backlog**, maximizando el valor del producto y representando las necesidades de los stakeholders."
+   },
+   {
+      "question": "¿Qué término define el porcentaje de código ejecutado durante las pruebas?",
+      "options": ["Índice de mantenibilidad", "Complejidad ciclomática", "Cobertura de código", "Acoplamiento de clases"],
+      "correct": 2,
+      "explanation": "La **cobertura de código** mide el porcentaje del código fuente que es ejecutado durante las pruebas, indicando qué tan exhaustivas son las pruebas del sistema."
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones no es parte de las reglas de la metodología Extreme Programming (XP)?",
+      "options": ["Pair programming", "Metáforas", "Iteraciones de 6 semanas", "Propiedad colectiva del código"],
+      "correct": 2,
+      "explanation": "XP recomienda iteraciones cortas de 1-3 semanas, no de **6 semanas**. Las iteraciones largas van contra el principio de feedback rápido y entregas frecuentes de XP."
+   },
+   {
+      "question": "¿Qué actividad no es parte de la ejecución de pruebas?",
+      "options": ["Revisar casos de prueba", "Configurar el entorno de pruebas", "Establecer nuevos requisitos del cliente", "Registrar resultados"],
+      "correct": 2,
+      "explanation": "**Establecer nuevos requisitos** no es parte de la ejecución de pruebas. La ejecución se centra en verificar el software existente, no en definir nuevas funcionalidades."
+   },
+   {
+      "question": "¿Qué elemento/s no pertenece/n al ciclo de desarrollo de scrum?",
+      "options": ["Reuniones trimestrales", "Product backlog", "Sprint backlog", "Producto incremental"],
+      "correct": 0,
+      "explanation": "Las **reuniones trimestrales** no son parte de Scrum. Scrum trabaja con sprints cortos (2-4 semanas) y eventos específicos como daily scrum, sprint planning, review y retrospectiva."
+   },
+   {
+      "question": "Según el empirismo, scrum se basa en:",
+      "options": [
+         "La teoría del aprendizaje por observación",
+         "La toma de decisiones basadas en la experiencia",
+         "Modelos predictivos de comportamiento humano",
+         "Prácticas exclusivamente orientadas a procesos"
+      ],
+      "correct": 1,
+      "explanation": "Scrum se basa en el empirismo: **toma de decisiones basadas en la experiencia** y lo conocido. Se fundamenta en transparencia, inspección y adaptación continua."
+   },
+   {
+      "question": "¿Qué práctica no pertenece al rol de DevOps?",
+      "options": ["Supervisar la infraestructura en la nube", "Gestionar la virtualización", "Automatizar procesos", "Diseñar planes de negocio"],
+      "correct": 3,
+      "explanation": "**Diseñar planes de negocio** no es responsabilidad de DevOps. DevOps se enfoca en la integración entre desarrollo y operaciones, automatización e infraestructura."
+   },
+   {
+      "question": "¿Qué es el Manifiesto Ágil?",
+      "options": [
+         "Un manual técnico para herramientas de desarrollo",
+         "Una guía que resume principios para producir software de manera más eficiente",
+         "Un estándar obligatorio para metodologías de gestión",
+         "Un conjunto de normas estrictas para la planificación de proyectos"
+      ],
+      "correct": 1,
+      "explanation": "El Manifiesto Ágil es **una guía con principios y valores** para desarrollar software de manera más eficiente, priorizando individuos, software funcional, colaboración y respuesta al cambio."
+   },
+   {
+      "question": "¿Qué elemento se utiliza para informar a los stakeholders sobre el progreso del sprint?",
+      "options": ["Sprint backlog", "Impediment backlog", "Sprint goal", "Daily meeting"],
+      "correct": 2,
+      "explanation": "El **sprint goal** es el objetivo claro y conciso del sprint que se comunica a los stakeholders. Define qué se logrará al final del sprint y guía las decisiones del equipo."
+   },
+   {
+      "question": "Según INVEST, una buena historia de usuario debe ser:",
+      "options": [
+         "Independiente, negociable y estimable",
+         "Detallada, técnica y compleja",
+         "Completa, estática y dependiente",
+         "Técnicamente avanzada y extensa"
+      ],
+      "correct": 0,
+      "explanation": "INVEST define que las historias deben ser **Independientes, Negociables, Valiosas, Estimables, Small (pequeñas) y Testables**. La opción A incluye tres de estos criterios clave."
+   },
+   {
+      "question": "¿Quién es el creador de la metodología Extreme Programming (XP)?",
+      "options": ["Jeff Sutherland", "Kent Beck", "Martin Fowler", "Mike Cohn"],
+      "correct": 1,
+      "explanation": "**Kent Beck** es el creador de Extreme Programming (XP), desarrollada mientras trabajaba en el proyecto C3 de Chrysler en los años 90."
+   }
+]

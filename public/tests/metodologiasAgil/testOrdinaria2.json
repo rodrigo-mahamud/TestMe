@@ -1,0 +1,302 @@
+[
+   {
+      "question": "¿Qué implica el principio de «entregar software que funcione con frecuencia» en metodologías ágiles?",
+      "options": [
+         "Priorizar la documentación sobre la funcionalidad",
+         "Realizar entregas largas y poco frecuentes",
+         "Demostrar resultados tangibles en cortos periodos de tiempo",
+         "Postergar la entrega hasta tener el producto completo"
+      ],
+      "correct": 2,
+      "explanation": "Las metodologías ágiles enfatizan **demostrar resultados tangibles en cortos periodos**. Esto permite obtener feedback temprano, validar el desarrollo y ajustar según las necesidades del cliente de forma continua."
+   },
+   {
+      "question": "¿Cuál es el propósito de la sprint retrospective en Scrum?",
+      "options": [
+         "Revisar el trabajo completado",
+         "Planificar el próximo sprint",
+         "Identificar mejoras para el equipo",
+         "Presentar el trabajo al cliente"
+      ],
+      "correct": 2,
+      "explanation": "La sprint retrospective busca **identificar mejoras para el equipo**. Es un momento de reflexión donde se analiza qué funcionó bien, qué se puede mejorar y se definen acciones concretas para el siguiente sprint."
+   },
+   {
+      "question": "Imagínate que estás implementando la metodología de Extreme Programming (XP) y quieres definir el alcance del proyecto e identificar las historias de usuario. ¿En qué fase realizaremos estas tareas?",
+      "options": ["En la de exploración", "En la de planificación", "En la de implementación", "En la de integración"],
+      "correct": 0,
+      "explanation": "La fase de **exploración** en XP es donde se define el alcance del proyecto y se identifican las historias de usuario iniciales. Es la fase inicial donde se establecen los requisitos y la visión del proyecto."
+   },
+   {
+      "question": "¿Qué se utiliza comúnmente para estimar historias de usuario en Scrum?",
+      "options": ["Complejidad técnica", "Tiempo real dedicado", "Tamaño relativo o puntos de historia", "Número de tareas asociadas"],
+      "correct": 2,
+      "explanation": "Se utilizan **puntos de historia** que representan el tamaño relativo del esfuerzo. Esta estimación relativa permite comparar historias entre sí sin comprometerse con tiempos exactos."
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones no es un valor de Extreme Programming (XP)?",
+      "options": ["Comunicación", "Simplicidad", "Coraje", "Pasividad"],
+      "correct": 3,
+      "explanation": "**Pasividad** no es un valor de XP. Los valores de XP son: comunicación, simplicidad, retroalimentación, coraje y respeto. XP promueve la proactividad y la mejora continua."
+   },
+   {
+      "question": "¿Qué caracteriza el enfoque de desarrollo ágil en cuanto a la entrega de software?",
+      "options": [
+         "Entregar software al final del proyecto",
+         "Entregar software que funcione, a ser posible, con mucha frecuencia",
+         "Priorizar la documentación exhaustiva sobre el software funcional",
+         "Seguir estrictamente un plan predeterminado"
+      ],
+      "correct": 1,
+      "explanation": "El desarrollo ágil se caracteriza por **entregar software funcional con frecuencia**. Las entregas incrementales permiten validar el producto continuamente y adaptarse a los cambios."
+   },
+   {
+      "question": "¿Qué métrica se puede utilizar para medir el lead time en el desarrollo de software?",
+      "options": [
+         "Velocidad del equipo",
+         "Tiempo medio de resolución de problemas",
+         "Tiempo de ejecución de pruebas unitarias",
+         "Tiempo desde que se solicita una funcionalidad hasta que se completa"
+      ],
+      "correct": 3,
+      "explanation": "Lead time mide el **tiempo desde que se solicita una funcionalidad hasta que se completa** y entrega. Es una métrica clave para evaluar la eficiencia del proceso de desarrollo."
+   },
+   {
+      "question": "¿Qué objetivo tienen los doce principios de la gestión de desarrollo ágil?",
+      "options": [
+         "Aumentar la complejidad del proceso de desarrollo",
+         "Mejorar la eficiencia en la entrega de software",
+         "Minimizar la interacción con el cliente",
+         "Ignorar los cambios durante el desarrollo"
+      ],
+      "correct": 1,
+      "explanation": "Los doce principios buscan **mejorar la eficiencia en la entrega de software** de valor. Guían hacia prácticas que maximizan la satisfacción del cliente y la productividad del equipo."
+   },
+   {
+      "question": "¿Qué es la integración continua en el desarrollo de software?",
+      "options": [
+         "Un proceso para fusionar diferentes versiones del software en una sola",
+         "Una práctica para realizar pruebas manuales antes de lanzar el software",
+         "Un enfoque para fusionar código de manera regular y automática en un repositorio compartido",
+         "Una estrategia para realizar actualizaciones del sistema en un momento específico"
+      ],
+      "correct": 2,
+      "explanation": "La integración continua es **fusionar código de manera regular y automática** en un repositorio compartido. Incluye compilación y pruebas automáticas para detectar problemas tempranamente."
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones no es un valor de Scrum?",
+      "options": ["Respeto", "Foco", "Coraje", "Disciplina"],
+      "correct": 3,
+      "explanation": "**Disciplina** no es un valor de Scrum. Los cinco valores de Scrum son: compromiso, coraje, foco, apertura y respeto."
+   },
+   {
+      "question": "¿Cuál es el rol principal del cliente en Extreme Programming (XP)?",
+      "options": [
+         "Gestionar el proceso de desarrollo",
+         "Representar los intereses del negocio y definir los requisitos del sistema",
+         "Facilitar las reuniones del equipo",
+         "Realizar pruebas de calidad del software"
+      ],
+      "correct": 1,
+      "explanation": "El cliente en XP **representa los intereses del negocio y define requisitos**. Es responsable de escribir historias de usuario, establecer prioridades y aceptar el trabajo completado."
+   },
+   {
+      "question": "¿Cuál es el rol principal de los developers en un equipo Scrum?",
+      "options": [
+         "Definir la visión del producto",
+         "Establecer las metas del sprint",
+         "Desarrollar y entregar incrementos de producto funcionales",
+         "Gestionar la relación con los stakeholders"
+      ],
+      "correct": 2,
+      "explanation": "Los developers son responsables de **desarrollar y entregar incrementos funcionales** del producto. Son autoorganizados y multifuncionales para completar el trabajo del sprint."
+   },
+   {
+      "question": "¿Qué mide la complejidad ciclomática en un programa?",
+      "options": [
+         "La cantidad de líneas de código en el programa",
+         "La cantidad de ciclos de reloj necesarios para ejecutar el programa",
+         "La dificultad estructural del programa basada en la cantidad de caminos independientes a través del código",
+         "La cantidad de parámetros de entrada que puede aceptar el programa"
+      ],
+      "correct": 2,
+      "explanation": "La complejidad ciclomática mide la **cantidad de caminos independientes** a través del código. Indica la complejidad estructural y ayuda a identificar código que necesita refactorización."
+   },
+   {
+      "question": "¿Cuáles son los elementos habituales en el ciclo de vida de una metodología ágil?",
+      "options": [
+         "Product backlog, sprint backlog, dailies y producto incremental",
+         "Product backlog, sprint backlog y producto incremental",
+         "Sprint backlog y producto incremental",
+         "Product backlog, sprint backlog y dailies"
+      ],
+      "correct": 0,
+      "explanation": "Los elementos fundamentales son: **Product backlog** (requisitos priorizados), **sprint backlog** (trabajo del sprint), **dailies** (sincronización diaria) y **producto incremental** (entregable funcional)."
+   },
+   {
+      "question": "¿Qué es Jira en el contexto del desarrollo de software?",
+      "options": [
+         "Un lenguaje de programación",
+         "Una metodología ágil de gestión de proyectos",
+         "Una herramienta de seguimiento y gestión de proyectos",
+         "Un estándar de codificación"
+      ],
+      "correct": 2,
+      "explanation": "Jira es una **herramienta de seguimiento y gestión de proyectos** desarrollada por Atlassian. Permite gestionar tareas, sprints, backlogs y generar reportes para equipos ágiles."
+   },
+   {
+      "question": "El product backlog es...",
+      "options": [
+         "... un listado fijo de funcionalidades ordenados por prioridad",
+         "... un listado de funcionalidades ordenados por prioridad y que duran el tiempo que dure un sprint",
+         "... un listado vivo de funcionalidades ordenados por prioridad",
+         "... un listado vivo de funcionalidades ordenados por ROI (return on investment)"
+      ],
+      "correct": 2,
+      "explanation": "El product backlog es un **listado vivo** que evoluciona constantemente. Se reordena según nuevas prioridades, se añaden nuevos elementos y se refinan los existentes continuamente."
+   },
+   {
+      "question": "Si quieres realizar una planificación de entregas efectivas para tu proyecto, deberás tener especial cuidado con...",
+      "options": [
+         "... ignorar las restricciones de tiempo y recursos",
+         "... establecer fechas de entrega arbitrarias",
+         "... priorizar funcionalidades y tareas basándose en el valor para el cliente",
+         "... no considerar la capacidad de los developers"
+      ],
+      "correct": 2,
+      "explanation": "La planificación efectiva requiere **priorizar por valor para el cliente**. Esto asegura que las funcionalidades más importantes se entreguen primero, maximizando el retorno de inversión."
+   },
+   {
+      "question": "¿Cuánto tiempo debería durar la daily idealmente?",
+      "options": [
+         "Al menos una hora",
+         "Entre treinta minutos y una hora",
+         "No más de quince minutos",
+         "El tiempo que sea necesario para resolver todos los problemas"
+      ],
+      "correct": 2,
+      "explanation": "La daily debe durar **no más de 15 minutos**. Es una reunión de sincronización rápida, no para resolver problemas. Los temas complejos se discuten después entre los interesados."
+   },
+   {
+      "question": "¿Cuál es el propósito principal del planning poker?",
+      "options": [
+         "Asignar tareas específicas a los miembros del equipo",
+         "Determinar el presupuesto necesario para el proyecto",
+         "Obtener una estimación consensuada del esfuerzo requerido para las tareas",
+         "Planificar las actividades del próximo sprint"
+      ],
+      "correct": 2,
+      "explanation": "Planning poker busca **obtener estimaciones consensuadas** del esfuerzo. Cada miembro estima independientemente y luego se discuten las diferencias para llegar a un consenso."
+   },
+   {
+      "question": "Imagínate que los developers están trabajando en una funcionalidad que sirve para poder realizar una llamada a una API y poder recibir las últimas noticias de interés de la sección de economía. Siguiendo una buena estrategia de branching y merging, una vez terminado el periodo de desarrollo y calidad, acoplaremos nuestro código a la rama de:",
+      "options": ["Develop", "Master", "Release", "Release candidate"],
+      "correct": 1,
+      "explanation": "Tras desarrollo y QA, el código se integra en la rama **master/main** que contiene el código listo para producción. La rama develop es para desarrollo activo, no código finalizado."
+   },
+   {
+      "question": "Imagínate que estás implantando la metodología de Extreme Programming (XP) en uno de tus proyectos y te gustaría identificar y mitigar los riesgos potenciales en el proyecto. ¿Quién te podría ayudar en este aspecto?",
+      "options": ["El doomsayer", "El consultor", "El tracker", "El tester"],
+      "correct": 0,
+      "explanation": "El **doomsayer** en XP es el rol encargado de identificar riesgos potenciales. Actúa como la voz crítica que señala posibles problemas antes de que ocurran."
+   },
+   {
+      "question": "¿Cómo se gestiona un impedimento en el impediment backlog?",
+      "options": [
+         "Se asigna al Scrum master para su resolución",
+         "Se deja sin resolver hasta que el equipo decida abordarlo",
+         "Se prioriza y se aborda durante la reunión diaria de Scrum",
+         "Se delega al product owner para su solución"
+      ],
+      "correct": 0,
+      "explanation": "Los impedimentos se **asignan al Scrum Master** para su resolución. Es su responsabilidad eliminar obstáculos que impidan al equipo avanzar efectivamente."
+   },
+   {
+      "question": "¿Cuál es el principal rol del product owner en Scrum?",
+      "options": [
+         "Liderar al equipo de desarrollo",
+         "Maximizar el valor del producto y gestionar el product backlog",
+         "Coordinar las reuniones diarias",
+         "Resolver conflictos entre el equipo y los stakeholders"
+      ],
+      "correct": 1,
+      "explanation": "El Product Owner **maximiza el valor del producto y gestiona el backlog**. Define prioridades, acepta o rechaza trabajo completado y representa las necesidades del negocio."
+   },
+   {
+      "question": "¿Cómo se priorizan los elementos en el product backlog?",
+      "options": [
+         "Por orden alfabético",
+         "Por la complejidad de desarrollo",
+         "Por los developers que lo van a tratar",
+         "Por el valor que aportan al producto"
+      ],
+      "correct": 3,
+      "explanation": "Los elementos se priorizan **por el valor que aportan al producto**. El Product Owner ordena el backlog considerando valor de negocio, riesgo, dependencias y feedback del cliente."
+   },
+   {
+      "question": "¿Qué muestra la línea de tendencia en un burndown chart?",
+      "options": [
+         "El trabajo restante que se espera completar",
+         "La cantidad de trabajo realizado en el sprint",
+         "La cantidad de trabajo estimado para el proyecto",
+         "La cantidad de horas trabajadas por el equipo"
+      ],
+      "correct": 0,
+      "explanation": "La línea de tendencia muestra el **trabajo restante esperado**. Proyecta si el equipo completará todo el trabajo del sprint al ritmo actual, permitiendo ajustes tempranos."
+   },
+   {
+      "question": "¿Cuál es una regla clave de Extreme Programming (XP) relacionada con la propiedad colectiva del código?",
+      "options": [
+         "Realizar revisiones de código periódicas",
+         "Rotar a los miembros del equipo en diferentes roles",
+         "Fomentar la propiedad individual del código",
+         "Permitir a los desarrolladores trabajar de forma aislada en sus módulos"
+      ],
+      "correct": 0,
+      "explanation": "La propiedad colectiva implica que todo el equipo es responsable del código. Las **revisiones periódicas** aseguran calidad compartida y conocimiento distribuido del sistema."
+   },
+   {
+      "question": "¿Quién debe participar en la reunión de refinamiento?",
+      "options": [
+         "Solo el product owner",
+         "El equipo de desarrollo y el Scrum master",
+         "Solo los stakeholders del proyecto",
+         "El equipo de desarrollo, el product owner y el Scrum master"
+      ],
+      "correct": 3,
+      "explanation": "En el refinamiento participan **todos los roles de Scrum**: Product Owner aporta contexto de negocio, developers estiman y clarifican técnicamente, y Scrum Master facilita."
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones dirías que es uno de los beneficios principales a la hora de utilizar estrategias de branching y merging en el desarrollo de software?",
+      "options": [
+         "Aumentar la complejidad del proceso de desarrollo",
+         "Reducir la colaboración entre los miembros del equipo",
+         "Facilitar la integración y la gestión de cambios en el código",
+         "Acelerar la velocidad de desarrollo"
+      ],
+      "correct": 2,
+      "explanation": "Branching y merging **facilitan la integración y gestión de cambios**. Permiten desarrollo paralelo, aislamiento de features y integración controlada sin afectar el código estable."
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones es la que describe mejor el término calidad software?",
+      "options": [
+         "Escribir un código limpio y eficiente",
+         "La capacidad del software para cumplir con los requisitos del cliente",
+         "Proporcionar al usuario funcionalidades relevantes para su producto",
+         "Aumentar el número de funciones para disminuir el acoplamiento entre clases"
+      ],
+      "correct": 1,
+      "explanation": "La calidad software es **la capacidad de cumplir con los requisitos del cliente**. Incluye funcionalidad correcta, rendimiento adecuado, usabilidad y confiabilidad según las expectativas."
+   },
+   {
+      "question": "Entregar documentación de un proyecto es típico de:",
+      "options": [
+         "Proyectos basados en metodologías waterfall",
+         "Proyectos de larga duración, independientemente de qué metodología de trabajo se use para gestionar el proyecto",
+         "Proyectos basados en metodologías ágiles",
+         "Cualquier proyecto, ya que todos deberían tener una documentación mínima"
+      ],
+      "correct": 3,
+      "explanation": "**Cualquier proyecto necesita documentación mínima**. Incluso las metodologías ágiles requieren documentación esencial, aunque priorizan el software funcional sobre documentación exhaustiva."
+   }
+]

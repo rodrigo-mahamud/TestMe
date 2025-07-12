@@ -1,0 +1,109 @@
+[
+   {
+      "question": "¿Qué destaca el Manifiesto Ágil en relación con la respuesta al cambio en el desarrollo software?",
+      "options": [
+         "Adaptación a cambios para proporcionar valor adicional",
+         "Seguir un plan detallado sin desviaciones",
+         "Evitar cambios para mantener la estabilidad",
+         "Priorizar la documentación exhaustiva"
+      ],
+      "correct": 0,
+      "explanation": "El Manifiesto Ágil prioriza la **adaptación a cambios** sobre seguir un plan rígido. Los cambios se ven como oportunidades para generar valor adicional al cliente, no como problemas a evitar."
+   },
+   {
+      "question": "¿Qué ventaja ofrece la implementación de metodologías ágiles en el desarrollo de software?",
+      "options": [
+         "Mayor adaptabilidad a los cambios",
+         "Mayor predictibilidad en los resultados",
+         "Mayor énfasis en la documentación",
+         "Mayor control sobre el proceso de desarrollo"
+      ],
+      "correct": 0,
+      "explanation": "La principal ventaja de las metodologías ágiles es la **mayor adaptabilidad a los cambios**. Permiten responder rápidamente a nuevos requisitos y feedback del cliente durante el desarrollo."
+   },
+   {
+      "question": "¿Qué es el ciclo de vida de una metodología ágil?",
+      "options": [
+         "Un proceso caótico y sin estructura",
+         "Un proceso basado en la documentación exhaustiva",
+         "Un proceso iterativo e incremental",
+         "Un proceso lineal y secuencial"
+      ],
+      "correct": 2,
+      "explanation": "Las metodologías ágiles siguen un **proceso iterativo e incremental**. Se desarrolla en ciclos cortos (iteraciones) que van añadiendo funcionalidades de forma incremental al producto."
+   },
+   {
+      "question": "¿Qué elementos conforman el ciclo de vida de una metodología ágil?",
+      "options": [
+         "Product Backlog, Daily y Producto Incremental",
+         "Product Backlog, Sprint Backlog y Producto Incremental",
+         "Product Backlog, Sprint Backlog, Daily y Producto Incremental",
+         "Product Backlog y Producto Incremental"
+      ],
+      "correct": 2,
+      "explanation": "Los cuatro elementos fundamentales son: **Product Backlog** (lista de requisitos), **Sprint Backlog** (trabajo del sprint), **Daily** (reunión diaria) y **Producto Incremental** (entregable funcional)."
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones NO es una metodología ágil?",
+      "options": ["Scrum", "XP", "Kanban", "Waterfall"],
+      "correct": 3,
+      "explanation": "**Waterfall** (cascada) es una metodología tradicional con fases secuenciales y rígidas. Las metodologías ágiles como Scrum, XP y Kanban son iterativas y flexibles."
+   },
+   {
+      "question": "¿Qué metodología ágil utiliza las reglas MoSCoW?",
+      "options": ["Crystal", "XP", "Lean", "DSDM"],
+      "correct": 3,
+      "explanation": "**DSDM** (Dynamic Systems Development Method) utiliza MoSCoW para priorizar requisitos: Must have, Should have, Could have, Won't have. Ayuda a gestionar el alcance del proyecto."
+   },
+   {
+      "question": "¿Cuál es el objetivo principal de la reunión diaria de Scrum?",
+      "options": [
+         "Resolver problemas técnicos",
+         "Ponerse al día sobre lo que está haciendo cada integrante del equipo",
+         "Todas las respuestas son correctas",
+         "Planificar el trabajo para el día siguiente"
+      ],
+      "correct": 1,
+      "explanation": "La daily Scrum busca **sincronizar al equipo** compartiendo qué hizo cada uno ayer, qué hará hoy y qué impedimentos tiene. No es para resolver problemas técnicos en detalle."
+   },
+   {
+      "question": "Cuando hablamos de eliminar desperdicios en el proceso de desarrollo de software, claramente estamos hablando de la metodología:",
+      "options": ["Scrum", "XP", "Kanban", "Lean"],
+      "correct": 3,
+      "explanation": "**Lean** se centra en eliminar desperdicios (waste) del proceso. Identifica y elimina actividades que no agregan valor al cliente, optimizando el flujo de trabajo."
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones es un título correcto para una historia de usuario?",
+      "options": [
+         "Como usuario del sistema desearía ver los detalles actuales del coche que estoy consultando",
+         "Comprobar que puedo ver los detalles de un coche\nLos kilómetros tienen que estar en negrita\nTengo un enlace para poder acceder a los detalles",
+         "Como vendedor quiero acceder a los detalles del coche de forma que pueda comprobar el estado general del vehículo",
+         "El vendedor quiere acceder a los detalles de un vehículo"
+      ],
+      "correct": 2,
+      "explanation": "El formato correcto sigue la estructura: **Como [rol] quiero [funcionalidad] para [beneficio]**. Define claramente quién es el usuario, qué necesita y por qué lo necesita."
+   },
+   {
+      "question": "¿Son necesarios los criterios de aceptación en una historia de usuario que cubre un requisito no funcional?",
+      "options": [
+         "Los criterios de aceptación son siempre opcionales",
+         "No se deben especificar criterios de aceptación en los requisitos no funcionales",
+         "Si, siempre",
+         "Nunca hay que poner criterios de aceptación, sino alcances de la propia historia de usuario"
+      ],
+      "correct": 2,
+      "explanation": "Los criterios de aceptación son **siempre necesarios**, incluso para requisitos no funcionales. Definen cómo verificar que el requisito se cumple (ej: tiempo de respuesta < 2 segundos)."
+   },
+   {
+      "question": "Cuando hablamos de comprobar cuán difícil (o la complejidad) es acometer una historia de usuario, estamos hablando sobre:",
+      "options": ["gestión", "planificación", "estimación", "priorización"],
+      "correct": 2,
+      "explanation": "La **estimación** evalúa la complejidad o esfuerzo necesario para completar una historia de usuario. Se usan técnicas como puntos de historia, Fibonacci o tallas de camiseta."
+   },
+   {
+      "question": "¿Quién es el dueño del Product Backlog?",
+      "options": ["Stakeholders", "Product Owner", "Developers", "Scrum Master"],
+      "correct": 1,
+      "explanation": "El **Product Owner** es responsable del Product Backlog. Prioriza los elementos según el valor de negocio y gestiona los requisitos del producto."
+   }
+]
