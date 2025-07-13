@@ -1,0 +1,257 @@
+[
+   {
+      "question": "¿En qué categoría de la propiedad intelectual tiene sentido la ingeniería inversa?",
+      "options": ["Patentes", "Marcas", "Denominación de origen", "Secreto comercial"],
+      "correct": 3,
+      "explanation": "La ingeniería inversa tiene sentido en el **secreto comercial** porque permite descubrir cómo funciona un producto cuando su funcionamiento interno no está protegido por patentes sino mantenido en secreto."
+   },
+   {
+      "question": "¿Cuál de las siguientes libertades no pertenece al software libre?",
+      "options": [
+         "Libertad de expresión del programa",
+         "Libertad de redistribución",
+         "Libertad de uso del programa",
+         "Libertad de modificación del programa"
+      ],
+      "correct": 0,
+      "explanation": "La **libertad de expresión del programa** no es una de las cuatro libertades del software libre. Las libertades reales son: usar, estudiar/modificar, redistribuir y redistribuir versiones modificadas."
+   },
+   {
+      "question": "¿Cuál es el propósito principal de la licencia GPL?",
+      "options": [
+         "Restringir el uso del software",
+         "Garantizar la privacidad del usuario",
+         "Permitir modificaciones y redistribución",
+         "Hacer el software gratuito"
+      ],
+      "correct": 2,
+      "explanation": "La GPL busca **permitir modificaciones y redistribución** garantizando que el software y sus derivados permanezcan libres. Utiliza el copyleft para asegurar las libertades del software."
+   },
+   {
+      "question": "Un CMS es:",
+      "options": [
+         "Un repositorio de software libre",
+         "Una aplicación para administración de software libre",
+         "Una aplicación software para formación",
+         "Una aplicación para control de versiones"
+      ],
+      "correct": 1,
+      "explanation": "Un CMS (Content Management System) es una **aplicación para administración** de contenido, que en el contexto del software libre incluye sistemas como WordPress, Drupal o Joomla."
+   },
+   {
+      "question": "La primera iniciativa de una Administración española en el uso de software libre ha sido:",
+      "options": ["LliureX", "MoLinux", "LinEx", "Debian"],
+      "correct": 2,
+      "explanation": "**LinEx** fue la primera distribución Linux desarrollada por una administración pública española, creada por la Junta de Extremadura en 2002, pionera en el uso institucional de software libre."
+   },
+   {
+      "question": "¿Qué software de base de datos se creó como alternativa a MySQL tras su adquisición por Oracle?",
+      "options": ["PostgreSQL", "MariaDB", "SQLite", "MongoDB"],
+      "correct": 1,
+      "explanation": "**MariaDB** fue creada por los desarrolladores originales de MySQL como un fork cuando Oracle adquirió MySQL, garantizando que permaneciera como software libre."
+   },
+   {
+      "question": "A la hora de calcular los costes del software, debemos tener en cuenta…",
+      "options": [
+         "… los costes de adquisición y costes de uso",
+         "… los costes de uso, costes de adquisición y costes de actualización y de migración",
+         "… los costes de adquisición y costes de actualización y de migración",
+         "… los costes de uso y costes de actualización y de migración"
+      ],
+      "correct": 1,
+      "explanation": "El cálculo completo debe incluir **todos los costes**: adquisición (licencias), uso (formación, soporte), y actualización/migración para tener una visión real del TCO (Total Cost of Ownership)."
+   },
+   {
+      "question": "El término humanware hace referencia a…",
+      "options": [
+         "… los recursos humanos de un sistema informático (hardware y/o software)",
+         "… las personas que trabajan en los proyectos de software libre",
+         "… las personas que utilizan software libre",
+         "… una de las licencias del software libre"
+      ],
+      "correct": 0,
+      "explanation": "**Humanware** se refiere a los recursos humanos que interactúan con sistemas informáticos, incluyendo usuarios, desarrolladores y personal de soporte, complementando hardware y software."
+   },
+   {
+      "question": "¿Qué es un sistema operativo multitarea?",
+      "options": [
+         "Permite dar soporte a varios usuarios simultáneamente",
+         "Ejecuta varios procesos de forma simultánea",
+         "Permite ejecutar programas sin interacción del usuario",
+         "Ejecuta un solo proceso a la vez"
+      ],
+      "correct": 1,
+      "explanation": "Un sistema multitarea **ejecuta varios procesos de forma simultánea** o pseudosimultánea mediante técnicas de tiempo compartido, permitiendo que múltiples aplicaciones funcionen concurrentemente."
+   },
+   {
+      "question": "¿En qué consiste el contrato social de Debian?",
+      "options": [
+         "Este documento es una declaración de intenciones que consta de cuatro principios",
+         "Este documento es una declaración de intenciones que consta de cinco principios",
+         "Este documento es una declaración de intenciones e intereses que consta de cuatro principios",
+         "Es un conjunto de criterios para definir lo que es software libre"
+      ],
+      "correct": 1,
+      "explanation": "El contrato social de Debian es una declaración de **cinco principios** que guían el proyecto: software libre, prioridad de usuarios y software libre, no ocultar problemas, prioridades y ejemplos de licencias."
+   },
+   {
+      "question": "¿Cuál de los siguientes proyectos no es un ejemplo de software libre?",
+      "options": ["Microsoft Office", "Mozilla Firefox", "Google Chrome", "Adobe Photoshop"],
+      "correct": 0,
+      "explanation": "**Microsoft Office** es software propietario. Aunque Google Chrome tiene componentes open source (Chromium), Office y Photoshop son completamente propietarios, pero Office aparece primero en la lista."
+   },
+   {
+      "question": "¿Qué sistema de paquetes utiliza Debian para la gestión de software?",
+      "options": ["RPM", "DEB", "TAR", "PKG"],
+      "correct": 1,
+      "explanation": "Debian utiliza el formato **DEB** para sus paquetes, gestionados con herramientas como dpkg y apt. Es uno de los sistemas de paquetes más antiguos y robustos en Linux."
+   },
+   {
+      "question": "¿Qué significa SONiC en el contexto de redes open source?",
+      "options": [
+         "Un protocolo de enrutamiento",
+         "Software para redes abiertas en la nube",
+         "Un servicio de almacenamiento en la nube",
+         "Una plataforma de computación en la nube"
+      ],
+      "correct": 1,
+      "explanation": "SONiC (Software for Open Networking in the Cloud) es **software para redes abiertas en la nube** desarrollado por Microsoft para switches de red con arquitectura desagregada."
+   },
+   {
+      "question": "¿Cuál de los siguientes proyectos se enfoca en la orquestación de servicios en la nube?",
+      "options": ["OpenStack", "Stratum", "Terraform", "ONAP"],
+      "correct": 3,
+      "explanation": "**ONAP** (Open Network Automation Platform) se enfoca específicamente en la orquestación y automatización de servicios de red en la nube, especialmente para operadores de telecomunicaciones."
+   },
+   {
+      "question": "¿Qué diferencia hay entre virtualización de redes y virtualización de funciones de red (NFV)?",
+      "options": [
+         "La virtualización de redes crea redes virtuales, NFV virtualiza funciones de red",
+         "No hay diferencia entre ambos",
+         "NFV permite gestionar equipos físicos, la virtualización de redes no",
+         "La virtualización de redes es específica de servidores web"
+      ],
+      "correct": 0,
+      "explanation": "La **virtualización de redes crea redes virtuales** sobre infraestructura física, mientras que **NFV virtualiza funciones de red** específicas (routers, firewalls) que tradicionalmente requerían hardware dedicado."
+   },
+   {
+      "question": "¿Qué significa el acrónimo PaaS en computación en la nube?",
+      "options": ["Program as a Service", "Platform as a Service", "Patch as a Service", "Platform as a Source"],
+      "correct": 1,
+      "explanation": "PaaS significa **Platform as a Service**, un modelo de cloud computing que proporciona una plataforma completa para desarrollar, ejecutar y gestionar aplicaciones sin la complejidad de la infraestructura."
+   },
+   {
+      "question": "¿Cuál de las siguientes opciones no es una herramienta de monitorización?",
+      "options": ["Haiku", "Nagios", "Prometheus", "Zabbix"],
+      "correct": 0,
+      "explanation": "**Haiku** es un sistema operativo de código abierto inspirado en BeOS, no una herramienta de monitorización. Nagios, Prometheus y Zabbix son sistemas de monitorización reconocidos."
+   },
+   {
+      "question": "¿Cuál es la principal diferencia entre un ordenador tradicional y un ordenador cuántico?",
+      "options": [
+         "En un ordenador cuántico, cada bit solo puede representar un 0 o 1",
+         "En un ordenador cuántico, cada bit puede representar 0 o 1, o ambos a la vez",
+         "Un ordenador cuántico trabaja con Kbits en lugar de bits",
+         "Un ordenador cuántico puede ejecutar programas de computación clásica y cuántica simultáneamente"
+      ],
+      "correct": 1,
+      "explanation": "En computación cuántica, los **qubits pueden estar en superposición**, representando 0 y 1 simultáneamente, a diferencia de los bits clásicos que solo pueden ser 0 o 1."
+   },
+   {
+      "question": "¿Cuál de las siguientes aplicaciones puede considerarse software libre?",
+      "options": ["Onedrive", "Mozilla Firefox", "Adobe Photoshop", "Microsoft Word"],
+      "correct": 1,
+      "explanation": "**Mozilla Firefox** es software libre bajo la licencia MPL (Mozilla Public License). Las demás opciones son software propietario de Microsoft y Adobe."
+   },
+   {
+      "question": "El término software libre fue acuñado por:",
+      "options": ["Gates", "Jobs", "Torvalds", "Stallman"],
+      "correct": 3,
+      "explanation": "**Richard Stallman** acuñó el término 'software libre' (free software) en 1983 y fundó la Free Software Foundation para promover las libertades del software."
+   },
+   {
+      "question": "De las siguientes características, ¿cuál es cierta en el software libre?",
+      "options": [
+         "Altísimo nivel de estabilidad comprobada",
+         "Menor compatibilidad con el hardware",
+         "Libertad de distribuir copias",
+         "Libertad de usar el programa con el único propósito de aprender"
+      ],
+      "correct": 2,
+      "explanation": "La **libertad de distribuir copias** es una de las cuatro libertades esenciales del software libre, permitiendo compartir el software con otros sin restricciones."
+   },
+   {
+      "question": "¿Qué es un cracker?",
+      "options": [
+         "Un software para crackear sistemas",
+         "Un vandálico virtual",
+         "Un experto en crackear software libre",
+         "Persona que modifica software para desarrollar nuevas funciones o adaptar las antiguas"
+      ],
+      "correct": 1,
+      "explanation": "Un **cracker es un vandálico virtual** que rompe la seguridad de sistemas con intenciones maliciosas, a diferencia de un hacker que puede tener motivaciones éticas o de investigación."
+   },
+   {
+      "question": "¿En qué elemento se reflejan las libertades del software libre?",
+      "options": ["Licencia", "Código fuente", "Derechos de autor", "Distribución"],
+      "correct": 0,
+      "explanation": "Las libertades del software libre se reflejan en la **licencia**, que es el documento legal que otorga los permisos para usar, estudiar, modificar y distribuir el software."
+   },
+   {
+      "question": "¿Qué caracteriza a la licencia GPL?",
+      "options": [
+         "Es permisiva",
+         "Se basa en el concepto de copyleft",
+         "Maximiza la libertad para los desarrolladores",
+         "Puede convertirse a una licencia de tipo BSD"
+      ],
+      "correct": 1,
+      "explanation": "La GPL se caracteriza por basarse en el **copyleft**, un mecanismo que garantiza que el software y sus derivados permanezcan libres, requiriendo que se distribuyan bajo la misma licencia."
+   },
+   {
+      "question": "Según la encuesta Netcraft, en agosto de 2022, los tres servidores web más utilizados (de mayor a menor) son:",
+      "options": ["Apache, Microsoft y nginx", "Apache, Microsoft y Google", "Nginx, Apache y Microsoft", "Microsoft, Apache y nginx"],
+      "correct": 2,
+      "explanation": "En 2022, el orden era **Nginx, Apache y Microsoft**. Nginx superó a Apache como el servidor web más utilizado, seguido por Apache y luego Microsoft IIS."
+   },
+   {
+      "question": "GNOME es…",
+      "options": ["… un navegador web", "… un servidor HTTP", "… una distribución Linux", "… un entorno de escritorio"],
+      "correct": 3,
+      "explanation": "**GNOME es un entorno de escritorio** libre y de código abierto para sistemas Unix-like, uno de los más populares junto con KDE en el ecosistema Linux."
+   },
+   {
+      "question": "¿Cuál es la principal función de OpenDaylight (ODL)?",
+      "options": [
+         "Gestionar servicios de almacenamiento",
+         "Automatizar la gestión de redes SDN",
+         "Monitoreo de bases de datos",
+         "Control de tráfico en la web"
+      ],
+      "correct": 1,
+      "explanation": "OpenDaylight es una plataforma para **automatizar la gestión de redes SDN** (Software-Defined Networking), proporcionando un controlador SDN modular y extensible."
+   },
+   {
+      "question": "¿Cuál de las siguientes herramientas se usa para automatización en redes?",
+      "options": ["Excel", "Puppet", "Adobe Photoshop", "Google Docs"],
+      "correct": 1,
+      "explanation": "**Puppet** es una herramienta de gestión de configuración y automatización de infraestructura, ampliamente utilizada para automatizar tareas de administración de sistemas y redes."
+   },
+   {
+      "question": "Qiskit es un…",
+      "options": [
+         "… proyecto de software libre de IBM para computación cuántica",
+         "… lenguaje privativo para ordenadores cuánticos",
+         "… interfaz gráfica para procesadores cuánticos",
+         "… kit de desarrollo de Microsoft para computación cuántica"
+      ],
+      "correct": 0,
+      "explanation": "**Qiskit es un proyecto de software libre de IBM** que proporciona herramientas para programar computadoras cuánticas usando Python, siendo uno de los frameworks más populares en el campo."
+   },
+   {
+      "question": "¿Qué sistema operativo basado en Android permite instalarse en PC?",
+      "options": ["Haiku OS", "PrimeOS", "ReactOS", "ChromeOS"],
+      "correct": 1,
+      "explanation": "**PrimeOS** es un sistema operativo basado en Android diseñado específicamente para funcionar en PCs, ofreciendo una experiencia Android optimizada para escritorio."
+   }
+]
